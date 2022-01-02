@@ -10,72 +10,14 @@
 <body>
     <div id="app">
         <div id="keyblade-list">
-            <button
+            <keyblade-preview
                 v-for="(keyblade, index) in keybladesMap"
                 :key="keyblade"
+                :id="index"
+                :keyblade="keyblade"
+                :active="activeDragon === index"
                 @click="updateActiveDragon(index)"
-            >
-                <div
-                    class="key-box"
-                    :class="{
-                        [index]: true,
-                        active: activeDragon === index,
-                    }"
-                >
-                    <div
-                        class="name-container"
-                        :class="'game-' + keyblade.gameIndex"
-                    >
-                        <img 
-                            class="game-image"
-                            :src="getGameThumbnail(keyblade.gameIndex)"
-                        />
-                        <div
-                            class="name"
-                        >{{keyblade.name}}</div>
-                    </div>
-                    <div>
-                        <div
-                            class="key-info"
-                            :title="keyblade.name + ', from ' + games[keyblade.gameIndex]"
-                        >
-                            <img 
-                                :src="'./KeybladeImages/' + index + '.png'"
-                                class="key-image"
-                            />
-                        </div>
-                        <div
-                            class="dragon-info"
-                        >
-                            <div>
-                                <img 
-                                    :src="getDragonPortraitURL(keyblade.dergID)"
-                                ></img>
-                            </div>
-                            <div>
-                                <img 
-                                    class="iconette"
-                                    :src="'https://www1.flightrising.com/static/cms/breeds/' + (breeds.findIndex((element) => element === keyblade.breed) + 1) + '/icon.png'"
-                                    :title="keyblade.breed"
-                                />
-                                <img 
-                                    class="iconette"
-                                    :src="'https://www1.flightrising.com/static/layout/lair/icons/' + keyblade.silhouette.toLowerCase() + '.png'"
-                                    :title="keyblade.silhouette"
-                                />
-                                <img 
-                                    class="iconette"
-                                    :src="'https://www1.flightrising.com/static/icons/' + keyblade.element.toLowerCase() + '_rune.png'"
-                                    :title="keyblade.element"
-                                />
-                            </div>
-                            <div
-                                class="dragon-id"
-                            >{{keyblade.dergID}}</div>
-                        </div>
-                    </div>
-                </div>
-            </button>
+            ></keyblade-preview>
         </div>
         <div id="dragon-showcase">
             <div 
@@ -114,6 +56,7 @@
     <script src="https://unpkg.com/vue@3"></script>
     <script src="index.js"></script>
     <script src="data.js"></script>
+    <script src="component-keyblade-preview.js"></script>
     <script>var mountedApp = app.mount('#app');</script>
 </body>
 </html>

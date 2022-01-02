@@ -1,0 +1,142 @@
+app.component('keyblade-preview', {
+    mixins: [
+        dragonMixin,
+    ],
+    props: {
+        id: String,
+        keyblade: Object,
+        active: Boolean,
+    },
+    computed: {
+        gameThumbnail: function() {
+            var gameIndex = this.keyblade.gameIndex;
+            var gameName = kHGames[gameIndex];
+            var urlPrefix = 'https://kh.wiki.gallery/images/';
+            var gameIconMap = {
+                'KINGDOM HEARTS': '0/0b/KH1_icon.png',
+                'Chain of Memories': '',
+                'KINGDOM HEARTS II': 'a/ae/KH2_icon.png',
+                '358/2 Days': 'f/f3/358_icon.png',
+                'Birth by Sleep': 'a/af/BBS_icon.png',
+                'Re:coded': '6/69/KHC_icon.png',
+                'Dream Drop Distance': '4/45/KH3D_icon.png',
+                'Unchained χ / Union Cross': 'e/e4/KHCHI_icon.png',
+                'KINGDOM HEARTS III': '4/4c/KH3_icon.png',
+            };
+            return (urlPrefix + gameIconMap[gameName]);
+        },
+        title: function() {
+            return (
+                this.keyblade.name 
+                + ', from ' 
+                + kHGames[this.keyblade.gameIndex]
+            );
+        },
+        dragonPortraitURL: function() {
+            /* var url = 'https://www1.flightrising.com/rendern/portraits/' + trunkatedID + '/' + dergID + 'p.png';
+            var url = (
+                'https://www1.flightrising.com/rendern/portraits/'
+                + trunkatedID
+                + '/'
+                + dergID
+                + 'p.png'
+            );
+            var url = [
+                'https://www1.flightrising.com/rendern/portraits',
+                trunkatedID,
+                dergID + 'p.png'
+            ].join('/'); */
+            var dergID = this.keyblade.dergID;
+            var url = `https://www1.flightrising.com/rendern/portraits/${this.getTrunkatedID(dergID)}/${dergID}p.png`;
+            return url;
+        },
+        breedIcon: function() {
+            var breedIndex = fRBreeds.findIndex(
+                (element) => element === this.keyblade.breed
+            );
+            return (
+                'https://www1.flightrising.com/static/cms/breeds/' 
+                + (breedIndex + 1) 
+                + '/icon.png'
+            );
+        },
+        silhouetteIcon: function() {
+            return (
+                'https://www1.flightrising.com/static/layout/lair/icons/' 
+                + this.keyblade.silhouette.toLowerCase() 
+                + '.png'
+            );
+        },
+        elementIcon: function() {
+            return (
+                'https://www1.flightrising.com/static/icons/' 
+                + this.keyblade.element.toLowerCase() 
+                + '_rune.png'
+            );
+        },
+    },
+    template: /*html*/`
+    <button>
+        <div
+            class="key-box"
+            :class="{
+                [id]: true,
+                active: active,
+            }"
+        >
+            <div
+                class="name-container"
+                :class="'game-' + keyblade.gameIndex"
+            >
+                <img 
+                    class="game-image"
+                    :src="gameThumbnail"
+                />
+                <div
+                    class="name"
+                >{{keyblade.name}}</div>
+            </div>
+            <div>
+                <div
+                    class="key-info"
+                    :title="title"
+                >
+                    <img 
+                        :src="'./KeybladeImages/' + id + '.png'"
+                        class="key-image"
+                    />
+                </div>
+                <div
+                    class="dragon-info"
+                >
+                    <div>
+                        <img 
+                            :src="dragonPortraitURL"
+                        />
+                    </div>
+                    <div>
+                        <img 
+                            class="iconette breed"
+                            :src="breedIcon"
+                            :title="keyblade.breed"
+                        />
+                        <img 
+                            class="iconette silhouette"
+                            :src="silhouetteIcon"
+                            :title="keyblade.silhouette"
+                        />
+                        <img 
+                            class="iconette element"
+                            :src="elementIcon"
+                            :title="keyblade.element"
+                        />
+                    </div>
+                    <div
+                        class="dragon-id"
+                    >{{keyblade.dergID}}</div>
+                </div>
+            </div>
+        </div>
+    </button>
+    `,
+})
