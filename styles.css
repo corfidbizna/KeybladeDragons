@@ -1,0 +1,207 @@
+body {
+    background-color: #DAD6C9;
+    margin: 0;
+}
+
+.key-box {
+    background-image: linear-gradient(
+        to bottom,
+        #DDD 0%,
+        #EEE 10%,
+        #EEE 50%,
+        #DDD 100%
+    );
+    display: block;
+    padding: 0.25em;
+    margin: 4px;
+    border: 2px solid #BBB;
+    border-radius: 1.125em;
+}
+.iconette {
+    margin: 2px 0;
+}
+
+/* ======================== */
+/*      Keyblade List       */
+/* ======================== */
+
+#keyblade-list {
+    background-color: #DDD;
+    background-image: linear-gradient(
+        to bottom, 
+        #BBB 0%,
+        #DDD 100%
+    );
+    overflow-x: scroll;
+    transform: scaleY(-1);
+    border: 2px solid #BBB;
+    border-radius: 1.3em 1.3em 0 0;
+    line-height: 0;
+    white-space: nowrap;
+}
+#keyblade-list button {
+    display: contents;
+    font: inherit;
+    text-align: inherit;
+}
+#keyblade-list .key-box {
+    transform: scaleY(-1);
+    margin: 0.15em;
+    display: inline-block;
+}
+#keyblade-list .key-image {
+    max-height: 100px;
+    max-width: 100px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.key-info {
+    display: inline-block;
+    text-align: center;
+    object-fit: contain;
+    width: 120px;
+    height: 120px;
+    background-color: #FFF8;
+    border-radius: 0.85em;
+    position: relative;
+}
+.dragon-info {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
+    margin-left: 4px;
+    object-fit: fill;
+    width: 75px;
+}
+.dragon-info * {
+    padding: 0px;
+}
+#keyblade-list .dragon-id {
+    margin: 0 4px;
+}
+#keyblade-list .name-container {
+    border-radius: 1em;
+    margin-bottom: 0.25em;
+}
+#keyblade-list .name {
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 0.25em;
+    padding-left: 2.1em;
+    font-size: 1em;
+    font-style: italic;
+    line-height: normal;
+}
+#keyblade-list .game-image {
+    position: absolute;
+    top: 0.1em;
+    left: 0.25em;
+    width: 2em;
+
+}
+#keyblade-list .active {
+    border-color: #FFF;
+    box-shadow: 
+        0 0 0.25em #FEA,
+        inset 1px 1px 0 #FFF,
+        inset -1px -1px 0 #FFF,
+        inset 1px -1px 0 #FFF,
+        inset -1px 1px 0 #FFF,
+        inset 0 0 1em #FEA8;
+    /* border-width: 2px; */
+}
+#keyblade-list .game-0 {
+    background-color: rgb(55, 96, 184, 0.25);
+}
+#keyblade-list .game-2 {
+    background-color: rgb(84, 91, 104, 0.25);
+}
+#keyblade-list .game-3 {
+    background-color: rgb(186, 77, 30, 0.25);
+}
+#keyblade-list .game-4 {
+    background-color: rgb(59, 158, 233, 0.25);
+}
+#keyblade-list .game-5 {
+    background-color: rgb(237, 220, 34, 0.25);
+}
+#keyblade-list .game-6 {
+    background-color: rgb(225, 37, 235, 0.25);
+}
+#keyblade-list .game-7 {
+    background-color: rgb(41, 176, 151, 0.25);
+}
+#keyblade-list .game-8 {
+    background-color: rgb(78, 82, 89, 0.25);
+}
+
+/* */
+.dragon-id {
+    font-family: monospace;
+    text-align: right;
+    line-height: normal;
+}
+
+/* ======================== */
+/*      Dragon Showcase     */
+/* ======================== */
+
+#dragon-showcase {
+    display: block;
+    width: 1024px;
+}
+#dragon-showcase .key-box {
+    background-image: 
+        linear-gradient(
+            to bottom, 
+            rgba(255,255,255,0.9) 0%,
+            rgba(255,255,255,0.5) 25%,
+            rgba(255,255,255,0.5) 70%,
+            rgba(255,255,255,1) 100%), 
+        url(https://www1.flightrising.com/static/cms/scene/34843.png);
+    height: 513px;
+}
+#dragon-showcase img {
+    display: inline;
+    position: relative;
+    left: 320px;
+    top: 100px;
+}
+#dragon-showcase .key-image {
+    display: inline;
+    position: relative;
+    width: 210px;
+    max-height: 350px;
+    object-fit: contain;
+    left: 320px;
+    top: 100px;
+}
+
+/* ======================== */
+/*      Dragon Visuals      */
+/* ======================== */
+
+#dragon-visuals {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    width: 1080px;
+}
+#dragon-visuals .key-image {
+    width: 350px;
+    max-height: 300px;
+    object-fit: contain;
+    /* vertical-align: middle; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 195px;
+}
+#dragon-visuals * {
+    text-align: right;
+}
