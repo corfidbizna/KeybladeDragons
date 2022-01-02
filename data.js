@@ -53,8 +53,9 @@ var fRBreeds = [
 /* 
     Blades
 */
-var keybladesMap = {
-    KingdomKey: {
+var keyblades = [
+    {
+        id: 'KingdomKey',
         name: 'Kingdom Key',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -63,7 +64,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    LadyLuck: {
+    {
+        id: 'LadyLuck',
         name: 'Lady Luck',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -72,7 +74,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    Olympia: {
+    {
+        id: 'Olympia',
         name: 'Olympia',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -81,7 +84,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    JungleKing: {
+    {
+        id: 'JungleKing',
         name: 'Jungle King',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -90,7 +94,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    ThreeWishes: {
+    {
+        id: 'ThreeWishes',
         name: 'Three Wishes',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -99,7 +104,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    Pumpkinhead: {
+    {
+        id: 'Pumpkinhead',
         name: 'Pumpkinhead',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -108,7 +114,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    WishingStar: {
+    {
+        id: 'WishingStar',
         name: 'Wishing Star',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -117,7 +124,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Wind'
     },
-    Crabclaw: {
+    {
+        id: 'Crabclaw',
         name: 'Crabclaw',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -126,7 +134,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    FairyHarp: {
+    {
+        id: 'FairyHarp',
         name: 'Fairy Harp',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -135,7 +144,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Wind'
     },
-    DivineRose: {
+    {
+        id: 'DivineRose',
         name: 'Divine Rose',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -144,7 +154,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    Spellbinder: {
+    {
+        id: 'Spellbinder',
         name: 'Spellbinder',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -153,7 +164,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    MetalChocobo: {
+    {
+        id: 'MetalChocobo',
         name: 'Metal Chocobo',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -162,7 +174,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    Lionheart: {
+    {
+        id: 'Lionheart',
         name: 'Lionheart',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -171,7 +184,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    DiamondDust: {
+    {
+        id: 'DiamondDust',
         name: 'Diamond Dust',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -180,7 +194,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    OneWingedAngel: {
+    {
+        id: 'OneWingedAngel',
         name: 'One-Winged Angel',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -189,7 +204,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    Oathkeeper: {
+    {
+        id: 'Oathkeeper',
         name: 'Oathkeeper',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -198,7 +214,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    Oblivion: {
+    {
+        id: 'Oblivion',
         name: 'Oblivion',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -207,7 +224,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Shadow'
     },
-    UltimaKH1: {
+    {
+        id: 'UltimaKH1',
         name: 'Ultima',
         gameIndex: 0,
         imageURL: '[URL]',
@@ -216,7 +234,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    PeoplesHearts: {
+    {
+        id: 'PeoplesHearts',
         name: "People's Hearts",
         gameIndex: 0,
         imageURL: '[URL]',
@@ -225,7 +244,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    StarSeeker: {
+    {
+        id: 'StarSeeker',
         name: 'Star Seeker',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -234,7 +254,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Water'
     },
-    HiddenDragon: {
+    {
+        id: 'HiddenDragon',
         name: 'Hidden Dragon',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -243,7 +264,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    RumblingRose: {
+    {
+        id: 'RumblingRose',
         name: 'Rumbling Rose',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -252,7 +274,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    HerosCrest: {
+    {
+        id: 'HerosCrest',
         name: "Hero's Crest",
         gameIndex: 2,
         imageURL: '[URL]',
@@ -261,7 +284,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Plague'
     },
-    Monochrome: {
+    {
+        id: 'Monochrome',
         name: 'Monochrome',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -270,7 +294,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    MysteriousAbyss: {
+    {
+        id: 'MysteriousAbyss',
         name: 'Mysterious Abyss',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -279,7 +304,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Water'
     },
-    FollowTheWind: {
+    {
+        id: 'FollowTheWind',
         name: 'Follow the Wind',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -288,7 +314,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    WishingLamp: {
+    {
+        id: 'WishingLamp',
         name: 'Wishing Lamp',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -297,7 +324,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    DecisivePumpkin: {
+    {
+        id: 'DecisivePumpkin',
         name: 'Descisive Pumpkin',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -306,7 +334,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    PhotonDebugger: {
+    {
+        id: 'PhotonDebugger',
         name: 'Photon Debugger',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -315,7 +344,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    CircleOfLife: {
+    {
+        id: 'CircleOfLife',
         name: 'Circle of Life',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -324,7 +354,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Wind'
     },
-    SweetMemories: {
+    {
+        id: 'SweetMemories',
         name: 'Sweet Memories',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -333,7 +364,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    GullWing: {
+    {
+        id: 'GullWing',
         name: 'Gull Wing',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -342,7 +374,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Plague'
     },
-    GuardianSoul: {
+    {
+        id: 'GuardianSoul',
         name: 'Guardian Soul',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -351,7 +384,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    SleepingLion: {
+    {
+        id: 'SleepingLion',
         name: 'Sleeping Lion',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -360,7 +394,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    Fenrir: {
+    {
+        id: 'Fenrir',
         name: 'Fenrir',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -369,7 +404,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    BondOfFlame: {
+    {
+        id: 'BondOfFlame',
         name: 'Bond of Flame',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -378,7 +414,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    TwoBecomeOne: {
+    {
+        id: 'TwoBecomeOne',
         name: 'Two Become One',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -387,7 +424,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    FatalCrest: {
+    {
+        id: 'FatalCrest',
         name: 'Fatal Crest',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -396,7 +434,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    WinnersProof: {
+    {
+        id: 'WinnersProof',
         name: "Winner's Proof",
         gameIndex: 2,
         imageURL: '[URL]',
@@ -405,7 +444,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    UltimaKH2: {
+    {
+        id: 'UltimaKH2',
         name: 'Ultima',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -414,7 +454,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    WayToTheDawn: {
+    {
+        id: 'WayToTheDawn',
         name: 'Way to the Dawn',
         gameIndex: 2,
         imageURL: '[URL]',
@@ -423,7 +464,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    DestinysEmbrace: {
+    {
+        id: 'DestinysEmbrace',
         name: "Destiny's Embrace",
         gameIndex: 2,
         imageURL: '[URL]',
@@ -432,7 +474,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    MissingAche: {
+    {
+        id: 'MissingAche',
         name: 'Missing Ache',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -441,7 +484,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    OminousBlight: {
+    {
+        id: 'OminousBlight',
         name: 'Ominous Blight',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -450,7 +494,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    AbaddonPlasma: {
+    {
+        id: 'AbaddonPlasma',
         name: 'Abaddon Plasma',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -459,7 +504,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    PainOfSolitude: {
+    {
+        id: 'PainOfSolitude',
         name: 'Pain Of Solitude',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -468,7 +514,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Arcane'
     },
-    SignOfInnocence: {
+    {
+        id: 'SignOfInnocence',
         name: 'Sign Of Innocence',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -477,7 +524,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    CrownOfGuilt: {
+    {
+        id: 'CrownOfGuilt',
         name: 'Crown of Guilt',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -486,7 +534,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    AbyssalTide: {
+    {
+        id: 'AbyssalTide',
         name: 'Abyssal Tide',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -495,7 +544,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    Leviathan: {
+    {
+        id: 'Leviathan',
         name: 'Leviathan',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -504,7 +554,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    TrueLightsFlight: {
+    {
+        id: 'TrueLightsFlight',
         name: "True Light's Flight",
         gameIndex: 3,
         imageURL: '[URL]',
@@ -513,7 +564,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Arcane'
     },
-    RejectionOfFate: {
+    {
+        id: 'RejectionOfFate',
         name: 'Rejection of Fate',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -522,7 +574,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    MidnightRoar: {
+    {
+        id: 'MidnightRoar',
         name: 'Midnight Roar',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -531,7 +584,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Nature'
     },
-    GlimpseOfDark: {
+    {
+        id: 'GlimpseOfDark',
         name: 'Glimpse of Darkness',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -540,7 +594,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Plague'
     },
-    TotalEclipse: {
+    {
+        id: 'TotalEclipse',
         name: 'Total Eclipse',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -549,7 +604,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    SilentDirge: {
+    {
+        id: 'SilentDirge',
         name: 'Silent Dirge',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -558,7 +614,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Plague'
     },
-    LunarEclipse: {
+    {
+        id: 'LunarEclipse',
         name: 'Lunar Eclipse',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -567,7 +624,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    DarkerThanDark: {
+    {
+        id: 'DarkerThanDark',
         name: 'Darker than Darkness',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -576,7 +634,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Plague'
     },
-    AstralBlast: {
+    {
+        id: 'AstralBlast',
         name: 'Astral Blast',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -585,7 +644,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    MaverickFlare: {
+    {
+        id: 'MaverickFlare',
         name: 'Maverick Flare',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -594,7 +654,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    TwilightBlaze: {
+    {
+        id: 'TwilightBlaze',
         name: 'Twilight Blaze',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -603,7 +664,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    Omega: {
+    {
+        id: 'Omega',
         name: 'Omega',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -612,7 +674,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    Umbrella: {
+    {
+        id: 'Umbrella',
         name: 'Umbrella',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -621,7 +684,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Wind'
     },
-    Abudae: {
+    {
+        id: 'Abudae',
         name: 'Abudae',
         gameIndex: 3,
         imageURL: '[URL]',
@@ -630,7 +694,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    TreasureTrove: {
+    {
+        id: 'TreasureTrove',
         name: 'Treasure Trove',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -639,7 +704,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Shadow'
     },
-    StrokeOfMidnight: {
+    {
+        id: 'StrokeOfMidnight',
         name: 'Stroke of Midnight',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -648,7 +714,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    FairyStars: {
+    {
+        id: 'FairyStars',
         name: 'Fairy Stars',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -657,7 +724,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    VictoryLine: {
+    {
+        id: 'VictoryLine',
         name: 'Victory Line',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -666,7 +734,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Nature'
     },
-    MarkOfAHero: {
+    {
+        id: 'MarkOfAHero',
         name: 'Mark of a Hero',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -675,7 +744,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    HyperDrive: {
+    {
+        id: 'HyperDrive',
         name: 'Hyper Drive',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -684,7 +754,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    PixiePetal: {
+    {
+        id: 'PixiePetal',
         name: 'Pixie Petal',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -693,7 +764,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    Sweetstack: {
+    {
+        id: 'Sweetstack',
         name: 'Sweetstack',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -702,7 +774,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    NoName: {
+    {
+        id: 'NoName',
         name: 'No Name',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -711,7 +784,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    RoyalRadiance: {
+    {
+        id: 'RoyalRadiance',
         name: 'Royal Radiance',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -720,7 +794,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Wind'
     },
-    UltimaBbS: {
+    {
+        id: 'UltimaBbS',
         name: 'Ultima',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -729,7 +804,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    EndsOfTheEarth: {
+    {
+        id: 'EndsOfTheEarth',
         name: 'Ends of the Earth',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -738,7 +814,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    Darkgnaw: {
+    {
+        id: 'Darkgnaw',
         name: 'Darkgnaw',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -747,7 +824,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Plague'
     },
-    ChaosRipper: {
+    {
+        id: 'ChaosRipper',
         name: 'Chaos Ripper',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -756,7 +834,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    Rainfell: {
+    {
+        id: 'Rainfell',
         name: 'Rainfell',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -765,7 +844,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    Stormfall: {
+    {
+        id: 'Stormfall',
         name: 'Stormfall',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -774,7 +854,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Earth'
     },
-    Brightcrest: {
+    {
+        id: 'Brightcrest',
         name: 'Brightcrest',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -783,7 +864,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Water'
     },
-    MastersDefender: {
+    {
+        id: 'MastersDefender',
         name: "Master's Defender",
         gameIndex: 4,
         imageURL: '[URL]',
@@ -792,7 +874,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    WaywardWind: {
+    {
+        id: 'WaywardWind',
         name: 'Wayward Wind',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -801,7 +884,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Wind'
     },
-    FrolicFlame: {
+    {
+        id: 'FrolicFlame',
         name: 'Frolic Flame',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -810,7 +894,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    LostMemory: {
+    {
+        id: 'LostMemory',
         name: 'Lost Memory',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -819,7 +904,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    Xehanort: {
+    {
+        id: 'Xehanort',
         name: 'Xehanort',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -828,7 +914,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    VoidGear: {
+    {
+        id: 'VoidGear',
         name: 'Void Gear',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -837,7 +924,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    Wooden: {
+    {
+        id: 'Wooden',
         name: 'Wooden',
         gameIndex: 4,
         imageURL: '[URL]',
@@ -846,7 +934,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    ZeroOne: {
+    {
+        id: 'ZeroOne',
         name: 'Zero/One',
         gameIndex: 5,
         imageURL: '[URL]',
@@ -855,7 +944,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    NightmaresEnd: {
+    {
+        id: 'NightmaresEnd',
         name: "Nightmare's End",
         gameIndex: 6,
         imageURL: '[URL]',
@@ -864,7 +954,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    MirageSplit: {
+    {
+        id: 'MirageSplit',
         name: 'Mirage Split',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -873,7 +964,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Shadow'
     },
-    SkullNoise: {
+    {
+        id: 'SkullNoise',
         name: 'Skull Noise',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -882,7 +974,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Shadow'
     },
-    GuardianBell: {
+    {
+        id: 'GuardianBell',
         name: 'Guardian Bell',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -891,7 +984,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    DualDisc: {
+    {
+        id: 'DualDisc',
         name: 'Dual Disc',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -900,7 +994,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     },
-    FerrisGear: {
+    {
+        id: 'FerrisGear',
         name: 'Ferris Gear',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -909,7 +1004,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Shadow'
     },
-    OceanRage: {
+    {
+        id: 'OceanRage',
         name: 'Ocean Rage',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -918,7 +1014,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Fire'
     },
-    KnockoutPunch: {
+    {
+        id: 'KnockoutPunch',
         name: 'Knockout Punch',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -927,7 +1024,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Shadow'
     },
-    AllForOne: {
+    {
+        id: 'AllForOne',
         name: 'All for One',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -936,7 +1034,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    Counterpoint: {
+    {
+        id: 'Counterpoint',
         name: 'Counterpoint',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -945,7 +1044,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Arcane'
     },
-    Divewing: {
+    {
+        id: 'Divewing',
         name: 'Divewing',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -954,7 +1054,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Shadow'
     },
-    SweetDreams: {
+    {
+        id: 'SweetDreams',
         name: 'Sweet Dreams',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -963,7 +1064,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    Unbound: {
+    {
+        id: 'Unbound',
         name: 'Unbound',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -972,7 +1074,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    EndOfPain: {
+    {
+        id: 'EndOfPain',
         name: 'End of Pain',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -981,7 +1084,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Nature'
     },
-    UltimaDDD: {
+    {
+        id: 'UltimaDDD',
         name: 'Ultima',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -990,7 +1094,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Nature'
     },
-    FlameLiberator: {
+    {
+        id: 'FlameLiberator',
         name: 'Flame Liberator',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -999,7 +1104,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    YoungXehanort: {
+    {
+        id: 'YoungXehanort',
         name: 'Young Xehanort',
         gameIndex: 6,
         imageURL: '[URL]',
@@ -1008,7 +1114,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    HerosOrigin: {
+    {
+        id: 'HerosOrigin',
         name: "Hero's Origin",
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1017,7 +1124,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Lightning'
     },
-    ShootingStar: {
+    {
+        id: 'ShootingStar',
         name: 'Shooting Star',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1026,7 +1134,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    FavoriteDeputy: {
+    {
+        id: 'FavoriteDeputy',
         name: 'Favorite Deputy',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1035,7 +1144,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Nature'
     },
-    EverAfter: {
+    {
+        id: 'EverAfter',
         name: 'Ever After',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1044,7 +1154,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    HappyGear: {
+    {
+        id: 'HappyGear',
         name: 'Happy Gear',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1053,7 +1164,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Plague'
     },
-    CrystalSnow: {
+    {
+        id: 'CrystalSnow',
         name: 'Crystal Snow',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1062,7 +1174,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Ice'
     },
-    HunnySpout: {
+    {
+        id: 'HunnySpout',
         name: 'Hunny Spout',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1071,7 +1184,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Nature'
     },
-    WheelOfFate: {
+    {
+        id: 'WheelOfFate',
         name: 'Wheel of Fate',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1080,7 +1194,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Arcane'
     },
-    NanoGear: {
+    {
+        id: 'NanoGear',
         name: 'Nano Gear',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1089,7 +1204,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Arcane'
     },
-    GrandChef: {
+    {
+        id: 'GrandChef',
         name: 'Grand Chef',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1098,7 +1214,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    ClassicTone: {
+    {
+        id: 'ClassicTone',
         name: 'Classic Tone',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1107,7 +1224,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Plague'
     },
-    UltimaKH3: {
+    {
+        id: 'UltimaKH3',
         name: 'Ultima',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1116,7 +1234,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Water'
     },
-    StarCluster: {
+    {
+        id: 'StarCluster',
         name: 'Star Cluster',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1125,7 +1244,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Wind'
     },
-    Braveheart: {
+    {
+        id: 'Braveheart',
         name: 'Braveheart',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1134,7 +1254,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Shadow'
     },
-    MidnightBlue: {
+    {
+        id: 'MidnightBlue',
         name: 'Midnight Blue',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1143,7 +1264,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Water'
     },
-    PhantomGreen: {
+    {
+        id: 'PhantomGreen',
         name: 'Phantom Green',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1152,7 +1274,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Wind'
     },
-    DawnTillDusk: {
+    {
+        id: 'DawnTillDusk',
         name: 'Dawn Till Dusk',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1161,7 +1284,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    ElementEncoder: {
+    {
+        id: 'ElementEncoder',
         name: 'Element Encoder',
         gameIndex: 8,
         imageURL: '[URL]',
@@ -1170,7 +1294,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Wind'
     },
-    Starlight: {
+    {
+        id: 'Starlight',
         name: 'Starlight',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1179,7 +1304,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Light'
     },
-    MoogleOGlory: {
+    {
+        id: 'MoogleOGlory',
         name: "Moogle O' Glory",
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1188,7 +1314,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Ice'
     },
-    BadGuyBreaker: {
+    {
+        id: 'BadGuyBreaker',
         name: 'Bad Guy Breaker',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1197,7 +1324,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Fire'
     },
-    Angius: {
+    {
+        id: 'Angius',
         name: 'Angius',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1206,7 +1334,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Shadow'
     },
-    Leopardus: {
+    {
+        id: 'Leopardus',
         name: 'Leopardus',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1215,7 +1344,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Earth'
     },
-    Unicornis: {
+    {
+        id: 'Unicornis',
         name: 'Unicornis',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1224,7 +1354,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Plague'
     },
-    Ursus: {
+    {
+        id: 'Ursus',
         name: 'Ursus',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1233,7 +1364,8 @@ var keybladesMap = {
         silhouette: 'Male',
         element: 'Light'
     },
-    Vulpus: {
+    {
+        id: 'Vulpus',
         name: 'Vulpus',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1242,7 +1374,8 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Arcane'
     },
-    KEYBLADE: {
+    {
+        id: 'KEYBLADE',
         name: 'Keyblade',
         gameIndex: 7,
         imageURL: '[URL]',
@@ -1251,6 +1384,10 @@ var keybladesMap = {
         silhouette: 'Female',
         element: 'Lightning'
     }
-};
+];
+var keybladesMap = {};
+keyblades.forEach(function(keyblade) {
+    keybladesMap[keyblade.id] = keyblade;
+});
 
 // console.table(keybladesMap);

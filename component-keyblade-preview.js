@@ -4,10 +4,12 @@ app.component('keyblade-preview', {
     ],
     props: {
         id: String,
-        keyblade: Object,
         active: Boolean,
     },
     computed: {
+        keyblade: function() {
+            return keybladesMap[this.id];
+        },
         gameThumbnail: function() {
             var gameIndex = this.keyblade.gameIndex;
             var gameName = kHGames[gameIndex];

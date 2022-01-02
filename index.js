@@ -4,6 +4,14 @@ var dragonMixin = {
             var trunkatedID = Math.floor((dergID/100) + 1);
             return trunkatedID;
         },
+        getDragonRenderURL: function(dergID) {
+            var url = `https://www1.flightrising.com/rendern/350/${this.getTrunkatedID(dergID)}/${dergID}_350.png`;
+            return url;
+        },
+        getDragonBodyURL: function(dergID) {
+            var url = `https://www1.flightrising.com/dgen/dressing-room/dragon?did=${dergID}&skin=0&apparel=&xt=dressing.png`;
+            return url;
+        },
     },
 };
 var app = Vue.createApp({
@@ -25,14 +33,6 @@ var app = Vue.createApp({
     methods: {
         updateActiveDragon: function(newDragon) {
             this.activeDragon = newDragon;
-        },
-        getDragonRenderURL: function(dergID) {
-            var url = `https://www1.flightrising.com/rendern/350/${this.getTrunkatedID(dergID)}/${dergID}_350.png`;
-            return url;
-        },
-        getDragonBodyURL: function(dergID) {
-            var url = `https://www1.flightrising.com/dgen/dressing-room/dragon?did=${dergID}&skin=0&apparel=&xt=dressing.png`;
-            return url;
         },
     },
 });

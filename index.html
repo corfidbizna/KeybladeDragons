@@ -12,51 +12,25 @@
         <div id="keyblade-list">
             <keyblade-preview
                 v-for="(keyblade, index) in keybladesMap"
-                :key="keyblade"
+                :key="index"
                 :id="index"
-                :keyblade="keyblade"
                 :active="activeDragon === index"
                 @click="updateActiveDragon(index)"
             ></keyblade-preview>
         </div>
-        <div id="dragon-showcase">
-            <div 
-                class="key-box"
-            >
-                <div>
-                    <img
-                        :src="getDragonRenderURL(keybladesMap[activeDragon].dergID)"
-                    >
-                    <img
-                        :src="'./KeybladeImages/' + activeDragon + '.png'"
-                        class="key-image"
-                    >
-                </div>
-            </div>
-        </div>
-        <div id="dragon-visuals">
-            <div
-                class="key-box"
-            >
-                <div>
-                    <img 
-                        :src="'./KeybladeImages/' + activeDragon + '.png'"
-                        class="key-image"
-                    />
-                    <img 
-                        :src="getDragonRenderURL(keybladesMap[activeDragon].dergID)"
-                    />
-                    <img 
-                        :src="getDragonBodyURL(keybladesMap[activeDragon].dergID)"
-                    />
-                </div>
-            </div>
-        </div>
+        <dragon-showcase
+            :id="activeDragon"
+        ></dragon-showcase>
+        <dragon-visuals 
+            :id="activeDragon"
+        ></dragon-visuals>
     </div>
     <script src="https://unpkg.com/vue@3"></script>
     <script src="index.js"></script>
     <script src="data.js"></script>
     <script src="component-keyblade-preview.js"></script>
+    <script src="component-dragon-showcase.js"></script>
+    <script src="component-dragon-visuals.js"></script>
     <script>var mountedApp = app.mount('#app');</script>
 </body>
 </html>
