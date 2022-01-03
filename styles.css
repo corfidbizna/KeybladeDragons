@@ -29,13 +29,14 @@ body {
     background-color: #DDD;
     background-image: linear-gradient(
         to bottom, 
-        #BBB 0%,
-        #DDD 100%
+        #CCC 0%,
+        #EEE 100%
     );
     overflow-x: scroll;
     transform: scaleY(-1);
-    border: 2px solid #BBB;
-    border-radius: 1.3em 1.3em 0 0;
+    border-top: 2px solid #BBB;
+    /* border: 2px solid #BBB; */
+    /* border-radius: 1.3em 1.3em 0 0; */
     line-height: 0;
     white-space: nowrap;
 }
@@ -150,8 +151,9 @@ body {
 /* ======================== */
 
 #dragon-showcase {
-    display: block;
-    width: 1024px;
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
 #dragon-showcase .key-box {
     background-image: 
@@ -163,6 +165,7 @@ body {
             rgba(255,255,255,1) 100%), 
         url(https://www1.flightrising.com/static/cms/scene/34843.png);
     height: 513px;
+    width: 1015px;
 }
 #dragon-showcase img {
     display: inline;
@@ -185,12 +188,17 @@ body {
 /* ======================== */
 
 #dragon-visuals {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex: 200px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
     width: 1080px;
+}
+#dragon-visuals .key-box {
+    flex: 350px;
 }
 #dragon-visuals .key-image {
     width: 350px;
