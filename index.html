@@ -13,16 +13,16 @@
             <keyblade-preview
                 v-for="(keyblade, index) in keybladesMap"
                 :key="index"
-                :id="index"
+                :keyblade-i-d="index"
                 :active="activeDragon === index"
                 @click="updateActiveDragon(index)"
             ></keyblade-preview>
         </div>
         <dragon-showcase
-            :id="activeDragon"
+            :keyblade-i-d="activeDragon"
         ></dragon-showcase>
         <dragon-visuals 
-            :id="activeDragon"
+            :keyblade-i-d="activeDragon"
         ></dragon-visuals>
     </div>
     <script src="https://unpkg.com/vue@3"></script>

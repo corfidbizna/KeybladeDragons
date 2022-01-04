@@ -3,12 +3,12 @@ app.component('keyblade-preview', {
         dragonMixin,
     ],
     props: {
-        id: String,
+        keybladeID: String,
         active: Boolean,
     },
     computed: {
         keyblade: function() {
-            return keybladesMap[this.id];
+            return keybladesMap[this.keybladeID];
         },
         gameThumbnail: function() {
             var gameIndex = this.keyblade.gameIndex;
@@ -82,7 +82,7 @@ app.component('keyblade-preview', {
         <div
             class="key-box"
             :class="{
-                [id]: true,
+                [keybladeID]: true,
                 active: active,
             }"
         >
@@ -104,7 +104,7 @@ app.component('keyblade-preview', {
                     :title="title"
                 >
                     <img 
-                        :src="'./KeybladeImages/' + id + '.png'"
+                        :src="'./KeybladeImages/' + keybladeID + '.png'"
                         class="key-image"
                     />
                 </div>

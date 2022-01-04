@@ -3,11 +3,11 @@ app.component('dragon-visuals', {
         dragonMixin,
     ],
     props: {
-        id: String,
+        keybladeID: String,
     },
     computed: {
         keyblade: function() {
-            return keybladesMap[this.id];
+            return keybladesMap[this.keybladeID];
         },
     },
     template: /*html*/ `
@@ -17,7 +17,7 @@ app.component('dragon-visuals', {
             >
                 <div>
                     <img 
-                        :src="'./KeybladeImages/' + id + '.png'"
+                        :src="'./KeybladeImages/' + keybladeID + '.png'"
                         class="key-image"
                     />
                     <img 
