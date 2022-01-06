@@ -19,6 +19,20 @@ var sanitizers = {
       10
     )
   },
+  getSceneID: function(cssFancyObject) {
+    // "background-image:url(/static/cms/scene/34845.png)"
+    var value = cssFancyObject.cssText;
+    var urlValueRegex = /url\((.*)\)/gim;
+    var quotesRegex = /["']/gm; 
+    var searchResult = urlValueRegex.exec(value) || [];
+    var sanitized = searchResult[1] || '';
+    sanitized = sanitized.replace(quotesRegex, '');
+    var result;
+    if (sanitized) {
+        result = 'https://www1.flightrising.com' + sanitized;
+    }
+    return result;
+  },
   getColor: function(value) {
     return cleanDragonStat(value)[0];
   },
@@ -55,7 +69,8 @@ var scrapeSources = {
   },
   sceneImage: {
     selector: '#dragon-profile-scene',
-    propertyName: 'style'
+    propertyName: 'style',
+    sanitizer: 'getSceneID',
   },
   familiarImage: {
     selector: 'img.common-animated-familiar-frame',
