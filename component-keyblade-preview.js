@@ -78,7 +78,11 @@ app.component('keyblade-preview', {
         },
     },
     template: /*html*/`
-    <button>
+    <router-link
+        class="keyblade-preview"
+        :to="'/' + keybladeID + '/' + activeView"
+        :data-goats="activeView"
+    >
         <div
             class="key-box"
             :class="{
@@ -139,6 +143,6 @@ app.component('keyblade-preview', {
                 </div>
             </div>
         </div>
-    </button>
+    </router-link>
     `,
 })

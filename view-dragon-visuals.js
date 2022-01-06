@@ -1,11 +1,12 @@
-app.component('dragon-visuals', {
+window.viewDragonVisuals = {
+    name: 'dragon-visuals',
     mixins: [
         dragonMixin,
     ],
-    props: {
-        keybladeID: String,
-    },
     computed: {
+        keybladeID: function() {
+            return this.keybladeIDFromParams;
+        },
         keyblade: function() {
             return keybladesMap[this.keybladeID];
         },
@@ -34,4 +35,4 @@ app.component('dragon-visuals', {
             </div>
         </div>
     `,
-});
+};

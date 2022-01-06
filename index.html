@@ -14,23 +14,27 @@
                 v-for="(keyblade, index) in keybladesMap"
                 :key="index"
                 :keyblade-i-d="index"
-                :active="activeDragon === index"
-                @click="updateActiveDragon(index)"
+                :active="activeKeyblade === index"
             ></keyblade-preview>
         </div>
-        <dragon-showcase
-            :keyblade-i-d="activeDragon"
-        ></dragon-showcase>
-        <dragon-visuals 
-            :keyblade-i-d="activeDragon"
-        ></dragon-visuals>
+        <div>
+            <router-link 
+                :to="'/' + activeKeyblade + '/showcase'"
+            >Showcase</router-link>
+            <router-link 
+                :to="'/' + activeKeyblade + '/visuals'"
+            >Visuals</router-link>
+        </div>
+        <router-view></router-view>
     </div>
     <script src="https://unpkg.com/vue@3"></script>
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
     <script src="data.js"></script>
+    <script src="view-dragon-showcase.js"></script>
+    <script src="view-dragon-visuals.js"></script>
+    <script src="router.js"></script>
+    <script src="index.js"></script>
     <script src="component-keyblade-preview.js"></script>
-    <script src="component-dragon-showcase.js"></script>
-    <script src="component-dragon-visuals.js"></script>
     <script>var mountedApp = app.mount('#app');</script>
 </body>
 </html>

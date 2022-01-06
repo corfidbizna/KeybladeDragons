@@ -40,17 +40,18 @@ body {
     line-height: 0;
     white-space: nowrap;
 }
-#keyblade-list button {
+.keyblade-preview {
     display: contents;
     font: inherit;
     text-align: inherit;
+    color: #000;
 }
-#keyblade-list .key-box {
+.keyblade-preview .key-box {
     transform: scaleY(-1);
     margin: 0.15em;
     display: inline-block;
 }
-#keyblade-list .key-image {
+.keyblade-preview .key-image {
     max-height: 100px;
     max-width: 100px;
     transform: translate(-50%, -50%);
@@ -80,14 +81,14 @@ body {
 .dragon-info * {
     padding: 0px;
 }
-#keyblade-list .dragon-id {
+.keyblade-preview .dragon-id {
     margin: 0 4px;
 }
-#keyblade-list .name-container {
+.keyblade-preview .name-container {
     border-radius: 1em;
     margin-bottom: 0.25em;
 }
-#keyblade-list .name {
+.keyblade-preview .name {
     display: inline-block;
     vertical-align: text-bottom;
     padding: 0.25em;
@@ -96,14 +97,14 @@ body {
     font-style: italic;
     line-height: normal;
 }
-#keyblade-list .game-image {
+.keyblade-preview .game-image {
     position: absolute;
     top: 0.1em;
     left: 0.25em;
     width: 2em;
 
 }
-#keyblade-list .active {
+.keyblade-preview .active {
     border-color: #FFF;
     box-shadow: 
         0 0 0.25em #FEA,
@@ -114,28 +115,28 @@ body {
         inset 0 0 1em #FEA8;
     /* border-width: 2px; */
 }
-#keyblade-list .game-0 {
+.keyblade-preview .game-0 {
     background-color: rgb(55, 96, 184, 0.25);
 }
-#keyblade-list .game-2 {
+.keyblade-preview .game-2 {
     background-color: rgb(84, 91, 104, 0.25);
 }
-#keyblade-list .game-3 {
+.keyblade-preview .game-3 {
     background-color: rgb(186, 77, 30, 0.25);
 }
-#keyblade-list .game-4 {
+.keyblade-preview .game-4 {
     background-color: rgb(59, 158, 233, 0.25);
 }
-#keyblade-list .game-5 {
+.keyblade-preview .game-5 {
     background-color: rgb(237, 220, 34, 0.25);
 }
-#keyblade-list .game-6 {
+.keyblade-preview .game-6 {
     background-color: rgb(225, 37, 235, 0.25);
 }
-#keyblade-list .game-7 {
+.keyblade-preview .game-7 {
     background-color: rgb(41, 176, 151, 0.25);
 }
-#keyblade-list .game-8 {
+.keyblade-preview .game-8 {
     background-color: rgb(78, 82, 89, 0.25);
 }
 

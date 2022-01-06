@@ -1390,4 +1390,29 @@ keyblades.forEach(function(keyblade) {
     keybladesMap[keyblade.id] = keyblade;
 });
 
+var dragonMixin = {
+    computed: {
+        keybladeIDFromParams: function() {
+            return this.$route.params.keybladeID || 'KingdomKey';
+        },
+        activeView: function() {
+            return this.$route.path.split('/').pop() || 'showcase';
+        },
+    },
+    methods: {
+        getTrunkatedID: function(dergID) {
+            var trunkatedID = Math.floor((dergID/100) + 1);
+            return trunkatedID;
+        },
+        getDragonRenderURL: function(dergID) {
+            var url = `https://www1.flightrising.com/rendern/350/${this.getTrunkatedID(dergID)}/${dergID}_350.png`;
+            return url;
+        },
+        getDragonBodyURL: function(dergID) {
+            var url = `https://www1.flightrising.com/dgen/dressing-room/dragon?did=${dergID}&skin=0&apparel=&xt=dressing.png`;
+            return url;
+        },
+    },
+};
+
 // console.table(keybladesMap);

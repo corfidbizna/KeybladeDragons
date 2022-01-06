@@ -4,7 +4,7 @@ var urlList = [
     '/EndsOfTheEarth',
     '/EndsOfTheEarth/showcase',
     '/EndsOfTheEarth/visuals',
-    '/$DRAGON_NAME/$DATA_VIEW',
-    '/$DRAGON_NAME',
-    '/$DRAGON_NAME/visuals',
+    '/$KEYBLADE_NAME/$DATA_VIEW',
+    '/$KEYBLADE_NAME',
+    '/$KEYBLADE_NAME/visuals',
 ];

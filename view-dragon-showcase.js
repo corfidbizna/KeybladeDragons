@@ -1,11 +1,12 @@
-app.component('dragon-showcase', {
+window.viewDragonShowcase = {
+    name: 'dragon-showcase',
     mixins: [
         dragonMixin,
     ],
-    props: {
-        keybladeID: String,
-    },
     computed: {
+        keybladeID: function() {
+            return this.keybladeIDFromParams;
+        },
         keyblade: function() {
             return keybladesMap[this.keybladeID];
         },
@@ -29,4 +30,4 @@ app.component('dragon-showcase', {
         </div>
     </div>
     `,
-});
+};
