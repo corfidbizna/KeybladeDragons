@@ -17,13 +17,18 @@
                 :active="activeKeyblade === index"
             ></keyblade-preview>
         </div>
-        <div>
+        <div
+            class="navi-container"
+        >
             <router-link 
                 :to="'/' + activeKeyblade + '/showcase'"
             >Showcase</router-link>
             <router-link 
                 :to="'/' + activeKeyblade + '/visuals'"
             >Visuals</router-link>
+            <router-link 
+                :to="'/' + activeKeyblade + '/details'"
+            >Details</router-link>
         </div>
         <router-view></router-view>
     </div>
@@ -32,6 +37,7 @@
     <script src="data.js"></script>
     <script src="view-dragon-showcase.js"></script>
     <script src="view-dragon-visuals.js"></script>
+    <script src="view-species-details.js"></script>
     <script src="router.js"></script>
     <script src="index.js"></script>
     <script src="component-keyblade-preview.js"></script>

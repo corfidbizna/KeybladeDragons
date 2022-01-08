@@ -17,6 +17,12 @@ body {
     border: 2px solid #BBB;
     border-radius: 1.125em;
 }
+.key-image {
+    filter: 
+        drop-shadow(0.25px 0.25px 0 #000) 
+        drop-shadow(-0.25px -0.25px 0 #000)
+    ;
+}
 .iconette {
     margin: 2px 0;
 }
@@ -58,6 +64,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    filter: 
+        drop-shadow(0 0.25em 0.5em #0002)
+    ;
 }
 .key-info {
     display: inline-block;
@@ -148,6 +157,55 @@ body {
 }
 
 /* ======================== */
+/*        Navigation        */
+/* ======================== */
+
+.navi-container {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.navi-container a {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-image: linear-gradient(
+        to bottom,
+        #DDD 0%,
+        #EEE 10%,
+        #FFF 30%,
+        #EEE 50%,
+        #DDD 100%
+    );
+    border: 0.5px solid #BBB;
+    border-top: 2px solid #BBB;
+    border-bottom: 2px solid #BBB;
+    /* border-radius: 0.5em; */
+}
+.navi-container .router-link-active {
+    background-image: linear-gradient(
+        to bottom,
+        #EEE 0%,
+        #FFF 10%,
+        #FFF 50%,
+        #EEE 100%
+    );
+}
+.navi-container a:first-child {
+    border-left: 2px solid #BBB;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+.navi-container a:last-child {
+    border-right: 2px solid #BBB;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+/* ======================== */
 /*      Dragon Showcase     */
 /* ======================== */
 
@@ -214,3 +272,17 @@ body {
 #dragon-visuals * {
     text-align: right;
 }
+
+/* ======================== */
+/*      Species Details     */
+/* ======================== */
+
+#species-details {
+    display: flex;
+    justify-content: center;
+}
+#species-details * {
+    padding: 20px;
+}
+
+
