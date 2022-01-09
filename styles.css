@@ -123,6 +123,8 @@ body {
         inset -1px 1px 0 #FFF,
         inset 0 0 1em #FEA8;
     /* border-width: 2px; */
+    background-image: none;
+    background-color: #EEE;
 }
 .keyblade-preview .game-0 {
     background-color: rgb(55, 96, 184, 0.25);
