@@ -19,6 +19,10 @@ var sanitizers = {
       10
     )
   },
+  getSpecies: function(value) {
+    var result = value.split("\n");
+    return result[1];
+  },
   getSceneID: function(cssFancyObject) {
     // "background-image:url(/static/cms/scene/34845.png)"
     var value = cssFancyObject.cssText;
@@ -52,10 +56,11 @@ var scrapeSources = {
     sanitizer: 'dragonID',
   },
   species: {
-    selector: '.dragon-profile-stat-icon-value strong',
+    selector: '#dragon-profile-physical > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)',
     propertyName: 'innerText',
+    sanitizer: 'getSpecies'
   },
-  gender: {
+  silhouette: {
     selector: '#dragon-profile-icon-sex-tooltip strong',
     propertyName: 'innerText',
   },
@@ -63,10 +68,10 @@ var scrapeSources = {
     selector: '#dragon-profile-icon-element-tooltip strong',
     propertyName: 'innerText',
   },
-  image: {
-    selector: '#dragon-profile-dragon-frame img',
-    propertyName: 'src',
-  },
+  // image: {
+  //   selector: '#dragon-profile-dragon-frame img',
+  //   propertyName: 'src',
+  // },
   sceneImage: {
     selector: '#dragon-profile-scene',
     propertyName: 'style',
