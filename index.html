@@ -29,8 +29,14 @@
             <router-link 
                 :to="'/' + activeKeyblade + '/details'"
             >Details</router-link>
+            <a>Bio</a>
+            <a>Statistics</a>
         </div>
-        <router-view></router-view>
+        <div
+            class="container"
+        >
+            <router-view></router-view>
+        </div>
     </div>
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://unpkg.com/vue-router@4"></script>

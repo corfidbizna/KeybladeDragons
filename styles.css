@@ -2,7 +2,6 @@ body {
     background-color: #DAD6C9;
     margin: 0;
 }
-
 .key-box {
     background-image: linear-gradient(
         to bottom,
@@ -16,15 +15,21 @@ body {
     margin: 4px;
     border: 2px solid #BBB;
     border-radius: 1.125em;
+    /* outline: 2px solid #0004; */
 }
 .key-image {
     filter: 
-        drop-shadow(0.25px 0.25px 0 #000) 
-        drop-shadow(-0.25px -0.25px 0 #000)
+        drop-shadow(0.25px 0.25px 0 #000C) 
+        drop-shadow(-0.25px -0.25px 0 #000C)
     ;
 }
 .iconette {
     margin: 2px 0;
+}
+.dragon-id {
+    font-family: monospace;
+    text-align: right;
+    line-height: normal;
 }
 
 /* ======================== */
@@ -111,7 +116,6 @@ body {
     top: 0.1em;
     left: 0.25em;
     width: 2em;
-
 }
 .keyblade-preview .active {
     border-color: #FFF;
@@ -151,11 +155,9 @@ body {
     background-color: rgb(78, 82, 89, 0.25);
 }
 
-/* */
-.dragon-id {
-    font-family: monospace;
-    text-align: right;
-    line-height: normal;
+.container {
+    height: calc(100vh - 232px);
+    overflow-y: scroll;
 }
 
 /* ======================== */
@@ -166,6 +168,8 @@ body {
     padding: 8px;
     display: flex;
     justify-content: center;
+    background-color: #6b2412;
+    box-shadow: 0 1px 2px #0004;
 }
 .navi-container a {
     display: inline-block;
@@ -177,15 +181,15 @@ body {
     background-image: linear-gradient(
         to bottom,
         #DDD 0%,
-        #EEE 10%,
-        #FFF 30%,
-        #EEE 50%,
-        #DDD 100%
+        #EEE 30%,
+        #DDD 70%,
+        #CCC 100%
     );
     border: 0.5px solid #BBB;
     border-top: 2px solid #BBB;
     border-bottom: 2px solid #BBB;
-    /* border-radius: 0.5em; */
+    outline: 1px solid #0004;
+    outline-offset: -1px;
 }
 .navi-container .router-link-active {
     background-image: linear-gradient(
@@ -283,8 +287,10 @@ body {
     display: flex;
     justify-content: center;
 }
-#species-details * {
+#species-details .key-box {
     padding: 20px;
+    /* height: 400px;
+    overflow-y: scroll; */
 }
 
 
