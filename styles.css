@@ -2,6 +2,11 @@ body {
     background-color: #DAD6C9;
     margin: 0;
 }
+#app {
+    display: flex; 
+    flex-flow: column;
+    height: 100vh;
+}
 .key-box {
     background-image: linear-gradient(
         to bottom,
@@ -37,6 +42,7 @@ body {
 /* ======================== */
 
 #keyblade-list {
+    flex: 0 0 auto;
     background-color: #DDD;
     background-image: linear-gradient(
         to bottom, 
@@ -156,8 +162,14 @@ body {
 }
 
 .container {
-    height: calc(100vh - 232px);
+    flex: 1 1 auto;
     overflow-y: scroll;
+    /* height: calc(100vh - 232px);
+    overflow-y: scroll; */
+    /* display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    overflow-y: auto; */
 }
 
 /* ======================== */
@@ -165,6 +177,7 @@ body {
 /* ======================== */
 
 .navi-container {
+    flex: 0 0 auto;
     padding: 8px;
     display: flex;
     justify-content: center;

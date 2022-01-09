@@ -351,7 +351,7 @@ var keyblades = [
         imageURL: '[URL]',
         dergID: 51923758,
         breed: 'Tundra',
-        silhouette: 'Female',
+        silhouette: 'Male',
         element: 'Wind'
     },
     {
