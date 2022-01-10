@@ -11,10 +11,6 @@ var routes = [
         path: '/:keybladeID/visuals',
         component: window.viewDragonVisuals,
     },
-    {
-        path: '/:keybladeID/details',
-        component: window.viewSpeciesDetails,
-    },
 ];
 var router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),

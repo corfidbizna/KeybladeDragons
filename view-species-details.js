@@ -1,3 +1,7 @@
+// This component has been depricated 
+// and its unique contents have been moved 
+// into "view-dragon-visuals.js"
+
 window.viewSpeciesDetails = {
     name: 'species-details',
     mixins: [
