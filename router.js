@@ -8,6 +8,10 @@ var routes = [
         component: window.viewDragonShowcase,
     },
     {
+        path: '/:keybladeID/bio',
+        component: window.viewDragonBio,
+    },
+    {
         path: '/:keybladeID/visuals',
         component: window.viewDragonVisuals,
     },
