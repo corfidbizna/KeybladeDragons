@@ -229,9 +229,9 @@ body {
 /* ======================== */
 
 #dragon-showcase {
-    display: flex;
-    justify-content: center;
-    width: auto;
+    position: relative;
+    margin: 4px auto;
+    width: min-content;
 }
 #dragon-showcase .key-box {
     background-image: 
@@ -266,10 +266,7 @@ body {
 /* ======================== */
 
 #bio-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     background-image: linear-gradient(to bottom, #FFF 0%,#EEE 100%);
     width: 640px;
     max-width: 640px;
@@ -279,41 +276,55 @@ body {
     border-radius: 10px;
     margin: 4px auto;
     font-size: 0.8rem;
+    font-family: sans-serif;
+    text-align: center;
 }
 #bio-box .horizontal-box {
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
+    display: inline-block;
     margin: 1em 0;
+    text-align: left;
 }
-#bio-box .horizontal-box * {
+/* The '>' indicates direct children only, not all descendents */
+#bio-box .horizontal-box > * {
     padding: 0 1em;
+    vertical-align: middle;
 }
 #bio-box .horizontal-box *:first-child {
     padding-left: 0;
 }
+#bio-box .horizontal-box *:last-child {
+    padding-right: 0;
+}
 #bio-box .vertical-box {
-    display: flex;
-    flex: 0 1 auto;
-    flex-direction: column;
-    align-items: left;
+    display: inline-block;
     padding-left: 1em;
     vertical-align: top;
+    width: min-content;
 }
 #bio-box .vertical-box * {
     padding: 0 0;
 }
 #bio-box .key-name {
     font-size: 2em;
-    font-family: sans-serif;
     font-weight: bold;
-    align-self: center;
     padding: 0 0.5em;
+    text-align: center;
+    max-width: 220px;
+    display: inline-block;
+    white-space: pre-wrap;
+}
+#bio-box .key-name.short{
+    padding-top: 0.7em;
 }
 #bio-box .bio-text {
+    display: inline-block;
     font-size: 1em;
-    font-family: sans-serif;
     line-height: 1.2;
+}
+#bio-box .derg-art {
+    display: inline-block; 
+    width: 384px;
+    height: 384px;
 }
 
 /* ======================== */
@@ -321,12 +332,9 @@ body {
 /* ======================== */
 
 #dragon-visuals {
-    display: flex;
-    justify-content: center;
-    flex: 200px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4px auto;
+    width: min-content;
     vertical-align: top;
     width: 1080px;
 }
@@ -352,8 +360,9 @@ body {
 /* ======================== */
 
 #species-details {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    margin: 4px auto;
+    width: min-content;
 }
 #species-details .key-box {
     padding: 20px;
