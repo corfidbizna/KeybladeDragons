@@ -1,3 +1,15 @@
+/*                                                          */
+/* This scraper, when run on a Flight Rising dragon's page, */
+/* generates an object of the following shape:              */
+/*                                                          */
+// dragonID: { 
+//   name, dragonID, species, silhouette, 
+//   element, sceneID, familiarID, 
+//   colors[primary, secondary, tertiary], 
+//   genes[primary, secondary, tertiary]
+// }
+// 
+
 var cleanDragonStat = function(value) {
   return value
     .split('<br>')
@@ -10,7 +22,7 @@ var cleanDragonStat = function(value) {
     );
 };
 var sanitizers = {
-  dragonID: function (value) {
+  dragonID: function(value) {
     return parseInt(
       value
         .trim()
@@ -33,8 +45,19 @@ var sanitizers = {
     sanitized = sanitized.replace(quotesRegex, '');
     var result;
     if (sanitized) {
-        result = 'https://www1.flightrising.com' + sanitized;
+      var paths = sanitized.split('/');
+      var imageName = paths[paths.length-1];
+      result = imageName.split('.')[0];
     }
+    // if (sanitized) {
+    //     result = 'https://www1.flightrising.com' + sanitized;
+    // }
+    return result;
+  },
+  getFamiliarID: function(value) {
+    var paths = value.split('/');
+    var imageName = paths[paths.length-1];
+    result = imageName.split('.')[0];
     return result;
   },
   getColor: function(value) {
@@ -43,7 +66,7 @@ var sanitizers = {
   getGene: function(value) {
     return cleanDragonStat(value)[1];
   },
-}
+};
 
 var scrapeSources = {
   name: {
@@ -68,18 +91,15 @@ var scrapeSources = {
     selector: '#dragon-profile-icon-element-tooltip strong',
     propertyName: 'innerText',
   },
-  // image: {
-  //   selector: '#dragon-profile-dragon-frame img',
-  //   propertyName: 'src',
-  // },
-  sceneImage: {
+  sceneID: {
     selector: '#dragon-profile-scene',
     propertyName: 'style',
     sanitizer: 'getSceneID',
   },
-  familiarImage: {
+  familiarID: {
     selector: 'img.common-animated-familiar-frame',
     propertyName: 'src',
+    sanitizer: 'getFamiliarID',
   },
   primaryColor: {
     selector: '#dragon-profile-physical > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)',
@@ -113,7 +133,7 @@ var scrapeSources = {
   },
 };
 
-var scrape = function (scrapeSources) {
+var scrape = function(scrapeSources) {
   var result = {};
   Object.keys(scrapeSources).forEach(function (sourceKeyName) {
     var source = scrapeSources[sourceKeyName];
@@ -131,6 +151,25 @@ var scrape = function (scrapeSources) {
   return result;
 };
 
+var flattenGenetics = function(dragon) {
+  var colorKeys = [ 'primaryColor', 'secondaryColor', 'tertiaryColor' ];
+  var geneKeys = ['primaryGene', 'secondaryGene', 'tertiaryGene'];
+  var colors = [];
+  var genes = [];
+  colorKeys.forEach(function(key, index) {
+    colors[index] = dragon[key];
+  });
+  geneKeys.forEach(function(key, index) {
+    genes[index] = dragon[key];
+  });
+  dragon['colors'] = colors;
+  dragon['genes'] = genes;
+  var toRemove = colorKeys.concat(geneKeys);
+  toRemove.forEach(function(item) {
+    delete dragon[item];
+  });
+};
+
 var localStorageKey = 'DergScraping';
 
 var scrapedData = scrape(scrapeSources);
@@ -138,6 +177,7 @@ var dragonsSoFar = JSON.parse(
   localStorage.getItem(localStorageKey) 
   || '{}'
 );
+flattenGenetics(scrapedData);
 dragonsSoFar[scrapedData.dragonID] = scrapedData;
 localStorage.setItem(localStorageKey, JSON.stringify(dragonsSoFar));
 
