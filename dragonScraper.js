@@ -52,13 +52,13 @@ var sanitizers = {
     // if (sanitized) {
     //     result = 'https://www1.flightrising.com' + sanitized;
     // }
-    return result;
+    return parseInt(result);
   },
   getFamiliarID: function(value) {
     var paths = value.split('/');
     var imageName = paths[paths.length-1];
     result = imageName.split('.')[0];
-    return result;
+    return parseInt(result);
   },
   getColor: function(value) {
     return cleanDragonStat(value)[0];
