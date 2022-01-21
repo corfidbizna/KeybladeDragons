@@ -234,6 +234,7 @@ body {
     width: min-content;
 }
 #dragon-showcase .key-box {
+    /* TEST SCENE
     background-image: 
         linear-gradient(
             to bottom, 
@@ -243,7 +244,11 @@ body {
             rgba(255,255,255,1) 100%), 
         url(https://www1.flightrising.com/static/cms/scene/34843.png);
     height: 513px;
+    width: 1015px; */
+    background-image: url("https://www1.flightrising.com/static/layout/profile/backgrounds/1.jpg");
+    height: 513px;
     width: 1015px;
+    background-repeat: round;
 }
 #dragon-showcase img {
     display: inline;

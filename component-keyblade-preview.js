@@ -48,13 +48,18 @@ app.component('keyblade-preview', {
                 trunkatedID,
                 dergID + 'p.png'
             ].join('/'); */
+            if (!this.keyblade.dergID) {
+                var url = "https://flightrising.com/rendern/portraits/1/noavatarp.png";
+                return url;
+            }
             var dergID = this.keyblade.dergID;
             var url = `https://www1.flightrising.com/rendern/portraits/${this.getTrunkatedID(dergID)}/${dergID}p.png`;
             return url;
         },
         breedIcon: function() {
+            var breed = dragonsMap[this.keyblade.dergID].species;
             var breedIndex = fRBreeds.findIndex(
-                (element) => element === this.keyblade.breed
+                (element) => element === breed
             );
             return (
                 'https://www1.flightrising.com/static/cms/breeds/' 
@@ -63,16 +68,18 @@ app.component('keyblade-preview', {
             );
         },
         silhouetteIcon: function() {
+            var silhouette = dragonsMap[this.keyblade.dergID].silhouette;
             return (
                 'https://www1.flightrising.com/static/layout/lair/icons/' 
-                + this.keyblade.silhouette.toLowerCase() 
+                + silhouette.toLowerCase() 
                 + '.png'
             );
         },
         elementIcon: function() {
+            var element = dragonsMap[this.keyblade.dergID].element;
             return (
                 'https://www1.flightrising.com/static/icons/' 
-                + this.keyblade.element.toLowerCase() 
+                + element.toLowerCase() 
                 + '_rune.png'
             );
         },
@@ -118,6 +125,8 @@ app.component('keyblade-preview', {
                     <div>
                         <img 
                             :src="dragonPortraitURL"
+                            width="75"
+                            height="75"
                         />
                     </div>
                     <div>
