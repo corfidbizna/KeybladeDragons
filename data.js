@@ -1394,2528 +1394,2528 @@ keyblades.forEach(function(keyblade) {
     Dragons
 */
 var dragonsMap = {
-    "8978770": {
-        "name": "DiamondDust",
-        "dragonID": 8978770,
-        "species": "Snapper",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "37882",
-        "familiarID": "35765",
-        "colors": [
+    8978770: {
+        name: "DiamondDust",
+        dragonID: 8978770,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 37882,
+        familiarID: 35765,
+        colors: [
             "Caribbean",
             "Caribbean",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Smoke"
         ]
     },
-    "11503095": {
-        "name": "TotalEclipse",
-        "dragonID": 11503095,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "34837",
-        "familiarID": "34723",
-        "colors": [
+    11503095: {
+        name: "TotalEclipse",
+        dragonID: 11503095,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 34837,
+        familiarID: 34723,
+        colors: [
             "Obsidian",
             "Obsidian",
             "Fire"
         ],
-        "genes": [
+        genes: [
             "Vipera",
             "Freckle",
             "Spines"
         ]
     },
-    "12129239": {
-        "name": "EndsOfTheEarth",
-        "dragonID": 12129239,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "34843",
-        "familiarID": "20827",
-        "colors": [
+    12129239: {
+        name: "EndsOfTheEarth",
+        dragonID: 12129239,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 34843,
+        familiarID: 20827,
+        colors: [
             "Soil",
             "Goldenrod",
             "Rose"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "12129240": {
-        "name": "Stormfall",
-        "dragonID": 12129240,
-        "species": "Tundra",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "34843",
-        "familiarID": "20828",
-        "colors": [
+    12129240: {
+        name: "Stormfall",
+        dragonID: 12129240,
+        species: "Tundra",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 34843,
+        familiarID: 20828,
+        colors: [
             "Storm",
             "Steel",
             "Midnight"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "12283922": {
-        "name": "Spellbinder",
-        "dragonID": 12283922,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "36048",
-        "familiarID": "15287",
-        "colors": [
+    12283922: {
+        name: "Spellbinder",
+        dragonID: 12283922,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 36048,
+        familiarID: 15287,
+        colors: [
             "Splash",
             "Sky",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Ribbon",
             "Eel",
             "Underbelly"
         ]
     },
-    "12330397": {
-        "name": "Leviathan",
-        "dragonID": 12330397,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "39215",
-        "familiarID": "2591",
-        "colors": [
+    12330397: {
+        name: "Leviathan",
+        dragonID: 12330397,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 39215,
+        familiarID: 2591,
+        colors: [
             "Black",
             "Splash",
             "Teal"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "12352765": {
-        "name": "DarkerThanDark",
-        "dragonID": 12352765,
-        "species": "Nocturne",
-        "silhouette": "Female",
-        "element": "Plague",
-        "sceneID": "38411",
-        "familiarID": "16484",
-        "colors": [
+    12352765: {
+        name: "DarkerThanDark",
+        dragonID: 12352765,
+        species: "Nocturne",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 38411,
+        familiarID: 16484,
+        colors: [
             "Purple",
             "Teal",
             "Azure"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "12356399": {
-        "name": "SleepingLion",
-        "dragonID": 12356399,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "40841",
-        "familiarID": "987",
-        "colors": [
+    12356399: {
+        name: "SleepingLion",
+        dragonID: 12356399,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 40841,
+        familiarID: 987,
+        colors: [
             "Silver",
             "Grey",
             "Grey"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Stripes",
             "Basic"
         ]
     },
-    "12563878": {
-        "name": "ThreeWishes",
-        "dragonID": 12563878,
-        "species": "Coatl",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "37865",
-        "familiarID": "37353",
-        "colors": [
+    12563878: {
+        name: "ThreeWishes",
+        dragonID: 12563878,
+        species: "Coatl",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 37865,
+        familiarID: 37353,
+        colors: [
             "Lemon",
             "Storm",
             "Pink"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "12570049": {
-        "name": "Rainfell",
-        "dragonID": 12570049,
-        "species": "Guardian",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "34843",
-        "familiarID": "33623",
-        "colors": [
+    12570049: {
+        name: "Rainfell",
+        dragonID: 12570049,
+        species: "Guardian",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 34843,
+        familiarID: 33623,
+        colors: [
             "Navy",
             "White",
             "White"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Facet",
             "Underbelly"
         ]
     },
-    "12611206": {
-        "name": "PeoplesHearts",
-        "dragonID": 12611206,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "38215",
-        "familiarID": "42692",
-        "colors": [
+    12611206: {
+        name: "PeoplesHearts",
+        dragonID: 12611206,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 38215,
+        familiarID: 42692,
+        colors: [
             "Obsidian",
             "Red",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Spines"
         ]
     },
-    "12669181": {
-        "name": "Monochrome",
-        "dragonID": 12669181,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "41418",
-        "familiarID": "42683",
-        "colors": [
+    12669181: {
+        name: "Monochrome",
+        dragonID: 12669181,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 41418,
+        familiarID: 42683,
+        colors: [
             "Grey",
             "Silver",
             "White"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Underbelly"
         ]
     },
-    "12781581": {
-        "name": "Oathkeeper",
-        "dragonID": 12781581,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "38283",
-        "familiarID": "15282",
-        "colors": [
+    12781581: {
+        name: "Oathkeeper",
+        dragonID: 12781581,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 38283,
+        familiarID: 15282,
+        colors: [
             "White",
             "White",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Runes"
         ]
     },
-    "12842754": {
-        "name": "AbyssalTide",
-        "dragonID": 12842754,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "39215",
-        "familiarID": "20156",
-        "colors": [
+    12842754: {
+        name: "AbyssalTide",
+        dragonID: 12842754,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 39215,
+        familiarID: 20156,
+        colors: [
             "Stonewash",
             "Sky",
             "Sky"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "13629389": {
-        "name": "Pumpkinhead",
-        "dragonID": 13629389,
-        "species": "Nocturne",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "34837",
-        "familiarID": "35009",
-        "colors": [
+    13629389: {
+        name: "Pumpkinhead",
+        dragonID: 13629389,
+        species: "Nocturne",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 34837,
+        familiarID: 35009,
+        colors: [
             "Charcoal",
             "Charcoal",
             "Jungle"
         ],
-        "genes": [
+        genes: [
             "Clown",
             "Stripes",
             "Basic"
         ]
     },
-    "13643712": {
-        "name": "HiddenDragon",
-        "dragonID": 13643712,
-        "species": "Spiral",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "38799",
-        "familiarID": "11147",
-        "colors": [
+    13643712: {
+        name: "HiddenDragon",
+        dragonID: 13643712,
+        species: "Spiral",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 38799,
+        familiarID: 11147,
+        colors: [
             "Fire",
             "Fire",
             "Fire"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Facet",
             "Basic"
         ]
     },
-    "13657285": {
-        "name": "JungleKing",
-        "dragonID": 13657285,
-        "species": "Wildclaw",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "39569",
-        "familiarID": "36493",
-        "colors": [
+    13657285: {
+        name: "JungleKing",
+        dragonID: 13657285,
+        species: "Wildclaw",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 39569,
+        familiarID: 36493,
+        colors: [
             "Maize",
             "Maize",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "13704566": {
-        "name": "HyperDrive",
-        "dragonID": 13704566,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "1",
-        "familiarID": "34717",
-        "colors": [
+    13704566: {
+        name: "HyperDrive",
+        dragonID: 13704566,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 1,
+        familiarID: 34717,
+        colors: [
             "Splash",
             "Leaf",
             "Storm"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Basic"
         ]
     },
-    "13759667": {
-        "name": "MastersDefender",
-        "dragonID": 13759667,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "35018",
-        "familiarID": "37358",
-        "colors": [
+    13759667: {
+        name: "MastersDefender",
+        dragonID: 13759667,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 35018,
+        familiarID: 37358,
+        colors: [
             "Ice",
             "Charcoal",
             "Brown"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "13789514": {
-        "name": "BondOfFlame",
-        "dragonID": 13789514,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "35702",
-        "familiarID": "32677",
-        "colors": [
+    13789514: {
+        name: "BondOfFlame",
+        dragonID: 13789514,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 35702,
+        familiarID: 32677,
+        colors: [
             "Silver",
             "Red",
             "Midnight"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Basic",
             "Underbelly"
         ]
     },
-    "14251391": {
-        "name": "FollowTheWind",
-        "dragonID": 14251391,
-        "species": "Spiral",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "35959",
-        "familiarID": "35957",
-        "colors": [
+    14251391: {
+        name: "FollowTheWind",
+        dragonID: 14251391,
+        species: "Spiral",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 35959,
+        familiarID: 35957,
+        colors: [
             "Midnight",
             "Forest",
             "Sand"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Basic"
         ]
     },
-    "14365734": {
-        "name": "CrownOfGuilt",
-        "dragonID": 14365734,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "36048",
-        "familiarID": "34791",
-        "colors": [
+    14365734: {
+        name: "CrownOfGuilt",
+        dragonID: 14365734,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 36048,
+        familiarID: 34791,
+        colors: [
             "Ice",
             "Violet",
             "Steel"
         ],
-        "genes": [
+        genes: [
             "Vipera",
             "Shimmer",
             "Basic"
         ]
     },
-    "14447313": {
-        "name": "TwilightBlaze",
-        "dragonID": 14447313,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "35702",
-        "familiarID": "34795",
-        "colors": [
+    14447313: {
+        name: "TwilightBlaze",
+        dragonID: 14447313,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 35702,
+        familiarID: 34795,
+        colors: [
             "Black",
             "Crimson",
             "Sky"
         ],
-        "genes": [
+        genes: [
             "Tiger",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "14447316": {
-        "name": "MaverickFlare",
-        "dragonID": 14447316,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "35702",
-        "familiarID": "42030",
-        "colors": [
+    14447316: {
+        name: "MaverickFlare",
+        dragonID: 14447316,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 35702,
+        familiarID: 42030,
+        colors: [
             "Obsidian",
             "Crimson",
             "Obsidian"
         ],
-        "genes": [
+        genes: [
             "Tiger",
             "Facet",
             "Basic"
         ]
     },
-    "14447317": {
-        "name": "RejectionOfFate",
-        "dragonID": 14447317,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "37882",
-        "familiarID": "31196",
-        "colors": [
+    14447317: {
+        name: "RejectionOfFate",
+        dragonID: 14447317,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 37882,
+        familiarID: 31196,
+        colors: [
             "Ice",
             "Ice",
             "Silver"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Daub",
             "Basic"
         ]
     },
-    "14512950": {
-        "name": "Sweetstack",
-        "dragonID": 14512950,
-        "species": "Snapper",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "1",
-        "familiarID": "25404",
-        "colors": [
+    14512950: {
+        name: "Sweetstack",
+        dragonID: 14512950,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 1,
+        familiarID: 25404,
+        colors: [
             "Brown",
             "Lemon",
             "Rose"
         ],
-        "genes": [
+        genes: [
             "Clown",
             "Eye Spots",
             "Gembond"
         ]
     },
-    "14928288": {
-        "name": "NightmaresEnd",
-        "dragonID": 14928288,
-        "species": "Mirror",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "34842",
-        "familiarID": "40822",
-        "colors": [
+    14928288: {
+        name: "NightmaresEnd",
+        dragonID: 14928288,
+        species: "Mirror",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 34842,
+        familiarID: 40822,
+        colors: [
             "Banana",
             "Gold",
             "Banana"
         ],
-        "genes": [
+        genes: [
             "Fade",
             "Facet",
             "Okapi"
         ]
     },
-    "14988244": {
-        "name": "PixiePetal",
-        "dragonID": 14988244,
-        "species": "Coatl",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "38799",
-        "familiarID": "25759",
-        "colors": [
+    14988244: {
+        name: "PixiePetal",
+        dragonID: 14988244,
+        species: "Coatl",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 38799,
+        familiarID: 25759,
+        colors: [
             "Maize",
             "Leaf",
             "Steel"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Basic"
         ]
     },
-    "15046924": {
-        "name": "KingdomKey",
-        "dragonID": 15046924,
-        "species": "Mirror",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "34845",
-        "familiarID": "22394",
-        "colors": [
+    15046924: {
+        name: "KingdomKey",
+        dragonID: 15046924,
+        species: "Mirror",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 34845,
+        familiarID: 22394,
+        colors: [
             "Silver",
             "Silver",
             "Lemon"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Underbelly"
         ]
     },
-    "16394067": {
-        "name": "LadyLuck",
-        "dragonID": 16394067,
-        "species": "Imperial",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "34841",
-        "familiarID": "34370",
-        "colors": [
+    16394067: {
+        name: "LadyLuck",
+        dragonID: 16394067,
+        species: "Imperial",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 34841,
+        familiarID: 34370,
+        colors: [
             "Lavender",
             "Magenta",
             "Lemon"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "17668006": {
-        "name": "WaywardWind",
-        "dragonID": 17668006,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Wind",
-        "sceneID": "34843",
-        "familiarID": "33311",
-        "colors": [
+    17668006: {
+        name: "WaywardWind",
+        dragonID: 17668006,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Wind",
+        sceneID: 34843,
+        familiarID: 33311,
+        colors: [
             "Coal",
             "Goldenrod",
             "Crimson"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Stripes",
             "Basic"
         ]
     },
-    "17724951": {
-        "name": "DestinysEmbrace",
-        "dragonID": 17724951,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "34839",
-        "familiarID": "37891",
-        "colors": [
+    17724951: {
+        name: "DestinysEmbrace",
+        dragonID: 17724951,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 34839,
+        familiarID: 37891,
+        colors: [
             "Orange",
             "Splash",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "18227294": {
-        "name": "DivineRose",
-        "dragonID": 18227294,
-        "species": "Coatl",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "37360",
-        "familiarID": "42688",
-        "colors": [
+    18227294: {
+        name: "DivineRose",
+        dragonID: 18227294,
+        species: "Coatl",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 37360,
+        familiarID: 42688,
+        colors: [
             "Mulberry",
             "Gold",
             "Green"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "18246380": {
-        "name": "Oblivion",
-        "dragonID": 18246380,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Shadow",
-        "sceneID": "38283",
-        "familiarID": "16486",
-        "colors": [
+    18246380: {
+        name: "Oblivion",
+        dragonID: 18246380,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 38283,
+        familiarID: 16486,
+        colors: [
             "Black",
             "Black",
             "Grey"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Eye Spots",
             "Basic"
         ]
     },
-    "18277678": {
-        "name": "SilentDirge",
-        "dragonID": 18277678,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Plague",
-        "sceneID": "38411",
-        "familiarID": "34798",
-        "colors": [
+    18277678: {
+        name: "SilentDirge",
+        dragonID: 18277678,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 38411,
+        familiarID: 34798,
+        colors: [
             "Violet",
             "Banana",
             "Soil"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Facet",
             "Underbelly"
         ]
     },
-    "18277680": {
-        "name": "GlimpseOfDark",
-        "dragonID": 18277680,
-        "species": "Imperial",
-        "silhouette": "Female",
-        "element": "Plague",
-        "sceneID": "34837",
-        "familiarID": "33457",
-        "colors": [
+    18277680: {
+        name: "GlimpseOfDark",
+        dragonID: 18277680,
+        species: "Imperial",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 34837,
+        familiarID: 33457,
+        colors: [
             "Thistle",
             "Sand",
             "Swamp"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Facet",
             "Underbelly"
         ]
     },
-    "20197700": {
-        "name": "DualDisc",
-        "dragonID": 20197700,
-        "species": "Coatl",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "35033",
-        "familiarID": "40671",
-        "colors": [
+    20197700: {
+        name: "DualDisc",
+        dragonID: 20197700,
+        species: "Coatl",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 35033,
+        familiarID: 40671,
+        colors: [
             "Midnight",
             "Midnight",
             "Aqua"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Contour"
         ]
     },
-    "21146563": {
-        "name": "Xehanort",
-        "dragonID": 21146563,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "40821",
-        "colors": [
+    21146563: {
+        name: "Xehanort",
+        dragonID: 21146563,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 40821,
+        colors: [
             "Black",
             "Black",
             "Charcoal"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Butterfly",
             "Spines"
         ]
     },
-    "25089353": {
-        "name": "StrokeOfMidnight",
-        "dragonID": 25089353,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "1",
-        "familiarID": "33306",
-        "colors": [
+    25089353: {
+        name: "StrokeOfMidnight",
+        dragonID: 25089353,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 1,
+        familiarID: 33306,
+        colors: [
             "Robin",
             "Iris",
             "Stonewash"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Spines"
         ]
     },
-    "30274943": {
-        "name": "PhotonDebugger",
-        "dragonID": 30274943,
-        "species": "Wildclaw",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "35033",
-        "familiarID": "36299",
-        "colors": [
+    30274943: {
+        name: "PhotonDebugger",
+        dragonID: 30274943,
+        species: "Wildclaw",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 35033,
+        familiarID: 36299,
+        colors: [
             "Midnight",
             "Smoke",
             "Grey"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Facet",
             "Smoke"
         ]
     },
-    "37894616": {
-        "name": "Starlight",
-        "dragonID": 37894616,
-        "species": "Coatl",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "35018",
-        "familiarID": "16482",
-        "colors": [
+    37894616: {
+        name: "Starlight",
+        dragonID: 37894616,
+        species: "Coatl",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 35018,
+        familiarID: 16482,
+        colors: [
             "Twilight",
             "Yellow",
             "Banana"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Butterfly",
             "Runes"
         ]
     },
-    "38642406": {
-        "name": "Braveheart",
-        "dragonID": 38642406,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Shadow",
-        "sceneID": "34848",
-        "familiarID": "28246",
-        "colors": [
+    38642406: {
+        name: "Braveheart",
+        dragonID: 38642406,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 34848,
+        familiarID: 28246,
+        colors: [
             "Silver",
             "Silver",
             "Oilslick"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Facet",
             "Basic"
         ]
     },
-    "38743794": {
-        "name": "WayToTheDawn",
-        "dragonID": 38743794,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "612",
-        "colors": [
+    38743794: {
+        name: "WayToTheDawn",
+        dragonID: 38743794,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 612,
+        colors: [
             "Iris",
             "Crimson",
             "Amethyst"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "40653260": {
-        "name": "SignOfInnocence",
-        "dragonID": 40653260,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "36048",
-        "familiarID": "41628",
-        "colors": [
+    40653260: {
+        name: "SignOfInnocence",
+        dragonID: 40653260,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 36048,
+        familiarID: 41628,
+        colors: [
             "Midnight",
             "Blackberry",
             "Clay"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Toxin",
             "Basic"
         ]
     },
-    "40804817": {
-        "name": "FairyStars",
-        "dragonID": 40804817,
-        "species": "Snapper",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "1",
-        "familiarID": "26206-1",
-        "colors": [
+    40804817: {
+        name: "FairyStars",
+        dragonID: 40804817,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 1,
+        familiarID: 26206-1,
+        colors: [
             "Splash",
             "Antique",
             "Cream"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "42083532": {
-        "name": "CrystalSnow",
-        "dragonID": 42083532,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "37882",
-        "familiarID": "21153",
-        "colors": [
+    42083532: {
+        name: "CrystalSnow",
+        dragonID: 42083532,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 37882,
+        familiarID: 21153,
+        colors: [
             "Cornflower",
             "Splash",
             "Cornflower"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Ghost"
         ]
     },
-    "42575407": {
-        "name": "HappyGear",
-        "dragonID": 42575407,
-        "species": "Mirror",
-        "silhouette": "Female",
-        "element": "Plague",
-        "sceneID": "35033",
-        "familiarID": "638",
-        "colors": [
+    42575407: {
+        name: "HappyGear",
+        dragonID: 42575407,
+        species: "Mirror",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 35033,
+        familiarID: 638,
+        colors: [
             "Silver",
             "Grey",
             "Shale"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Thylacine"
         ]
     },
-    "42750652": {
-        "name": "WheelOfFate",
-        "dragonID": 42750652,
-        "species": "Pearlcatcher",
-        "silhouette": "Male",
-        "element": "Arcane",
-        "sceneID": "35959",
-        "familiarID": "20146",
-        "colors": [
+    42750652: {
+        name: "WheelOfFate",
+        dragonID: 42750652,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Arcane",
+        sceneID: 35959,
+        familiarID: 20146,
+        colors: [
             "Flint",
             "Black",
             "Shale"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "45466968": {
-        "name": "NanoGear",
-        "dragonID": 45466968,
-        "species": "Snapper",
-        "silhouette": "Male",
-        "element": "Arcane",
-        "sceneID": "1",
-        "familiarID": "7597",
-        "colors": [
+    45466968: {
+        name: "NanoGear",
+        dragonID: 45466968,
+        species: "Snapper",
+        silhouette: "Male",
+        element: "Arcane",
+        sceneID: 1,
+        familiarID: 7597,
+        colors: [
             "Ruby",
             "Dirt",
             "Coral"
         ],
-        "genes": [
+        genes: [
             "Wasp",
             "Bee",
             "Glimmer"
         ]
     },
-    "45648758": {
-        "name": "MarkOfAHero",
-        "dragonID": 45648758,
-        "species": "Wildclaw",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "40825",
-        "familiarID": "36374",
-        "colors": [
+    45648758: {
+        name: "MarkOfAHero",
+        dragonID: 45648758,
+        species: "Wildclaw",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 40825,
+        familiarID: 36374,
+        colors: [
             "Antique",
             "Metals",
             "Metals"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Opal"
         ]
     },
-    "45957116": {
-        "name": "RoyalRadiance",
-        "dragonID": 45957116,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Wind",
-        "sceneID": "34848",
-        "familiarID": "34773",
-        "colors": [
+    45957116: {
+        name: "RoyalRadiance",
+        dragonID: 45957116,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Wind",
+        sceneID: 34848,
+        familiarID: 34773,
+        colors: [
             "Beige",
             "Cyan",
             "Cyan"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Butterfly",
             "Glimmer"
         ]
     },
-    "47562982": {
-        "name": "Counterpoint",
-        "dragonID": 47562982,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Arcane",
-        "sceneID": "34842",
-        "familiarID": "37352",
-        "colors": [
+    47562982: {
+        name: "Counterpoint",
+        dragonID: 47562982,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Arcane",
+        sceneID: 34842,
+        familiarID: 37352,
+        colors: [
             "Splash",
             "Saffron",
             "Banana"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Circuit"
         ]
     },
-    "47722786": {
-        "name": "Ultima",
-        "dragonID": 47722786,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "34839",
-        "familiarID": "25405",
-        "colors": [
+    47722786: {
+        name: "Ultima",
+        dragonID: 47722786,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 34839,
+        familiarID: 25405,
+        colors: [
             "Ice",
             "Ice",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Opal"
         ]
     },
-    "47913889": {
-        "name": "FavoriteDeputy",
-        "dragonID": 47913889,
-        "species": "Bogsneak",
-        "silhouette": "Female",
-        "element": "Nature",
-        "sceneID": "37360",
-        "familiarID": "38493",
-        "colors": [
+    47913889: {
+        name: "FavoriteDeputy",
+        dragonID: 47913889,
+        species: "Bogsneak",
+        silhouette: "Female",
+        element: "Nature",
+        sceneID: 37360,
+        familiarID: 38493,
+        colors: [
             "Mantis",
             "Mantis",
             "Radioactive"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Facet",
             "Glimmer"
         ]
     },
-    "47924330": {
-        "name": "TreasureTrove",
-        "dragonID": 47924330,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Shadow",
-        "sceneID": "36759",
-        "familiarID": "42342",
-        "colors": [
+    47924330: {
+        name: "TreasureTrove",
+        dragonID: 47924330,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 36759,
+        familiarID: 42342,
+        colors: [
             "Coal",
             "Stone",
             "Gold"
         ],
-        "genes": [
+        genes: [
             "Jupiter",
             "Alloy",
             "Runes"
         ]
     },
-    "47928896": {
-        "name": "LostMemory",
-        "dragonID": 47928896,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "36759",
-        "familiarID": "33205",
-        "colors": [
+    47928896: {
+        name: "LostMemory",
+        dragonID: 47928896,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 36759,
+        familiarID: 33205,
+        colors: [
             "White",
             "White",
             "Vermilion"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Runes"
         ]
     },
-    "48377777": {
-        "name": "MissingAche",
-        "dragonID": 48377777,
-        "species": "Tundra",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "37361",
-        "familiarID": "41963",
-        "colors": [
+    48377777: {
+        name: "MissingAche",
+        dragonID: 48377777,
+        species: "Tundra",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 37361,
+        familiarID: 41963,
+        colors: [
             "Maize",
             "Charcoal",
             "Blackberry"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "48389536": {
-        "name": "TrueLightsFlight",
-        "dragonID": 48389536,
-        "species": "Nocturne",
-        "silhouette": "Female",
-        "element": "Arcane",
-        "sceneID": "37882",
-        "familiarID": "41970",
-        "colors": [
+    48389536: {
+        name: "TrueLightsFlight",
+        dragonID: 48389536,
+        species: "Nocturne",
+        silhouette: "Female",
+        element: "Arcane",
+        sceneID: 37882,
+        familiarID: 41970,
+        colors: [
             "Ice",
             "Black",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Butterfly",
             "Underbelly"
         ]
     },
-    "48392099": {
-        "name": "PainOfSolitude",
-        "dragonID": 48392099,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Arcane",
-        "sceneID": "36048",
-        "familiarID": "42619",
-        "colors": [
+    48392099: {
+        name: "PainOfSolitude",
+        dragonID: 48392099,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Arcane",
+        sceneID: 36048,
+        familiarID: 42619,
+        colors: [
             "Orca",
             "Plum",
             "Lead"
         ],
-        "genes": [
+        genes: [
             "Tiger",
             "Stripes",
             "Basic"
         ]
     },
-    "48396864": {
-        "name": "NoName",
-        "dragonID": 48396864,
-        "species": "Bogsneak",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "28768",
-        "colors": [
+    48396864: {
+        name: "NoName",
+        dragonID: 48396864,
+        species: "Bogsneak",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 28768,
+        colors: [
             "Overcast",
             "Aqua",
             "Grape"
         ],
-        "genes": [
+        genes: [
             "Falcon",
             "Bee",
             "Smoke"
         ]
     },
-    "48401548": {
-        "name": "OminousBlight",
-        "dragonID": 48401548,
-        "species": "Mirror",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "37361",
-        "familiarID": "41965",
-        "colors": [
+    48401548: {
+        name: "OminousBlight",
+        dragonID: 48401548,
+        species: "Mirror",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 37361,
+        familiarID: 41965,
+        colors: [
             "Coal",
             "Maize",
             "Blackberry"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Current",
             "Basic"
         ]
     },
-    "48632981": {
-        "name": "HerosOrigin",
-        "dragonID": 48632981,
-        "species": "Snapper",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "1",
-        "familiarID": "37890",
-        "colors": [
+    48632981: {
+        name: "HerosOrigin",
+        dragonID: 48632981,
+        species: "Snapper",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 1,
+        familiarID: 37890,
+        colors: [
             "Obsidian",
             "Obsidian",
             "Cantaloupe"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Alloy",
             "Basic"
         ]
     },
-    "48657720": {
-        "name": "Angius",
-        "dragonID": 48657720,
-        "species": "Coatl",
-        "silhouette": "Female",
-        "element": "Shadow",
-        "sceneID": "35018",
-        "familiarID": "1578",
-        "colors": [
+    48657720: {
+        name: "Angius",
+        dragonID: 48657720,
+        species: "Coatl",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 35018,
+        familiarID: 1578,
+        colors: [
             "Mist",
             "Shale",
             "Obsidian"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Bee",
             "Glimmer"
         ]
     },
-    "48688713": {
-        "name": "Unbound",
-        "dragonID": 48688713,
-        "species": "Coatl",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "36048",
-        "familiarID": "33445",
-        "colors": [
+    48688713: {
+        name: "Unbound",
+        dragonID: 48688713,
+        species: "Coatl",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 36048,
+        familiarID: 33445,
+        colors: [
             "Sapphire",
             "Ultramarine",
             "Blue"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Bee",
             "Underbelly"
         ]
     },
-    "50918526": {
-        "name": "FatalCrest",
-        "dragonID": 50918526,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "1",
-        "familiarID": "35638",
-        "colors": [
+    50918526: {
+        name: "FatalCrest",
+        dragonID: 50918526,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 1,
+        familiarID: 35638,
+        colors: [
             "Midnight",
             "Coal",
             "Obsidian"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Stripes",
             "Ghost"
         ]
     },
-    "51007316": {
-        "name": "EndOfPain",
-        "dragonID": 51007316,
-        "species": "Snapper",
-        "silhouette": "Male",
-        "element": "Nature",
-        "sceneID": "1",
-        "familiarID": "21427",
-        "colors": [
+    51007316: {
+        name: "EndOfPain",
+        dragonID: 51007316,
+        species: "Snapper",
+        silhouette: "Male",
+        element: "Nature",
+        sceneID: 1,
+        familiarID: 21427,
+        colors: [
             "Blood",
             "Ivory",
             "Ivory"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Runes"
         ]
     },
-    "51419725": {
-        "name": "GuardianSoul",
-        "dragonID": 51419725,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Plague",
-        "sceneID": "38215",
-        "familiarID": "21418",
-        "colors": [
+    51419725: {
+        name: "GuardianSoul",
+        dragonID: 51419725,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 38215,
+        familiarID: 21418,
+        colors: [
             "Lead",
             "Cerise",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Lionfish",
             "Stripes",
             "Basic"
         ]
     },
-    "51774403": {
-        "name": "StarSeeker",
-        "dragonID": 51774403,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Water",
-        "sceneID": "38215",
-        "familiarID": "28763",
-        "colors": [
+    51774403: {
+        name: "StarSeeker",
+        dragonID: 51774403,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Water",
+        sceneID: 38215,
+        familiarID: 28763,
+        colors: [
             "Fog",
             "Cornflower",
             "Gloom"
         ],
-        "genes": [
+        genes: [
             "Jupiter",
             "Saturn",
             "Basic"
         ]
     },
-    "51886167": {
-        "name": "Leopardus",
-        "dragonID": 51886167,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "35018",
-        "familiarID": "28239",
-        "colors": [
+    51886167: {
+        name: "Leopardus",
+        dragonID: 51886167,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 35018,
+        familiarID: 28239,
+        colors: [
             "Honeydew",
             "Murk",
             "Buttercup"
         ],
-        "genes": [
+        genes: [
             "Speckle",
             "Freckle",
             "Runes"
         ]
     },
-    "51923758": {
-        "name": "CircleOfLife",
-        "dragonID": 51923758,
-        "species": "Tundra",
-        "silhouette": "Male",
-        "element": "Wind",
-        "sceneID": "39895",
-        "familiarID": "41966",
-        "colors": [
+    51923758: {
+        name: "CircleOfLife",
+        dragonID: 51923758,
+        species: "Tundra",
+        silhouette: "Male",
+        element: "Wind",
+        sceneID: 39895,
+        familiarID: 41966,
+        colors: [
             "Spring",
             "Marigold",
             "Abyss"
         ],
-        "genes": [
+        genes: [
             "Tapir",
             "Eye Spots",
             "Basic"
         ]
     },
-    "51945891": {
-        "name": "RumblingRose",
-        "dragonID": 51945891,
-        "species": "Snapper",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "42685",
-        "familiarID": "42687",
-        "colors": [
+    51945891: {
+        name: "RumblingRose",
+        dragonID: 51945891,
+        species: "Snapper",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 42685,
+        familiarID: 42687,
+        colors: [
             "Midnight",
             "Storm",
             "Amethyst"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Noxtide",
             "Underbelly"
         ]
     },
-    "51959886": {
-        "name": "Divewing",
-        "dragonID": 51959886,
-        "species": "Ridgeback",
-        "silhouette": "Female",
-        "element": "Shadow",
-        "sceneID": "1",
-        "familiarID": "31189",
-        "colors": [
+    51959886: {
+        name: "Divewing",
+        dragonID: 51959886,
+        species: "Ridgeback",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 1,
+        familiarID: 31189,
+        colors: [
             "Overcast",
             "Carmine",
             "White"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Alloy",
             "Ghost"
         ]
     },
-    "52238998": {
-        "name": "EverAfter",
-        "dragonID": 52238998,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "41418",
-        "familiarID": "6604",
-        "colors": [
+    52238998: {
+        name: "EverAfter",
+        dragonID: 52238998,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 41418,
+        familiarID: 6604,
+        colors: [
             "White",
             "Antique",
             "Gold"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Glimmer"
         ]
     },
-    "52548728": {
-        "name": "Unnamed",
-        "dragonID": 52548728,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Wind",
-        "sceneID": "1",
-        "familiarID": "42691",
-        "colors": [
+    52548728: {
+        name: "Unnamed",
+        dragonID: 52548728,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Wind",
+        sceneID: 1,
+        familiarID: 42691,
+        colors: [
             "White",
             "Oilslick",
             "Midnight"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Alloy",
             "Runes"
         ]
     },
-    "52549542": {
-        "name": "SkullNoise",
-        "dragonID": 52549542,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Shadow",
-        "sceneID": "1",
-        "familiarID": "33450",
-        "colors": [
+    52549542: {
+        name: "SkullNoise",
+        dragonID: 52549542,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 1,
+        familiarID: 33450,
+        colors: [
             "Midnight",
             "Gloom",
             "Gloom"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Morph",
             "Ghost"
         ]
     },
-    "52877984": {
-        "name": "GrandChef",
-        "dragonID": 52877984,
-        "species": "Spiral",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "40841",
-        "familiarID": "747",
-        "colors": [
+    52877984: {
+        name: "GrandChef",
+        dragonID: 52877984,
+        species: "Spiral",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 40841,
+        familiarID: 747,
+        colors: [
             "Slate",
             "Peach",
             "Lemon"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Striation",
             "Capsule"
         ]
     },
-    "52879436": {
-        "name": "OceanRage",
-        "dragonID": 52879436,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "39215",
-        "familiarID": "25411",
-        "colors": [
+    52879436: {
+        name: "OceanRage",
+        dragonID: 52879436,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 39215,
+        familiarID: 25411,
+        colors: [
             "Lead",
             "Ice",
             "Maize"
         ],
-        "genes": [
+        genes: [
             "Lionfish",
             "Seraph",
             "Basic"
         ]
     },
-    "52903216": {
-        "name": "OneWingedAngel",
-        "dragonID": 52903216,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "31200",
-        "colors": [
+    52903216: {
+        name: "OneWingedAngel",
+        dragonID: 52903216,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 31200,
+        colors: [
             "Midnight",
             "Gloom",
             "Silver"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Alloy",
             "Glimmer"
         ]
     },
-    "53173484": {
-        "name": "Brightcrest",
-        "dragonID": 53173484,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Water",
-        "sceneID": "39215",
-        "familiarID": "18982",
-        "colors": [
+    53173484: {
+        name: "Brightcrest",
+        dragonID: 53173484,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Water",
+        sceneID: 39215,
+        familiarID: 18982,
+        colors: [
             "Cyan",
             "Robin",
             "Blue"
         ],
-        "genes": [
+        genes: [
             "Wasp",
             "Bee",
             "Glimmer"
         ]
     },
-    "53352904": {
-        "name": "KnockoutPunch",
-        "dragonID": 53352904,
-        "species": "Tundra",
-        "silhouette": "Female",
-        "element": "Shadow",
-        "sceneID": "37361",
-        "familiarID": "35766",
-        "colors": [
+    53352904: {
+        name: "KnockoutPunch",
+        dragonID: 53352904,
+        species: "Tundra",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 37361,
+        familiarID: 35766,
+        colors: [
             "Radioactive",
             "Radioactive",
             "Red"
         ],
-        "genes": [
+        genes: [
             "Pinstripe",
             "Morph",
             "Underbelly"
         ]
     },
-    "53610383": {
-        "name": "LunarEclipse",
-        "dragonID": 53610383,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "38411",
-        "familiarID": "33308",
-        "colors": [
+    53610383: {
+        name: "LunarEclipse",
+        dragonID: 53610383,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 38411,
+        familiarID: 33308,
+        colors: [
             "Black",
             "Plum",
             "Wisteria"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Glimmer"
         ]
     },
-    "53613854": {
-        "name": "MetalChocobo",
-        "dragonID": 53613854,
-        "species": "Wildclaw",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "34846",
-        "familiarID": "38495",
-        "colors": [
+    53613854: {
+        name: "MetalChocobo",
+        dragonID: 53613854,
+        species: "Wildclaw",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 34846,
+        familiarID: 38495,
+        colors: [
             "Yellow",
             "Yellow",
             "Lemon"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Shimmer",
             "Glimmer"
         ]
     },
-    "53683161": {
-        "name": "WishingLamp",
-        "dragonID": 53683161,
-        "species": "Coatl",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "35702",
-        "familiarID": "20826",
-        "colors": [
+    53683161: {
+        name: "WishingLamp",
+        dragonID: 53683161,
+        species: "Coatl",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 35702,
+        familiarID: 20826,
+        colors: [
             "Ivory",
             "Flaxen",
             "Flaxen"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Noxtide",
             "Glimmer"
         ]
     },
-    "53728504": {
-        "name": "Unicornis",
-        "dragonID": 53728504,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Plague",
-        "sceneID": "35018",
-        "familiarID": "23861",
-        "colors": [
+    53728504: {
+        name: "Unicornis",
+        dragonID: 53728504,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 35018,
+        familiarID: 23861,
+        colors: [
             "White",
             "Antique",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Facet",
             "Opal"
         ]
     },
-    "53935370": {
-        "name": "Ultima",
-        "dragonID": 53935370,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Water",
-        "sceneID": "34848",
-        "familiarID": "40565",
-        "colors": [
+    53935370: {
+        name: "Ultima",
+        dragonID: 53935370,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Water",
+        sceneID: 34848,
+        familiarID: 40565,
+        colors: [
             "Dust",
             "Strawberry",
             "White"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Thylacine"
         ]
     },
-    "54099682": {
-        "name": "SweetMemories",
-        "dragonID": 54099682,
-        "species": "Snapper",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "34844",
-        "familiarID": "28770",
-        "colors": [
+    54099682: {
+        name: "SweetMemories",
+        dragonID: 54099682,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 34844,
+        familiarID: 28770,
+        colors: [
             "Cerise",
             "Honey",
             "Banana"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Facet",
             "Glimmer"
         ]
     },
-    "54114362": {
-        "name": "Crabclaw",
-        "dragonID": 54114362,
-        "species": "Spiral",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "39215",
-        "familiarID": "33305",
-        "colors": [
+    54114362: {
+        name: "Crabclaw",
+        dragonID: 54114362,
+        species: "Spiral",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 39215,
+        familiarID: 33305,
+        colors: [
             "Cornflower",
             "Fern",
             "Honey"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Basic"
         ]
     },
-    "54211418": {
-        "name": "FrolicFlame",
-        "dragonID": 54211418,
-        "species": "Pearlcatcher",
-        "silhouette": "Female",
-        "element": "Fire",
-        "sceneID": "38215",
-        "familiarID": "32683",
-        "colors": [
+    54211418: {
+        name: "FrolicFlame",
+        dragonID: 54211418,
+        species: "Pearlcatcher",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 38215,
+        familiarID: 32683,
+        colors: [
             "Sunset",
             "Sunset",
             "Sunset"
         ],
-        "genes": [
+        genes: [
             "Petals",
             "Butterfly",
             "Glimmer"
         ]
     },
-    "54240400": {
-        "name": "Ultima",
-        "dragonID": 54240400,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Earth",
-        "sceneID": "35018",
-        "familiarID": "40093",
-        "colors": [
+    54240400: {
+        name: "Ultima",
+        dragonID: 54240400,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Earth",
+        sceneID: 35018,
+        familiarID: 40093,
+        colors: [
             "Marigold",
             "Peach",
             "Cyan"
         ],
-        "genes": [
+        genes: [
             "Skink",
             "Bee",
             "Runes"
         ]
     },
-    "54270026": {
-        "name": "AbaddonPlasma",
-        "dragonID": 54270026,
-        "species": "Pearlcatcher",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "37361",
-        "familiarID": "41974",
-        "colors": [
+    54270026: {
+        name: "AbaddonPlasma",
+        dragonID: 54270026,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 37361,
+        familiarID: 41974,
+        colors: [
             "Obsidian",
             "Sanddollar",
             "Ivory"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Butterfly",
             "Runes"
         ]
     },
-    "54271293": {
-        "name": "Darkgnaw",
-        "dragonID": 54271293,
-        "species": "Snapper",
-        "silhouette": "Female",
-        "element": "Plague",
-        "sceneID": "38411",
-        "familiarID": "42689",
-        "colors": [
+    54271293: {
+        name: "Darkgnaw",
+        dragonID: 54271293,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 38411,
+        familiarID: 42689,
+        colors: [
             "Midnight",
             "Maize",
             "Carmine"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Current",
             "Smoke"
         ]
     },
-    "54273226": {
-        "name": "MoogleOGlory",
-        "dragonID": 54273226,
-        "species": "Pearlcatcher",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "42686",
-        "familiarID": "40794",
-        "colors": [
+    54273226: {
+        name: "MoogleOGlory",
+        dragonID: 54273226,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 42686,
+        familiarID: 40794,
+        colors: [
             "Pearl",
             "Pearl",
             "Pearl"
         ],
-        "genes": [
+        genes: [
             "Tapir",
             "Striation",
             "Runes"
         ]
     },
-    "54305679": {
-        "name": "ChaosRipper",
-        "dragonID": 54305679,
-        "species": "Bogsneak",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "42690",
-        "colors": [
+    54305679: {
+        name: "ChaosRipper",
+        dragonID: 54305679,
+        species: "Bogsneak",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 42690,
+        colors: [
             "Coal",
             "Obsidian",
             "Ruby"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Opal"
         ]
     },
-    "54357913": {
-        "name": "Ultima",
-        "dragonID": 54357913,
-        "species": "Nocturne",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "34839",
-        "familiarID": "31199",
-        "colors": [
+    54357913: {
+        name: "Ultima",
+        dragonID: 54357913,
+        species: "Nocturne",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 34839,
+        familiarID: 31199,
+        colors: [
             "Sky",
             "White",
             "White"
         ],
-        "genes": [
+        genes: [
             "Flaunt",
             "Shimmer",
             "Smoke"
         ]
     },
-    "54393943": {
-        "name": "Ultima",
-        "dragonID": 54393943,
-        "species": "Ridgeback",
-        "silhouette": "Male",
-        "element": "Nature",
-        "sceneID": "37361",
-        "familiarID": "415",
-        "colors": [
+    54393943: {
+        name: "Ultima",
+        dragonID: 54393943,
+        species: "Ridgeback",
+        silhouette: "Male",
+        element: "Nature",
+        sceneID: 37361,
+        familiarID: 415,
+        colors: [
             "Cerulean",
             "Iris",
             "Pistachio"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Current",
             "Scales"
         ]
     },
-    "54538619": {
-        "name": "StarCluster",
-        "dragonID": 54538619,
-        "species": "Skydancer",
-        "silhouette": "Male",
-        "element": "Wind",
-        "sceneID": "38215",
-        "familiarID": "34371",
-        "colors": [
+    54538619: {
+        name: "StarCluster",
+        dragonID: 54538619,
+        species: "Skydancer",
+        silhouette: "Male",
+        element: "Wind",
+        sceneID: 38215,
+        familiarID: 34371,
+        colors: [
             "Mist",
             "Stonewash",
             "Cornflower"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Constellation",
             "Firefly"
         ]
     },
-    "54606119": {
-        "name": "FerrisGear",
-        "dragonID": 54606119,
-        "species": "Pearlcatcher",
-        "silhouette": "Male",
-        "element": "Shadow",
-        "sceneID": "41418",
-        "familiarID": "24511",
-        "colors": [
+    54606119: {
+        name: "FerrisGear",
+        dragonID: 54606119,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 41418,
+        familiarID: 24511,
+        colors: [
             "Stone",
             "Terracotta",
             "Tan"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Facet",
             "Glimmer"
         ]
     },
-    "54608573": {
-        "name": "Fenrir",
-        "dragonID": 54608573,
-        "species": "Wildclaw",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "40824",
-        "familiarID": "24136",
-        "colors": [
+    54608573: {
+        name: "Fenrir",
+        dragonID: 54608573,
+        species: "Wildclaw",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 40824,
+        familiarID: 24136,
+        colors: [
             "Shale",
             "Lead",
             "Shale"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "54637227": {
-        "name": "GullWing",
-        "dragonID": 54637227,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "39685",
-        "familiarID": "38620",
-        "colors": [
+    54637227: {
+        name: "GullWing",
+        dragonID: 54637227,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 39685,
+        familiarID: 38620,
+        colors: [
             "Dust",
             "Orca",
             "Dust"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Alloy",
             "Underbelly"
         ]
     },
-    "54645901": {
-        "name": "AllForOne",
-        "dragonID": 54645901,
-        "species": "Fae",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "40841",
-        "familiarID": "41967",
-        "colors": [
+    54645901: {
+        name: "AllForOne",
+        dragonID: 54645901,
+        species: "Fae",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 40841,
+        familiarID: 41967,
+        colors: [
             "Beige",
             "Gold",
             "Rose"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "54684749": {
-        "name": "DecisivePumpkin",
-        "dragonID": 54684749,
-        "species": "Mirror",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "42541",
-        "familiarID": "42616",
-        "colors": [
+    54684749: {
+        name: "DecisivePumpkin",
+        dragonID: 54684749,
+        species: "Mirror",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 42541,
+        familiarID: 42616,
+        colors: [
             "Black",
             "Cerise",
             "Berry"
         ],
-        "genes": [
+        genes: [
             "Ripple",
             "Peregrine",
             "Scales"
         ]
     },
-    "54784963": {
-        "name": "Omega",
-        "dragonID": 54784963,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "34848",
-        "familiarID": "26533",
-        "colors": [
+    54784963: {
+        name: "Omega",
+        dragonID: 54784963,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 34848,
+        familiarID: 26533,
+        colors: [
             "Gold",
             "Buttercup",
             "Buttercup"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Firefly"
         ]
     },
-    "54940512": {
-        "name": "HerosCrest",
-        "dragonID": 54940512,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Plague",
-        "sceneID": "39684",
-        "familiarID": "23832",
-        "colors": [
+    54940512: {
+        name: "HerosCrest",
+        dragonID: 54940512,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 39684,
+        familiarID: 23832,
+        colors: [
             "Maize",
             "Eldritch",
             "Ultramarine"
         ],
-        "genes": [
+        genes: [
             "Skink",
             "Seraph",
             "Basic"
         ]
     },
-    "55038058": {
-        "name": "MysteriousAbyss",
-        "dragonID": 55038058,
-        "species": "Pearlcatcher",
-        "silhouette": "Male",
-        "element": "Water",
-        "sceneID": "39215",
-        "familiarID": "13431",
-        "colors": [
+    55038058: {
+        name: "MysteriousAbyss",
+        dragonID: 55038058,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Water",
+        sceneID: 39215,
+        familiarID: 13431,
+        colors: [
             "Sky",
             "Periwinkle",
             "Cobalt"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Smoke"
         ]
     },
-    "55174302": {
-        "name": "WishingStar",
-        "dragonID": 55174302,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Wind",
-        "sceneID": "37359",
-        "familiarID": "15289",
-        "colors": [
+    55174302: {
+        name: "WishingStar",
+        dragonID: 55174302,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Wind",
+        sceneID: 37359,
+        familiarID: 15289,
+        colors: [
             "Gold",
             "Dirt",
             "Ivory"
         ],
-        "genes": [
+        genes: [
             "Skink",
             "Striation",
             "Contour"
         ]
     },
-    "55266297": {
-        "name": "GuardianBell",
-        "dragonID": 55266297,
-        "species": "Guardian",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "1",
-        "familiarID": "25166",
-        "colors": [
+    55266297: {
+        name: "GuardianBell",
+        dragonID: 55266297,
+        species: "Guardian",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 1,
+        familiarID: 25166,
+        colors: [
             "Steel",
             "Oilslick",
             "Carrot"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "55337950": {
-        "name": "HunnySpout",
-        "dragonID": 55337950,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Nature",
-        "sceneID": "34844",
-        "familiarID": "42621",
-        "colors": [
+    55337950: {
+        name: "HunnySpout",
+        dragonID: 55337950,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Nature",
+        sceneID: 34844,
+        familiarID: 42621,
+        colors: [
             "Ginger",
             "Lemon",
             "Chocolate"
         ],
-        "genes": [
+        genes: [
             "Wasp",
             "Sludge",
             "Firefly"
         ]
     },
-    "55367819": {
-        "name": "Abudae",
-        "dragonID": 55367819,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "38215",
-        "familiarID": "24514",
-        "colors": [
+    55367819: {
+        name: "Abudae",
+        dragonID: 55367819,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 38215,
+        familiarID: 24514,
+        colors: [
             "Peridot",
             "Honeydew",
             "Robin"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Shimmer",
             "Basic"
         ]
     },
-    "55539104": {
-        "name": "Lionheart",
-        "dragonID": 55539104,
-        "species": "Tundra",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "34848",
-        "familiarID": "37345",
-        "colors": [
+    55539104: {
+        name: "Lionheart",
+        dragonID: 55539104,
+        species: "Tundra",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 34848,
+        familiarID: 37345,
+        colors: [
             "Silver",
             "Dust",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "55549088": {
-        "name": "WinnersProof",
-        "dragonID": 55549088,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "38411",
-        "familiarID": "36303",
-        "colors": [
+    55549088: {
+        name: "WinnersProof",
+        dragonID: 55549088,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 38411,
+        familiarID: 36303,
+        colors: [
             "Forest",
             "Sanddollar",
             "Sanddollar"
         ],
-        "genes": [
+        genes: [
             "Skink",
             "Alloy",
             "Glimmer"
         ]
     },
-    "56121178": {
-        "name": "Olympia",
-        "dragonID": 56121178,
-        "species": "Guardian",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "39684",
-        "familiarID": "36752",
-        "colors": [
+    56121178: {
+        name: "Olympia",
+        dragonID: 56121178,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 39684,
+        familiarID: 36752,
+        colors: [
             "Antique",
             "Grey",
             "Yellow"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "56257174": {
-        "name": "VoidGear",
-        "dragonID": 56257174,
-        "species": "Imperial",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "38411",
-        "familiarID": "28771",
-        "colors": [
+    56257174: {
+        name: "VoidGear",
+        dragonID: 56257174,
+        species: "Imperial",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 38411,
+        familiarID: 28771,
+        colors: [
             "Charcoal",
             "Charcoal",
             "Sanguine"
         ],
-        "genes": [
+        genes: [
             "Pinstripe",
             "Toxin",
             "Opal"
         ]
     },
-    "56749586": {
-        "name": "FairyHarp",
-        "dragonID": 56749586,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Wind",
-        "sceneID": "38799",
-        "familiarID": "34775",
-        "colors": [
+    56749586: {
+        name: "FairyHarp",
+        dragonID: 56749586,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Wind",
+        sceneID: 38799,
+        familiarID: 34775,
+        colors: [
             "Honeydew",
             "Leaf",
             "Spruce"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Spines"
         ]
     },
-    "56802860": {
-        "name": "ShootingStar",
-        "dragonID": 56802860,
-        "species": "Fae",
-        "silhouette": "Female",
-        "element": "Ice",
-        "sceneID": "38215",
-        "familiarID": "40562",
-        "colors": [
+    56802860: {
+        name: "ShootingStar",
+        dragonID: 56802860,
+        species: "Fae",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 38215,
+        familiarID: 40562,
+        colors: [
             "Stonewash",
             "Sky",
             "Stonewash"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Alloy",
             "Firefly"
         ]
     },
-    "56865289": {
-        "name": "AstralBlast",
-        "dragonID": 56865289,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "39745",
-        "familiarID": "34750",
-        "colors": [
+    56865289: {
+        name: "AstralBlast",
+        dragonID: 56865289,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 39745,
+        familiarID: 34750,
+        colors: [
             "White",
             "Obsidian",
             "Azure"
         ],
-        "genes": [
+        genes: [
             "Petals",
             "Bee",
             "Opal"
         ]
     },
-    "57173289": {
-        "name": "MirageSplit",
-        "dragonID": 57173289,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Shadow",
-        "sceneID": "34842",
-        "familiarID": "40823",
-        "colors": [
+    57173289: {
+        name: "MirageSplit",
+        dragonID: 57173289,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 34842,
+        familiarID: 40823,
+        colors: [
             "Lead",
             "Cyan",
             "Cyan"
         ],
-        "genes": [
+        genes: [
             "Fade",
             "Blend",
             "Runes"
         ]
     },
-    "57240355": {
-        "name": "MidnightRoar",
-        "dragonID": 57240355,
-        "species": "Skydancer",
-        "silhouette": "Female",
-        "element": "Nature",
-        "sceneID": "34837",
-        "familiarID": "41969",
-        "colors": [
+    57240355: {
+        name: "MidnightRoar",
+        dragonID: 57240355,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Nature",
+        sceneID: 34837,
+        familiarID: 41969,
+        colors: [
             "White",
             "Flint",
             "Tangerine"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Alloy",
             "Filigree"
         ]
     },
-    "57291293": {
-        "name": "TwoBecomeOne",
-        "dragonID": 57291293,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "34848",
-        "familiarID": "38551",
-        "colors": [
+    57291293: {
+        name: "TwoBecomeOne",
+        dragonID: 57291293,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 34848,
+        familiarID: 38551,
+        colors: [
             "Ice",
             "Lead",
             "Ice"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Alloy",
             "Underbelly"
         ]
     },
-    "57429678": {
-        "name": "FlameLiberator",
-        "dragonID": 57429678,
-        "species": "Imperial",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "35702",
-        "familiarID": "41112",
-        "colors": [
+    57429678: {
+        name: "FlameLiberator",
+        dragonID: 57429678,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 35702,
+        familiarID: 41112,
+        colors: [
             "Obsidian",
             "Gold",
             "Gold"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Runes"
         ]
     },
-    "57534118": {
-        "name": "ZeroOne",
-        "dragonID": 57534118,
-        "species": "Mirror",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "35033",
-        "familiarID": "33838-1",
-        "colors": [
+    57534118: {
+        name: "ZeroOne",
+        dragonID: 57534118,
+        species: "Mirror",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 35033,
+        familiarID: 33838-1,
+        colors: [
             "Metals",
             "Moon",
             "Coral"
         ],
-        "genes": [
+        genes: [
             "Wasp",
             "Seraph",
             "Veined"
         ]
     },
-    "59047654": {
-        "name": "BadGuyBreaker",
-        "dragonID": 59047654,
-        "species": "Snapper",
-        "silhouette": "Male",
-        "element": "Fire",
-        "sceneID": "36759",
-        "familiarID": "33437",
-        "colors": [
+    59047654: {
+        name: "BadGuyBreaker",
+        dragonID: 59047654,
+        species: "Snapper",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 36759,
+        familiarID: 33437,
+        colors: [
             "Sanddollar",
             "Ivory",
             "Ivory"
         ],
-        "genes": [
+        genes: [
             "Tapir",
             "Striation",
             "Glimmer"
         ]
     },
-    "60872881": {
-        "name": "VictoryLine",
-        "dragonID": 60872881,
-        "species": "Nocturne",
-        "silhouette": "Male",
-        "element": "Nature",
-        "sceneID": "1",
-        "familiarID": "41328",
-        "colors": [
+    60872881: {
+        name: "VictoryLine",
+        dragonID: 60872881,
+        species: "Nocturne",
+        silhouette: "Male",
+        element: "Nature",
+        sceneID: 1,
+        familiarID: 41328,
+        colors: [
             "Overcast",
             "Peach",
             "Driftwood"
         ],
-        "genes": [
+        genes: [
             "Petals",
             "Bee",
             "Firefly"
         ]
     },
-    "61168882": {
-        "name": "ClassicTone",
-        "dragonID": 61168882,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Plague",
-        "sceneID": "41418",
-        "familiarID": "42684",
-        "colors": [
+    61168882: {
+        name: "ClassicTone",
+        dragonID: 61168882,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 41418,
+        familiarID: 42684,
+        colors: [
             "Latte",
             "Amber",
             "Jade"
         ],
-        "genes": [
+        genes: [
             "Savannah",
             "Trail",
             "Spines"
         ]
     },
-    "67442536": {
-        "name": "MidnightBlue",
-        "dragonID": 67442536,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Water",
-        "sceneID": "39745",
-        "familiarID": "25414",
-        "colors": [
+    67442536: {
+        name: "MidnightBlue",
+        dragonID: 67442536,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Water",
+        sceneID: 39745,
+        familiarID: 25414,
+        colors: [
             "Sapphire",
             "Sapphire",
             "Twilight"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Bee",
             "Firefly"
         ]
     },
-    "67549415": {
-        "name": "SweetDreams",
-        "dragonID": 67549415,
-        "species": "Spiral",
-        "silhouette": "Female",
-        "element": "Light",
-        "sceneID": "38215",
-        "familiarID": "33622",
-        "colors": [
+    67549415: {
+        name: "SweetDreams",
+        dragonID: 67549415,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Light",
+        sceneID: 38215,
+        familiarID: 33622,
+        colors: [
             "Grape",
             "Mist",
             "Mist"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Underbelly"
         ]
     },
-    "67608298": {
-        "name": "PhantomGreen",
-        "dragonID": 67608298,
-        "species": "Fae",
-        "silhouette": "Male",
-        "element": "Wind",
-        "sceneID": "37361",
-        "familiarID": "25413",
-        "colors": [
+    67608298: {
+        name: "PhantomGreen",
+        dragonID: 67608298,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Wind",
+        sceneID: 37361,
+        familiarID: 25413,
+        colors: [
             "Gloom",
             "Eldritch",
             "Shadow"
         ],
-        "genes": [
+        genes: [
             "Starmap",
             "Blend",
             "Basic"
         ]
     },
-    "68369368": {
-        "name": "ElementEncoder",
-        "dragonID": 68369368,
-        "species": "Skydancer",
-        "silhouette": "Male",
-        "element": "Wind",
-        "sceneID": "1",
-        "familiarID": "15280",
-        "colors": [
+    68369368: {
+        name: "ElementEncoder",
+        dragonID: 68369368,
+        species: "Skydancer",
+        silhouette: "Male",
+        element: "Wind",
+        sceneID: 1,
+        familiarID: 15280,
+        colors: [
             "Obsidian",
             "Dust",
             "Bronze"
         ],
-        "genes": [
+        genes: [
             "Metallic",
             "Bee",
             "Basic"
         ]
     },
-    "68990709": {
-        "name": "DawnTillDusk",
-        "dragonID": 68990709,
-        "species": "Skydancer",
-        "silhouette": "Male",
-        "element": "Ice",
-        "sceneID": "39073",
-        "familiarID": "37889",
-        "colors": [
+    68990709: {
+        name: "DawnTillDusk",
+        dragonID: 68990709,
+        species: "Skydancer",
+        silhouette: "Male",
+        element: "Ice",
+        sceneID: 39073,
+        familiarID: 37889,
+        colors: [
             "Ice",
             "Sunset",
             "Avocado"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Underbelly"
         ]
     },
-    "70984038": {
-        "name": "Ursus",
-        "dragonID": 70984038,
-        "species": "Obelisk",
-        "silhouette": "Male",
-        "element": "Light",
-        "sceneID": "35018",
-        "familiarID": "4156",
-        "colors": [
+    70984038: {
+        name: "Ursus",
+        dragonID: 70984038,
+        species: "Obelisk",
+        silhouette: "Male",
+        element: "Light",
+        sceneID: 35018,
+        familiarID: 4156,
+        colors: [
             "Tarnish",
             "Clay",
             "Crimson"
         ],
-        "genes": [
+        genes: [
             "Basic",
             "Basic",
             "Basic"
         ]
     },
-    "71712439": {
-        "name": "Vulpus",
-        "dragonID": 71712439,
-        "species": "Tundra",
-        "silhouette": "Female",
-        "element": "Arcane",
-        "sceneID": "38283",
-        "familiarID": "1968",
-        "colors": [
+    71712439: {
+        name: "Vulpus",
+        dragonID: 71712439,
+        species: "Tundra",
+        silhouette: "Female",
+        element: "Arcane",
+        sceneID: 38283,
+        familiarID: 1968,
+        colors: [
             "Rose",
             "Pearl",
             "Pearl"
         ],
-        "genes": [
+        genes: [
             "Iridescent",
             "Shimmer",
             "Stained"
         ]
     },
-    "71731909": {
-        "name": "Unnamed",
-        "dragonID": 71731909,
-        "species": "Guardian",
-        "silhouette": "Female",
-        "element": "Lightning",
-        "sceneID": "40841",
-        "familiarID": "26100",
-        "colors": [
+    71731909: {
+        name: "Unnamed",
+        dragonID: 71731909,
+        species: "Guardian",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 40841,
+        familiarID: 26100,
+        colors: [
             "Silver",
             "Silver",
             "Black"
         ],
-        "genes": [
+        genes: [
             "Crystal",
             "Shimmer",
             "Glimmer"
         ]
     },
-    "72064670": {
-        "name": "YoungXehanort",
-        "dragonID": 72064670,
-        "species": "Bogsneak",
-        "silhouette": "Male",
-        "element": "Lightning",
-        "sceneID": "1",
-        "familiarID": "25174",
-        "colors": [
+    72064670: {
+        name: "YoungXehanort",
+        dragonID: 72064670,
+        species: "Bogsneak",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 1,
+        familiarID: 25174,
+        colors: [
             "Obsidian",
             "Obsidian",
             "Cyan"
         ],
-        "genes": [
+        genes: [
             "Fade",
             "Blend",
             "Thylacine"
         ]
     },
-    "72302418": {
-        "name": "Wooden",
-        "dragonID": 72302418,
-        "species": "Gaoler",
-        "silhouette": "Male",
-        "element": "Earth",
-        "sceneID": "40825",
-        "familiarID": "37348",
-        "colors": [
+    72302418: {
+        name: "Wooden",
+        dragonID: 72302418,
+        species: "Gaoler",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 40825,
+        familiarID: 37348,
+        colors: [
             "Tan",
             "Dirt",
             "Ginger"
         ],
-        "genes": [
+        genes: [
             "Shaggy (Gaoler)",
             "Stripes (Gaoler)",
             "Basic"
