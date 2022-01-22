@@ -10,15 +10,22 @@ window.viewDragonBio = {
         keyblade: function() {
             return keybladesMap[this.keybladeID];
         },
+        dragon: function() {
+            return dragonsMap[this.keyblade.dergID];
+        },
         // Should this live here? v
         framesPath: function() {
             return 'https://corfid-portfolio.s3.amazonaws.com/flightrising_components/frames2/';
         },
         dragonArtURL: function() {
-            var path = 'https://corfid-portfolio.s3.amazonaws.com/flightrising_components/_DergImages/';
-            var url;
-            url = path + this.keyblade.id + '.png';
-            return (url || getDragonRenderURL(this.keyblade.dergID));
+            var dergID = this.keyblade.dergID;
+            var url = this.getDragonRenderURL(dergID);
+            var hasArt = false;
+            if (hasArt) {
+                var path = 'https://corfid-portfolio.s3.amazonaws.com/flightrising_components/_DergImages/';
+                url = path + this.keyblade.id + '.png';
+            };
+            return url;
         },
         processedTitle: function() {
             var title = this.keyblade.name;
@@ -44,7 +51,11 @@ window.viewDragonBio = {
                 class="horizontal-box"
             >
                 <img 
-                    :src="framesPath + keyblade.element + '/bigs_L.png'"
+                    :src="
+                        framesPath 
+                        + dragon.element 
+                        + '/bigs_L.png'
+                    "
                 >
                 <span 
                     class="key-name"
@@ -52,14 +63,18 @@ window.viewDragonBio = {
                 <img 
                     :src="
                         framesPath
-                        + keyblade.element
+                        + dragon.element
                         + '/bigs_R.png'
                     "
                 >
             </div>
             <div>
                 <img 
-                    :src="framesPath + keyblade.element + '/top.png'"
+                    :src="
+                        framesPath 
+                        + dragon.element 
+                        + '/top.png'
+                    "
                 >
             </div>
             <div
@@ -69,7 +84,7 @@ window.viewDragonBio = {
                     class="derg-art"
                 >
                     <img 
-                        :src="'https://corfid-portfolio.s3.amazonaws.com/flightrising_components/_DergImages/KingdomKey.png'"
+                        :src="dragonArtURL"
                         width="384"
                         height="384"
                     >
@@ -78,7 +93,11 @@ window.viewDragonBio = {
                     class="vertical-box"
                 >
                     <img 
-                        :src="framesPath + keyblade.element + '/topShort.png'"
+                        :src="
+                            framesPath 
+                            + dragon.element 
+                            + '/topShort.png'
+                        "
                     >
                     <span
                         class="bio-text"
@@ -91,14 +110,18 @@ window.viewDragonBio = {
                         <br>
                     </span>
                     <img 
-                        :src="framesPath + keyblade.element + '/bottomShort.png'"
+                        :src="
+                            framesPath 
+                            + dragon.element 
+                            + '/bottomShort.png'
+                        "
                     >
                 </div>
             </div>
             <img 
                 :src="
                     framesPath
-                    + keyblade.element
+                    + dragon.element
                     + '/bottom.png'
                 "
             >

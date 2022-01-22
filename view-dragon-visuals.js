@@ -11,8 +11,9 @@ window.viewDragonVisuals = {
             return keybladesMap[this.keybladeID];
         },
         speciesImage: function() {
-            var breed = this.keyblade.breed;
-            var silhouette = this.keyblade.silhouette;
+            var dragon = dragonsMap[this.keyblade.dergID];
+            var breed = dragon.species;
+            var silhouette = dragon.silhouette;
             return (breed + '_' + silhouette.charAt(0) + '.png').toLowerCase();
         },
     },
