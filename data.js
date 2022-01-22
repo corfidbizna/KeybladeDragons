@@ -55,1338 +55,812 @@ var fRBreeds = [
 */
 var keyblades = [
     {
-        id: 'KingdomKey',
-        name: 'Kingdom Key',
+        id: "KingdomKey",
+        name: "Kingdom Key",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 15046924,
-        breed: 'Mirror',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 15046924
     },
     {
-        id: 'LadyLuck',
-        name: 'Lady Luck',
+        id: "LadyLuck",
+        name: "Lady Luck",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 16394067,
-        breed: 'Imperial',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 16394067
     },
     {
-        id: 'Olympia',
-        name: 'Olympia',
+        id: "Olympia",
+        name: "Olympia",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 56121178,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 56121178
     },
     {
-        id: 'JungleKing',
-        name: 'Jungle King',
+        id: "JungleKing",
+        name: "Jungle King",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 13657285,
-        breed: 'Wildclaw',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 13657285
     },
     {
-        id: 'ThreeWishes',
-        name: 'Three Wishes',
+        id: "ThreeWishes",
+        name: "Three Wishes",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 12563878,
-        breed: 'Coatl',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 12563878
     },
     {
-        id: 'Pumpkinhead',
-        name: 'Pumpkinhead',
+        id: "Pumpkinhead",
+        name: "Pumpkinhead",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 13629389,
-        breed: 'Nocturne',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 13629389
     },
     {
-        id: 'WishingStar',
-        name: 'Wishing Star',
+        id: "WishingStar",
+        name: "Wishing Star",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 55174302,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Wind'
+        dergID: 55174302
     },
     {
-        id: 'Crabclaw',
-        name: 'Crabclaw',
+        id: "Crabclaw",
+        name: "Crabclaw",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 54114362,
-        breed: 'Spiral',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 54114362
     },
     {
-        id: 'FairyHarp',
-        name: 'Fairy Harp',
+        id: "FairyHarp",
+        name: "Fairy Harp",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 56749586,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Wind'
+        dergID: 56749586
     },
     {
-        id: 'DivineRose',
-        name: 'Divine Rose',
+        id: "DivineRose",
+        name: "Divine Rose",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 18227294,
-        breed: 'Coatl',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 18227294
     },
     {
-        id: 'Spellbinder',
-        name: 'Spellbinder',
+        id: "Spellbinder",
+        name: "Spellbinder",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 12283922,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 12283922
     },
     {
-        id: 'MetalChocobo',
-        name: 'Metal Chocobo',
+        id: "MetalChocobo",
+        name: "Metal Chocobo",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 53613854,
-        breed: 'Wildclaw',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 53613854
     },
     {
-        id: 'Lionheart',
-        name: 'Lionheart',
+        id: "Lionheart",
+        name: "Lionheart",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 55539104,
-        breed: 'Tundra',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 55539104
     },
     {
-        id: 'DiamondDust',
-        name: 'Diamond Dust',
+        id: "DiamondDust",
+        name: "Diamond Dust",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 8978770,
-        breed: 'Snapper',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 8978770
     },
     {
-        id: 'OneWingedAngel',
-        name: 'One-Winged Angel',
+        id: "OneWingedAngel",
+        name: "One-Winged Angel",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 52903216,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 52903216
     },
     {
-        id: 'Oathkeeper',
-        name: 'Oathkeeper',
+        id: "Oathkeeper",
+        name: "Oathkeeper",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 12781581,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 12781581
     },
     {
-        id: 'Oblivion',
-        name: 'Oblivion',
+        id: "Oblivion",
+        name: "Oblivion",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 18246380,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Shadow'
+        dergID: 18246380
     },
     {
-        id: 'UltimaKH1',
-        name: 'Ultima',
+        id: "UltimaKH1",
+        name: "Ultima",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 54240400,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 54240400
     },
     {
-        id: 'PeoplesHearts',
+        id: "PeoplesHearts",
         name: "People's Hearts",
         gameIndex: 0,
-        imageURL: '[URL]',
-        dergID: 12611206,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 12611206
     },
     {
-        id: 'StarSeeker',
-        name: 'Star Seeker',
+        id: "StarSeeker",
+        name: "Star Seeker",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 51774403,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Water'
+        dergID: 51774403
     },
     {
-        id: 'HiddenDragon',
-        name: 'Hidden Dragon',
+        id: "HiddenDragon",
+        name: "Hidden Dragon",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 13643712,
-        breed: 'Spiral',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 13643712
     },
     {
-        id: 'RumblingRose',
-        name: 'Rumbling Rose',
+        id: "RumblingRose",
+        name: "Rumbling Rose",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 51945891,
-        breed: 'Snapper',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 51945891
     },
     {
-        id: 'HerosCrest',
+        id: "HerosCrest",
         name: "Hero's Crest",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54940512,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Plague'
+        dergID: 54940512
     },
     {
-        id: 'Monochrome',
-        name: 'Monochrome',
+        id: "Monochrome",
+        name: "Monochrome",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 12669181,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 12669181
     },
     {
-        id: 'MysteriousAbyss',
-        name: 'Mysterious Abyss',
+        id: "MysteriousAbyss",
+        name: "Mysterious Abyss",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 55038058,
-        breed: 'Pearlcatcher',
-        silhouette: 'Male',
-        element: 'Water'
+        dergID: 55038058
     },
     {
-        id: 'FollowTheWind',
-        name: 'Follow the Wind',
+        id: "FollowTheWind",
+        name: "Follow the Wind",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 14251391,
-        breed: 'Spiral',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 14251391
     },
     {
-        id: 'WishingLamp',
-        name: 'Wishing Lamp',
+        id: "WishingLamp",
+        name: "Wishing Lamp",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 53683161,
-        breed: 'Coatl',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 53683161
     },
     {
-        id: 'DecisivePumpkin',
-        name: 'Descisive Pumpkin',
+        id: "DecisivePumpkin",
+        name: "Descisive Pumpkin",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54684749,
-        breed: 'Mirror',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 54684749
     },
     {
-        id: 'PhotonDebugger',
-        name: 'Photon Debugger',
+        id: "PhotonDebugger",
+        name: "Photon Debugger",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 30274943,
-        breed: 'Wildclaw',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 30274943
     },
     {
-        id: 'CircleOfLife',
-        name: 'Circle of Life',
+        id: "CircleOfLife",
+        name: "Circle of Life",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 51923758,
-        breed: 'Tundra',
-        silhouette: 'Male',
-        element: 'Wind'
+        dergID: 51923758
     },
     {
-        id: 'SweetMemories',
-        name: 'Sweet Memories',
+        id: "SweetMemories",
+        name: "Sweet Memories",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54099682,
-        breed: 'Snapper',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 54099682
     },
     {
-        id: 'GullWing',
-        name: 'Gull Wing',
+        id: "GullWing",
+        name: "Gull Wing",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54637227,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Plague'
+        dergID: 54637227
     },
     {
-        id: 'GuardianSoul',
-        name: 'Guardian Soul',
+        id: "GuardianSoul",
+        name: "Guardian Soul",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 51419725,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 51419725
     },
     {
-        id: 'SleepingLion',
-        name: 'Sleeping Lion',
+        id: "SleepingLion",
+        name: "Sleeping Lion",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 12356399,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 12356399
     },
     {
-        id: 'Fenrir',
-        name: 'Fenrir',
+        id: "Fenrir",
+        name: "Fenrir",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54608573,
-        breed: 'Wildclaw',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 54608573
     },
     {
-        id: 'BondOfFlame',
-        name: 'Bond of Flame',
+        id: "BondOfFlame",
+        name: "Bond of Flame",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 13789514,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 13789514
     },
     {
-        id: 'TwoBecomeOne',
-        name: 'Two Become One',
+        id: "TwoBecomeOne",
+        name: "Two Become One",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 57291293,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 57291293
     },
     {
-        id: 'FatalCrest',
-        name: 'Fatal Crest',
+        id: "FatalCrest",
+        name: "Fatal Crest",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 50918526,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 50918526
     },
     {
-        id: 'WinnersProof',
+        id: "WinnersProof",
         name: "Winner's Proof",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 55549088,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 55549088
     },
     {
-        id: 'UltimaKH2',
-        name: 'Ultima',
+        id: "UltimaKH2",
+        name: "Ultima",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 54357913,
-        breed: 'Nocturne',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 54357913
     },
     {
-        id: 'WayToTheDawn',
-        name: 'Way to the Dawn',
+        id: "WayToTheDawn",
+        name: "Way to the Dawn",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 38743794,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 38743794
     },
     {
-        id: 'DestinysEmbrace',
+        id: "DestinysEmbrace",
         name: "Destiny's Embrace",
         gameIndex: 2,
-        imageURL: '[URL]',
-        dergID: 17724951,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 17724951
     },
     {
-        id: 'MissingAche',
-        name: 'Missing Ache',
+        id: "MissingAche",
+        name: "Missing Ache",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 48377777,
-        breed: 'Tundra',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 48377777
     },
     {
-        id: 'OminousBlight',
-        name: 'Ominous Blight',
+        id: "OminousBlight",
+        name: "Ominous Blight",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 48401548,
-        breed: 'Mirror',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 48401548
     },
     {
-        id: 'AbaddonPlasma',
-        name: 'Abaddon Plasma',
+        id: "AbaddonPlasma",
+        name: "Abaddon Plasma",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 54270026,
-        breed: 'Pearlcatcher',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 54270026
     },
     {
-        id: 'PainOfSolitude',
-        name: 'Pain Of Solitude',
+        id: "PainOfSolitude",
+        name: "Pain Of Solitude",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 48392099,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Arcane'
+        dergID: 48392099
     },
     {
-        id: 'SignOfInnocence',
-        name: 'Sign Of Innocence',
+        id: "SignOfInnocence",
+        name: "Sign Of Innocence",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 40653260,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 40653260
     },
     {
-        id: 'CrownOfGuilt',
-        name: 'Crown of Guilt',
+        id: "CrownOfGuilt",
+        name: "Crown of Guilt",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 14365734,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 14365734
     },
     {
-        id: 'AbyssalTide',
-        name: 'Abyssal Tide',
+        id: "AbyssalTide",
+        name: "Abyssal Tide",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 12842754,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 12842754
     },
     {
-        id: 'Leviathan',
-        name: 'Leviathan',
+        id: "Leviathan",
+        name: "Leviathan",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 12330397,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 12330397
     },
     {
-        id: 'TrueLightsFlight',
+        id: "TrueLightsFlight",
         name: "True Light's Flight",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 48389536,
-        breed: 'Nocturne',
-        silhouette: 'Female',
-        element: 'Arcane'
+        dergID: 48389536
     },
     {
-        id: 'RejectionOfFate',
-        name: 'Rejection of Fate',
+        id: "RejectionOfFate",
+        name: "Rejection of Fate",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 14447317,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 14447317
     },
     {
-        id: 'MidnightRoar',
-        name: 'Midnight Roar',
+        id: "MidnightRoar",
+        name: "Midnight Roar",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 57240355,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Nature'
+        dergID: 57240355
     },
     {
-        id: 'GlimpseOfDark',
-        name: 'Glimpse of Darkness',
+        id: "GlimpseOfDark",
+        name: "Glimpse of Darkness",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 18277680,
-        breed: 'Imperial',
-        silhouette: 'Female',
-        element: 'Plague'
+        dergID: 18277680
     },
     {
-        id: 'TotalEclipse',
-        name: 'Total Eclipse',
+        id: "TotalEclipse",
+        name: "Total Eclipse",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 11503095,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 11503095
     },
     {
-        id: 'SilentDirge',
-        name: 'Silent Dirge',
+        id: "SilentDirge",
+        name: "Silent Dirge",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 18277678,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Plague'
+        dergID: 18277678
     },
     {
-        id: 'LunarEclipse',
-        name: 'Lunar Eclipse',
+        id: "LunarEclipse",
+        name: "Lunar Eclipse",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 53610383,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 53610383
     },
     {
-        id: 'DarkerThanDark',
-        name: 'Darker than Darkness',
+        id: "DarkerThanDark",
+        name: "Darker than Darkness",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 12352765,
-        breed: 'Nocturne',
-        silhouette: 'Female',
-        element: 'Plague'
+        dergID: 12352765
     },
     {
-        id: 'AstralBlast',
-        name: 'Astral Blast',
+        id: "AstralBlast",
+        name: "Astral Blast",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 56865289,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 56865289
     },
     {
-        id: 'MaverickFlare',
-        name: 'Maverick Flare',
+        id: "MaverickFlare",
+        name: "Maverick Flare",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 14447316,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 14447316
     },
     {
-        id: 'TwilightBlaze',
-        name: 'Twilight Blaze',
+        id: "TwilightBlaze",
+        name: "Twilight Blaze",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 14447313,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 14447313
     },
     {
-        id: 'Omega',
-        name: 'Omega',
+        id: "Omega",
+        name: "Omega",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 54784963,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 54784963
     },
     {
-        id: 'Umbrella',
-        name: 'Umbrella',
+        id: "Umbrella",
+        name: "Umbrella",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 52548728,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Wind'
+        dergID: 52548728
     },
     {
-        id: 'Abudae',
-        name: 'Abudae',
+        id: "Abudae",
+        name: "Abudae",
         gameIndex: 3,
-        imageURL: '[URL]',
-        dergID: 55367819,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 55367819
     },
     {
-        id: 'TreasureTrove',
-        name: 'Treasure Trove',
+        id: "TreasureTrove",
+        name: "Treasure Trove",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 47924330,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Shadow'
+        dergID: 47924330
     },
     {
-        id: 'StrokeOfMidnight',
-        name: 'Stroke of Midnight',
+        id: "StrokeOfMidnight",
+        name: "Stroke of Midnight",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 25089353,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 25089353
     },
     {
-        id: 'FairyStars',
-        name: 'Fairy Stars',
+        id: "FairyStars",
+        name: "Fairy Stars",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 40804817,
-        breed: 'Snapper',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 40804817
     },
     {
-        id: 'VictoryLine',
-        name: 'Victory Line',
+        id: "VictoryLine",
+        name: "Victory Line",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 60872881,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Nature'
+        dergID: 60872881
     },
     {
-        id: 'MarkOfAHero',
-        name: 'Mark of a Hero',
+        id: "MarkOfAHero",
+        name: "Mark of a Hero",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 45648758,
-        breed: 'Wildclaw',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 45648758
     },
     {
-        id: 'HyperDrive',
-        name: 'Hyper Drive',
+        id: "HyperDrive",
+        name: "Hyper Drive",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 13704566,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 13704566
     },
     {
-        id: 'PixiePetal',
-        name: 'Pixie Petal',
+        id: "PixiePetal",
+        name: "Pixie Petal",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 14988244,
-        breed: 'Coatl',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 14988244
     },
     {
-        id: 'Sweetstack',
-        name: 'Sweetstack',
+        id: "Sweetstack",
+        name: "Sweetstack",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 14512950,
-        breed: 'Snapper',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 14512950
     },
     {
-        id: 'NoName',
-        name: 'No Name',
+        id: "NoName",
+        name: "No Name",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 48396864,
-        breed: 'Bogsneak',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 48396864
     },
     {
-        id: 'RoyalRadiance',
-        name: 'Royal Radiance',
+        id: "RoyalRadiance",
+        name: "Royal Radiance",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 45957116,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Wind'
+        dergID: 45957116
     },
     {
-        id: 'UltimaBbS',
-        name: 'Ultima',
+        id: "UltimaBbS",
+        name: "Ultima",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 47722786,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 47722786
     },
     {
-        id: 'EndsOfTheEarth',
-        name: 'Ends of the Earth',
+        id: "EndsOfTheEarth",
+        name: "Ends of the Earth",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 12129239,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 12129239
     },
     {
-        id: 'Darkgnaw',
-        name: 'Darkgnaw',
+        id: "Darkgnaw",
+        name: "Darkgnaw",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 54271293,
-        breed: 'Snapper',
-        silhouette: 'Female',
-        element: 'Plague'
+        dergID: 54271293
     },
     {
-        id: 'ChaosRipper',
-        name: 'Chaos Ripper',
+        id: "ChaosRipper",
+        name: "Chaos Ripper",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 54305679,
-        breed: 'Bogsneak',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 54305679
     },
     {
-        id: 'Rainfell',
-        name: 'Rainfell',
+        id: "Rainfell",
+        name: "Rainfell",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 12570049,
-        breed: 'Guardian',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 12570049
     },
     {
-        id: 'Stormfall',
-        name: 'Stormfall',
+        id: "Stormfall",
+        name: "Stormfall",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 12129240,
-        breed: 'Tundra',
-        silhouette: 'Female',
-        element: 'Earth'
+        dergID: 12129240
     },
     {
-        id: 'Brightcrest',
-        name: 'Brightcrest',
+        id: "Brightcrest",
+        name: "Brightcrest",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 53173484,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Water'
+        dergID: 53173484
     },
     {
-        id: 'MastersDefender',
+        id: "MastersDefender",
         name: "Master's Defender",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 13759667,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 13759667
     },
     {
-        id: 'WaywardWind',
-        name: 'Wayward Wind',
+        id: "WaywardWind",
+        name: "Wayward Wind",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 17668006,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Wind'
+        dergID: 17668006
     },
     {
-        id: 'FrolicFlame',
-        name: 'Frolic Flame',
+        id: "FrolicFlame",
+        name: "Frolic Flame",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 54211418,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 54211418
     },
     {
-        id: 'LostMemory',
-        name: 'Lost Memory',
+        id: "LostMemory",
+        name: "Lost Memory",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 47928896,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 47928896
     },
     {
-        id: 'Xehanort',
-        name: 'Xehanort',
+        id: "Xehanort",
+        name: "Xehanort",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 21146563,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 21146563
     },
     {
-        id: 'VoidGear',
-        name: 'Void Gear',
+        id: "VoidGear",
+        name: "Void Gear",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 56257174,
-        breed: 'Imperial',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 56257174
     },
     {
-        id: 'Wooden',
-        name: 'Wooden',
+        id: "Wooden",
+        name: "Wooden",
         gameIndex: 4,
-        imageURL: '[URL]',
-        dergID: 72302418,
-        breed: 'Gaoler',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 72302418
     },
     {
-        id: 'ZeroOne',
-        name: 'Zero/One',
+        id: "ZeroOne",
+        name: "Zero/One",
         gameIndex: 5,
-        imageURL: '[URL]',
-        dergID: 57534118,
-        breed: 'Mirror',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 57534118
     },
     {
-        id: 'NightmaresEnd',
+        id: "NightmaresEnd",
         name: "Nightmare's End",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 14928288,
-        breed: 'Mirror',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 14928288
     },
     {
-        id: 'MirageSplit',
-        name: 'Mirage Split',
+        id: "MirageSplit",
+        name: "Mirage Split",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 57173289,
-        breed: 'Nocturne',
-        silhouette: 'Male',
-        element: 'Shadow'
+        dergID: 57173289
     },
     {
-        id: 'SkullNoise',
-        name: 'Skull Noise',
+        id: "SkullNoise",
+        name: "Skull Noise",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 52549542,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Shadow'
+        dergID: 52549542
     },
     {
-        id: 'GuardianBell',
-        name: 'Guardian Bell',
+        id: "GuardianBell",
+        name: "Guardian Bell",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 55266297,
-        breed: 'Guardian',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 55266297
     },
     {
-        id: 'DualDisc',
-        name: 'Dual Disc',
+        id: "DualDisc",
+        name: "Dual Disc",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 20197700,
-        breed: 'Coatl',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 20197700
     },
     {
-        id: 'FerrisGear',
-        name: 'Ferris Gear',
+        id: "FerrisGear",
+        name: "Ferris Gear",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 54606119,
-        breed: 'Pearlcatcher',
-        silhouette: 'Male',
-        element: 'Shadow'
+        dergID: 54606119
     },
     {
-        id: 'OceanRage',
-        name: 'Ocean Rage',
+        id: "OceanRage",
+        name: "Ocean Rage",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 52879436,
-        breed: 'Skydancer',
-        silhouette: 'Female',
-        element: 'Fire'
+        dergID: 52879436
     },
     {
-        id: 'KnockoutPunch',
-        name: 'Knockout Punch',
+        id: "KnockoutPunch",
+        name: "Knockout Punch",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 53352904,
-        breed: 'Tundra',
-        silhouette: 'Female',
-        element: 'Shadow'
+        dergID: 53352904
     },
     {
-        id: 'AllForOne',
-        name: 'All for One',
+        id: "AllForOne",
+        name: "All for One",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 54645901,
-        breed: 'Fae',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 54645901
     },
     {
-        id: 'Counterpoint',
-        name: 'Counterpoint',
+        id: "Counterpoint",
+        name: "Counterpoint",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 47562982,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Arcane'
+        dergID: 47562982
     },
     {
-        id: 'Divewing',
-        name: 'Divewing',
+        id: "Divewing",
+        name: "Divewing",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 51959886,
-        breed: 'Ridgeback',
-        silhouette: 'Female',
-        element: 'Shadow'
+        dergID: 51959886
     },
     {
-        id: 'SweetDreams',
-        name: 'Sweet Dreams',
+        id: "SweetDreams",
+        name: "Sweet Dreams",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 67549415,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 67549415
     },
     {
-        id: 'Unbound',
-        name: 'Unbound',
+        id: "Unbound",
+        name: "Unbound",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 48688713,
-        breed: 'Coatl',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 48688713
     },
     {
-        id: 'EndOfPain',
-        name: 'End of Pain',
+        id: "EndOfPain",
+        name: "End of Pain",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 51007316,
-        breed: 'Snapper',
-        silhouette: 'Male',
-        element: 'Nature'
+        dergID: 51007316
     },
     {
-        id: 'UltimaDDD',
-        name: 'Ultima',
+        id: "UltimaDDD",
+        name: "Ultima",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 54393943,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Nature'
+        dergID: 54393943
     },
     {
-        id: 'FlameLiberator',
-        name: 'Flame Liberator',
+        id: "FlameLiberator",
+        name: "Flame Liberator",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 57429678,
-        breed: 'Imperial',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 57429678
     },
     {
-        id: 'YoungXehanort',
-        name: 'Young Xehanort',
+        id: "YoungXehanort",
+        name: "Young Xehanort",
         gameIndex: 6,
-        imageURL: '[URL]',
-        dergID: 72064670,
-        breed: 'Bogsneak',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 72064670
     },
     {
-        id: 'HerosOrigin',
+        id: "HerosOrigin",
         name: "Hero's Origin",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 48632981,
-        breed: 'Snapper',
-        silhouette: 'Male',
-        element: 'Lightning'
+        dergID: 48632981
     },
     {
-        id: 'ShootingStar',
-        name: 'Shooting Star',
+        id: "ShootingStar",
+        name: "Shooting Star",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 56802860,
-        breed: 'Fae',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 56802860
     },
     {
-        id: 'FavoriteDeputy',
-        name: 'Favorite Deputy',
+        id: "FavoriteDeputy",
+        name: "Favorite Deputy",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 47913889,
-        breed: 'Bogsneak',
-        silhouette: 'Female',
-        element: 'Nature'
+        dergID: 47913889
     },
     {
-        id: 'EverAfter',
-        name: 'Ever After',
+        id: "EverAfter",
+        name: "Ever After",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 52238998,
-        breed: 'Spiral',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 52238998
     },
     {
-        id: 'HappyGear',
-        name: 'Happy Gear',
+        id: "HappyGear",
+        name: "Happy Gear",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 42575407,
-        breed: 'Mirror',
-        silhouette: 'Female',
-        element: 'Plague'
+        dergID: 42575407
     },
     {
-        id: 'CrystalSnow',
-        name: 'Crystal Snow',
+        id: "CrystalSnow",
+        name: "Crystal Snow",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 42083532,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Ice'
+        dergID: 42083532
     },
     {
-        id: 'HunnySpout',
-        name: 'Hunny Spout',
+        id: "HunnySpout",
+        name: "Hunny Spout",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 55337950,
-        breed: 'Guardian',
-        silhouette: 'Male',
-        element: 'Nature'
+        dergID: 55337950
     },
     {
-        id: 'WheelOfFate',
-        name: 'Wheel of Fate',
+        id: "WheelOfFate",
+        name: "Wheel of Fate",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 42750652,
-        breed: 'Pearlcatcher',
-        silhouette: 'Male',
-        element: 'Arcane'
+        dergID: 42750652
     },
     {
-        id: 'NanoGear',
-        name: 'Nano Gear',
+        id: "NanoGear",
+        name: "Nano Gear",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 45466968,
-        breed: 'Snapper',
-        silhouette: 'Male',
-        element: 'Arcane'
+        dergID: 45466968
     },
     {
-        id: 'GrandChef',
-        name: 'Grand Chef',
+        id: "GrandChef",
+        name: "Grand Chef",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 52877984,
-        breed: 'Spiral',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 52877984
     },
     {
-        id: 'ClassicTone',
-        name: 'Classic Tone',
+        id: "ClassicTone",
+        name: "Classic Tone",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 61168882,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Plague'
+        dergID: 61168882
     },
     {
-        id: 'UltimaKH3',
-        name: 'Ultima',
+        id: "UltimaKH3",
+        name: "Ultima",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 53935370,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Water'
+        dergID: 53935370
     },
     {
-        id: 'StarCluster',
-        name: 'Star Cluster',
+        id: "StarCluster",
+        name: "Star Cluster",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 54538619,
-        breed: 'Skydancer',
-        silhouette: 'Male',
-        element: 'Wind'
+        dergID: 54538619
     },
     {
-        id: 'Braveheart',
-        name: 'Braveheart',
+        id: "Braveheart",
+        name: "Braveheart",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 38642406,
-        breed: 'Pearlcatcher',
-        silhouette: 'Female',
-        element: 'Shadow'
+        dergID: 38642406
     },
     {
-        id: 'MidnightBlue',
-        name: 'Midnight Blue',
+        id: "MidnightBlue",
+        name: "Midnight Blue",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 67442536,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Water'
+        dergID: 67442536
     },
     {
-        id: 'PhantomGreen',
-        name: 'Phantom Green',
+        id: "PhantomGreen",
+        name: "Phantom Green",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 67608298,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Wind'
+        dergID: 67608298
     },
     {
-        id: 'DawnTillDusk',
-        name: 'Dawn Till Dusk',
+        id: "DawnTillDusk",
+        name: "Dawn Till Dusk",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 68990709,
-        breed: 'Skydancer',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 68990709
     },
     {
-        id: 'ElementEncoder',
-        name: 'Element Encoder',
+        id: "ElementEncoder",
+        name: "Element Encoder",
         gameIndex: 8,
-        imageURL: '[URL]',
-        dergID: 68369368,
-        breed: 'Skydancer',
-        silhouette: 'Male',
-        element: 'Wind'
+        dergID: 68369368
     },
     {
-        id: 'Starlight',
-        name: 'Starlight',
+        id: "AdventRed",
+        name: "Advent Red",
+        gameIndex: 8,
+        dergID: 75174766
+    },
+    {
+        id: "Starlight",
+        name: "Starlight",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 37894616,
-        breed: 'Coatl',
-        silhouette: 'Female',
-        element: 'Light'
+        dergID: 37894616
     },
     {
-        id: 'MoogleOGlory',
+        id: "MoogleOGlory",
         name: "Moogle O' Glory",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 54273226,
-        breed: 'Pearlcatcher',
-        silhouette: 'Male',
-        element: 'Ice'
+        dergID: 54273226
     },
     {
-        id: 'BadGuyBreaker',
-        name: 'Bad Guy Breaker',
+        id: "BadGuyBreaker",
+        name: "Bad Guy Breaker",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 59047654,
-        breed: 'Snapper',
-        silhouette: 'Male',
-        element: 'Fire'
+        dergID: 59047654
     },
     {
-        id: 'Angius',
-        name: 'Angius',
+        id: "Angius",
+        name: "Angius",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 48657720,
-        breed: 'Coatl',
-        silhouette: 'Female',
-        element: 'Shadow'
+        dergID: 74962088
     },
     {
-        id: 'Leopardus',
-        name: 'Leopardus',
+        id: "Leopardus",
+        name: "Leopardus",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 51886167,
-        breed: 'Fae',
-        silhouette: 'Male',
-        element: 'Earth'
+        dergID: 51886167
     },
     {
-        id: 'Unicornis',
-        name: 'Unicornis',
+        id: "Unicornis",
+        name: "Unicornis",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 53728504,
-        breed: 'Ridgeback',
-        silhouette: 'Male',
-        element: 'Plague'
+        dergID: 53728504
     },
     {
-        id: 'Ursus',
-        name: 'Ursus',
+        id: "Ursus",
+        name: "Ursus",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 70984038,
-        breed: 'Obelisk',
-        silhouette: 'Male',
-        element: 'Light'
+        dergID: 70984038
     },
     {
-        id: 'Vulpus',
-        name: 'Vulpus',
+        id: "Vulpus",
+        name: "Vulpus",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 71712439,
-        breed: 'Tundra',
-        silhouette: 'Female',
-        element: 'Arcane'
+        dergID: 71712439
     },
     {
-        id: 'KEYBLADE',
-        name: 'Keyblade',
+        id: "KEYBLADE",
+        name: "Keyblade",
         gameIndex: 7,
-        imageURL: '[URL]',
-        dergID: 71731909,
-        breed: 'Guardian',
-        silhouette: 'Female',
-        element: 'Lightning'
+        dergID: 71731909
     }
 ];
 var keybladesMap = {};
-keyblades.forEach(function(keyblade) {
+keyblades.forEach(function (keyblade) {
     keybladesMap[keyblade.id] = keyblade;
 });
 
@@ -2237,7 +1711,7 @@ var dragonsMap = {
         silhouette: "Female",
         element: "Earth",
         sceneID: 1,
-        familiarID: 26206-1,
+        familiarID: 26206 - 1,
         colors: [
             "Splash",
             "Antique",
@@ -3662,7 +3136,7 @@ var dragonsMap = {
         silhouette: "Male",
         element: "Earth",
         sceneID: 35033,
-        familiarID: 33838-1,
+        familiarID: 33838 - 1,
         colors: [
             "Metals",
             "Moon",
@@ -3920,32 +3394,70 @@ var dragonsMap = {
             "Stripes (Gaoler)",
             "Basic"
         ]
-    }
+    },
+    74962088: {
+        name: "Angius",
+        dragonID: 74962088,
+        species: "Coatl",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 35018,
+        familiarID: 1578,
+        colors: [
+            "Orca",
+            "Ice",
+            "Ice"
+        ],
+        genes: [
+            "Metallic",
+            "Bee",
+            "Filigree"
+        ]
+    },
+    75174766: {
+        name: "AdventRed",
+        dragonID: 75174766,
+        species: "Skydancer",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 39745,
+        familiarID: 10874,
+        colors: [
+            "Abyss",
+            "Robin",
+            "Abyss"
+        ],
+        genes: [
+            "Giraffe",
+            "Basic",
+            "Basic"
+        ]
+    },
 };
 
 var dragonMixin = {
     computed: {
-        keybladeIDFromParams: function() {
+        keybladeIDFromParams: function () {
             return this.$route.params.keybladeID || 'KingdomKey';
         },
-        activeView: function() {
+        activeView: function () {
             return this.$route.path.split('/').pop() || 'showcase';
         },
     },
     methods: {
-        getTrunkatedID: function(dergID) {
-            var trunkatedID = Math.floor((dergID/100) + 1);
+        getTrunkatedID: function (dergID) {
+            var trunkatedID = Math.floor((dergID / 100) + 1);
             return trunkatedID;
         },
-        getDragonRenderURL: function(dergID) {
+        getDragonRenderURL: function (dergID) {
             var url = `https://www1.flightrising.com/rendern/350/${this.getTrunkatedID(dergID)}/${dergID}_350.png`;
             return url;
         },
-        getDragonBodyURL: function(dergID) {
+        getDragonBodyURL: function (dergID) {
             var url = `https://www1.flightrising.com/dgen/dressing-room/dragon?did=${dergID}&skin=0&apparel=&xt=dressing.png`;
             return url;
         },
-        getSceneImageURL: function(dergID) {
+        getSceneImageURL: function (dergID) {
             var url;
             var sceneID = this.dragonsMap[dergID].sceneID;
             if (sceneID < 12) {
@@ -3954,9 +3466,9 @@ var dragonMixin = {
             else {
                 url = `https://www1.flightrising.com/static/cms/scene/${sceneID}.png`;
             }
-                return url;
+            return url;
         },
-        getFamiliarImageURL: function(dergID) {
+        getFamiliarImageURL: function (dergID) {
             var url = `https://www1.flightrising.com/static/cms/familiar/art/${this.dragonsMap[dergID].familiarID}.png`;
             return url;
         },
