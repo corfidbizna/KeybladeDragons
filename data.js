@@ -1,9 +1,9 @@
-/* 
-    Data
-*/
+/*            */
+/*    Data    */
+/*            */
 var kHGames = [
     'KINGDOM HEARTS',
-    'Chain of Memories',
+    'Chain of Memories', // No Keyblades live here. 
     'KINGDOM HEARTS II',
     '358/2 Days',
     'Birth by Sleep',
@@ -24,8 +24,8 @@ var fRElements = [
     'Arcane',
     'Nature',
     'Fire',
-    'Shade',
-];
+    'Shade', // Not an element of FR, but dragons with this 
+];           // will get the Shade (black) frames.
 var fRBreeds = [
     /* Modern Breeds */
     'Fae',
@@ -50,9 +50,9 @@ var fRBreeds = [
     'Veilspun',
 ];
 
-/* 
-    Blades
-*/
+/*            */
+/*   Blades   */
+/*            */
 var keyblades = [
     {
         id: "KingdomKey",
@@ -864,9 +864,9 @@ keyblades.forEach(function (keyblade) {
     keybladesMap[keyblade.id] = keyblade;
 });
 
-/* 
-    Dragons
-*/
+/*            */
+/*  Dragons   */
+/*            */
 var dragonsMap = {
     8978770: {
         name: "DiamondDust",
@@ -3434,6 +3434,7 @@ var dragonsMap = {
         ]
     },
 };
+var dragons = Object.values(dragonsMap);
 
 var dragonMixin = {
     computed: {
