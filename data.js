@@ -73,35 +73,35 @@ var fRGenePairs = [
     ],
     [
         "Ripple",
-        "Seraph"
-    ],
-    [
-        "Bar",
         "Current"
     ],
     [
-        "Crystal",
+        "Bar",
         "Daub"
     ],
     [
-        "Vipera",
+        "Crystal",
         "Facet"
     ],
     [
-        "Piebald",
+        "Vipera",
         "Hypnotic"
     ],
     [
-        "Cherub",
+        "Piebald",
         "Paint"
     ],
     [
+        "Cherub",
+        "Seraph"
+    ],
+    [
         "Poison",
-        "Peregrine"
+        "Toxin"
     ],
     [
         "Giraffe",
-        "Toxin"
+        "Hex"
     ],
     [
         "Petals",
@@ -109,15 +109,15 @@ var fRGenePairs = [
     ],
     [
         "Jupiter",
-        "Hex"
-    ],
-    [
-        "Skink",
         "Saturn"
     ],
     [
-        "Falcon",
+        "Skink",
         "Spinner"
+    ],
+    [
+        "Falcon",
+        "Perigrine"
     ],
     [
         "Metallic",
@@ -149,11 +149,11 @@ var fRGenePairs = [
     ],
     [
         "Starmap",
-        "Noxtide"
+        "Constellation"
     ],
     [
         "Lionfish",
-        "Constellation"
+        "Noxtide"
     ],
     [
         "Laced",
@@ -407,8 +407,6 @@ var fRGenePairs = [
 var fRGenesTertiary = [
     "Basic",
     "Circuit",
-    "Veined (Gaoler)",
-    "Fans (Gaoler)",
     "Gembond",
     "Underbelly",
     "Crackle",
@@ -453,11 +451,12 @@ var fRGenesTertiary = [
     "Skeletal (Banescale)",
     "Contour (Banescale)",
     "Ghost (Banescale)",
-    "",
     "Porcupine (Banescale)",
     "Crackle (Banescale)",
     "Plumage (Banescale)",
     "Underbelly (Banescale)",
+    "Veined (Gaoler)",
+    "Fans (Gaoler)",
     "Keel",
     "Glowtail",
     "Braids (Gaoler)",
