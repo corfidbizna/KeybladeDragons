@@ -25,7 +25,8 @@ var fRElements = [
     'Nature',
     'Fire',
     'Shade', // Not an element of FR, but dragons with this 
-];           // will get the Shade (black) frames.
+             // will get the Shade (black) frames.
+];
 var fRBreeds = [
     /* Modern Breeds */
     'Fae',
@@ -48,6 +49,1151 @@ var fRBreeds = [
     'Gaoler',
     'Banescale',
     'Veilspun',
+];
+var fRGenePairs = [
+    [
+        "Basic",
+        "Basic"
+    ],
+    [
+        "Iridescent",
+        "Shimmer"
+    ],
+    [
+        "Tiger",
+        "Stripes"
+    ],
+    [
+        "Clown",
+        "Eye Spots"
+    ],
+    [
+        "Speckle",
+        "Freckle"
+    ],
+    [
+        "Ripple",
+        "Seraph"
+    ],
+    [
+        "Bar",
+        "Current"
+    ],
+    [
+        "Crystal",
+        "Daub"
+    ],
+    [
+        "Vipera",
+        "Facet"
+    ],
+    [
+        "Piebald",
+        "Hypnotic"
+    ],
+    [
+        "Cherub",
+        "Paint"
+    ],
+    [
+        "Poison",
+        "Peregrine"
+    ],
+    [
+        "Giraffe",
+        "Toxin"
+    ],
+    [
+        "Petals",
+        "Butterfly"
+    ],
+    [
+        "Jupiter",
+        "Hex"
+    ],
+    [
+        "Skink",
+        "Saturn"
+    ],
+    [
+        "Falcon",
+        "Spinner"
+    ],
+    [
+        "Metallic",
+        "Alloy"
+    ],
+    [
+        "Savannah",
+        "Safari"
+    ],
+    [
+        "Jaguar",
+        "Rosette"
+    ],
+    [
+        "Wasp",
+        "Bee"
+    ],
+    [
+        "Tapir",
+        "Striation"
+    ],
+    [
+        "Pinstripe",
+        "Trail"
+    ],
+    [
+        "Python",
+        "Morph"
+    ],
+    [
+        "Starmap",
+        "Noxtide"
+    ],
+    [
+        "Lionfish",
+        "Constellation"
+    ],
+    [
+        "Laced",
+        "Edged"
+    ],
+    [
+        "Giraffe (Gaoler)",
+        "Hex (Gaoler)"
+    ],
+    [
+        "Wasp (Gaoler)",
+        "Bee (Gaoler)"
+    ],
+    [
+        "Shaggy (Gaoler)",
+        "Streak (Gaoler)"
+    ],
+    [
+        "Falcon (Gaoler)",
+        "Peregrine (Gaoler)"
+    ],
+    [
+        "Piebald (Gaoler)",
+        "Paint (Gaoler)"
+    ],
+    [
+        "Pinstripe (Gaoler)",
+        "Trail (Gaoler)"
+    ],
+    [
+        "Jaguar (Gaoler)",
+        "Rosette (Gaoler)"
+    ],
+    [
+        "Bar (Gaoler)",
+        "Daub (Gaoler)"
+    ],
+    [
+        "Tapir (Gaoler)",
+        "Striation (Gaoler)"
+    ],
+    [
+        "Tiger (Gaoler)",
+        "Stripes (Gaoler)"
+    ],
+    [
+        "Crystal (Gaoler)",
+        "Facet (Gaoler)"
+    ],
+    [
+        "Mosaic (Gaoler)",
+        "Breakup (Gaoler)"
+    ],
+    [
+        "Phantom (Gaoler)",
+        "Spirit (Gaoler)"
+    ],
+    [
+        "Leopard",
+        "Clouded"
+    ],
+    [
+        "Slime",
+        "Sludge"
+    ],
+    [
+        "Fade",
+        "Blend"
+    ],
+    [
+        "Cherub (Banescale)",
+        "Seraph (Banescale)"
+    ],
+    [
+        "Jaguar (Banescale)",
+        "Rosette (Banescale)"
+    ],
+    [
+        "Pinstripe (Banescale)",
+        "Trail (Banescale)"
+    ],
+    [
+        "Tiger (Banescale)",
+        "Stripes (Banescale)"
+    ],
+    [
+        "Marble (Banescale)",
+        "Mottle (Banescale)"
+    ],
+    [
+        "Laced (Banescale)",
+        "Edged (Banescale)"
+    ],
+    [
+        "Metallic (Banescale)",
+        "Alloy (Banescale)"
+    ],
+    [
+        "Savannah (Banescale)",
+        "Safari (Banescale)"
+    ],
+    [
+        "Petals (Banescale)",
+        "Butterfly (Banescale)"
+    ],
+    [
+        "Skink (Banescale)",
+        "Spinner (Banescale)"
+    ],
+    [
+        "Poison (Banescale)",
+        "Toxin (Banescale)"
+    ],
+    [
+        "Chevron (Banescale)",
+        "Arrow (Banescale)"
+    ],
+    [
+        "Candycane (Banescale)",
+        "Sugarplum (Banescale)"
+    ],
+    [
+        "Ragged (Banescale)",
+        "Tear (Banescale)"
+    ],
+    [
+        "Swirl",
+        "Marbled"
+    ],
+    [
+        "Mosaic",
+        "Breakup"
+    ],
+    [
+        "Stitched",
+        "Patchwork"
+    ],
+    [
+        "Fade (Veilspun)",
+        "Bee (Veilspun)"
+    ],
+    [
+        "Laced (Veilspun)",
+        "Blend (Veilspun)"
+    ],
+    [
+        "Tapir (Veilspun)",
+        "Edged (Veilspun)"
+    ],
+    [
+        "Vipera (Veilspun)",
+        "Striation (Veilspun)"
+    ],
+    [
+        "Jupiter (Veilspun)",
+        "Hypnotic (Veilspun)"
+    ],
+    [
+        "Starmap (Veilspun)",
+        "Saturn (Veilspun)"
+    ],
+    [
+        "Stitched (Veilspun)",
+        "Constellation (Veilspun)"
+    ],
+    [
+        "Skink (Veilspun)",
+        "Patchwork (Veilspun)"
+    ],
+    [
+        "Wasp (Veilspun)",
+        "Spinner (Veilspun)"
+    ],
+    [
+        "Bright (Veilspun)",
+        "Vivid (Veilspun)"
+    ],
+    [
+        "Arc (Veilspun)",
+        "Loop (Veilspun)"
+    ],
+    [
+        "Shell (Veilspun)",
+        "Web (Veilspun)"
+    ],
+    [
+        "Sphinxmoth (Veilspun)",
+        "Hawkmoth (Veilspun)"
+    ],
+    [
+        "Laced (Gaoler)",
+        "Edged (Gaoler)"
+    ],
+    [
+        "Tapir (Banescale)",
+        "Striation (Banescale)"
+    ],
+    [
+        "Clown (Banescale)",
+        "Eye Spots (Banescale)"
+    ],
+    [
+        "Clown (Veilspun)",
+        "Eye Spots (Veilspun)"
+    ],
+    [
+        "Clown (Gaoler)",
+        "Eye Spots (Gaoler)"
+    ],
+    [
+        "Ripple (Gaoler)",
+        "Current (Gaoler)"
+    ],
+    [
+        "Ripple (Banescale)",
+        "Current (Banescale)"
+    ],
+    [
+        "Falcon (Banescale)",
+        "Peregrine (Banescale)"
+    ],
+    [
+        "Giraffe (Banescale)",
+        "Hex (Banescale)"
+    ],
+    [
+        "Flaunt",
+        "Flair"
+    ],
+    [
+        "Giraffe (Veilspun)",
+        "Hex (Veilspun)"
+    ],
+    [
+        "Ribbon",
+        "Eel"
+    ],
+    [
+        "Fade (Banescale)",
+        "Blend (Banescale)"
+    ],
+    [
+        "Fade (Gaoler)",
+        "Blend (Gaoler)"
+    ],
+    [
+        "Pharaoh",
+        "Sarcophagus"
+    ]
+];
+var fRGenesTertiary = [
+    "Basic",
+    "Circuit",
+    "Veined (Gaoler)",
+    "Fans (Gaoler)",
+    "Gembond",
+    "Underbelly",
+    "Crackle",
+    "Smoke",
+    "Spines",
+    "Okapi",
+    "Glimmer",
+    "Thylacine",
+    "Stained",
+    "Contour",
+    "Runes",
+    "Scales",
+    "Lace",
+    "Opal",
+    "Capsule",
+    "Smirch",
+    "Ghost",
+    "Filigree",
+    "Firefly",
+    "Ringlets",
+    "Peacock",
+    "Ghost (Gaoler)",
+    "Shardflank (Gaoler)",
+    "Gnarlhorns (Gaoler)",
+    "Smoke (Gaoler)",
+    "Thylacine (Gaoler)",
+    "Ringlets (Gaoler)",
+    "Underbelly (Gaoler)",
+    "Runes (Gaoler)",
+    "Scorpion (Gaoler)",
+    "Wintercoat (Gaoler)",
+    "Weathered (Gaoler)",
+    "Blossom (Gaoler)",
+    "Opal (Gaoler)",
+    "Veined",
+    "Trimmings (Banescale)",
+    "Ringlets (Banescale)",
+    "Fans (Banescale)",
+    "Squiggle (Banescale)",
+    "Filigree (Banescale)",
+    "Lace (Banescale)",
+    "Skeletal (Banescale)",
+    "Contour (Banescale)",
+    "Ghost (Banescale)",
+    "",
+    "Porcupine (Banescale)",
+    "Crackle (Banescale)",
+    "Plumage (Banescale)",
+    "Underbelly (Banescale)",
+    "Keel",
+    "Glowtail",
+    "Braids (Gaoler)",
+    "Capsule (Veilspun)",
+    "Runes (Veilspun)",
+    "Crackle (Veilspun)",
+    "Okapi (Veilspun)",
+    "Peacock (Veilspun)",
+    "Firefly (Veilspun)",
+    "Opal (Veilspun)",
+    "Branches (Veilspun)",
+    "Flecks (Veilspun)",
+    "Beetle (Veilspun)",
+    "Diaphanous (Veilspun)",
+    "Mop (Veilspun)",
+    "Thorns (Veilspun)",
+    "Stained (Banescale)",
+    "Underbelly (Veilspun)",
+    "Stained (Gaoler)",
+    "Stained (Veilspun)",
+    "Koi",
+    "Capsule (Banescale)",
+    "Capsule (Gaoler)",
+    "Gliders (Banescale)",
+    "Pinions (Gaoler)",
+    "Angler (Veilspun)"
+  ];
+var fRColors = [
+    {
+        name: "Maize",
+        color: "rgb(255, 253, 234)"
+    },
+    {
+        name: "Cream",
+        color: "rgb(255, 239, 220)"
+    },
+    {
+        name: "Antique",
+        color: "rgb(216, 214, 205)"
+    },
+    {
+        name: "White",
+        color: "rgb(255, 255, 255)"
+    },
+    {
+        name: "Moon",
+        color: "rgb(216, 215, 216)"
+    },
+    {
+        name: "Ice",
+        color: "rgb(235, 239, 255)"
+    },
+    {
+        name: "Orca",
+        color: "rgb(224, 223, 255)"
+    },
+    {
+        name: "Platinum",
+        color: "rgb(200, 190, 206)"
+    },
+    {
+        name: "Silver",
+        color: "rgb(187, 186, 191)"
+    },
+    {
+        name: "Dust",
+        color: "rgb(156, 156, 158)"
+    },
+    {
+        name: "Grey",
+        color: "rgb(128, 128, 128)"
+    },
+    {
+        name: "Smoke",
+        color: "rgb(148, 148, 169)"
+    },
+    {
+        name: "Gloom",
+        color: "rgb(83, 82, 100)"
+    },
+    {
+        name: "Lead",
+        color: "rgb(65, 60, 63)"
+    },
+    {
+        name: "Shale",
+        color: "rgb(77, 72, 80)"
+    },
+    {
+        name: "Flint",
+        color: "rgb(98, 98, 104)"
+    },
+    {
+        name: "Charcoal",
+        color: "rgb(84, 84, 84)"
+    },
+    {
+        name: "Coal",
+        color: "rgb(75, 73, 70)"
+    },
+    {
+        name: "Oilslick",
+        color: "rgb(220, 220, 220)"
+    },
+    {
+        name: "Black",
+        color: "rgb(51, 51, 51)"
+    },
+    {
+        name: "Obsidian",
+        color: "rgb(29, 34, 36)"
+    },
+    {
+        name: "Eldritch",
+        color: "rgb(37, 42, 37)"
+    },
+    {
+        name: "Midnight",
+        color: "rgb(37, 39, 53)"
+    },
+    {
+        name: "Shadow",
+        color: "rgb(58, 46, 68)"
+    },
+    {
+        name: "Blackberry",
+        color: "rgb(75, 41, 79)"
+    },
+    {
+        name: "Mulberry",
+        color: "rgb(110, 35, 93)"
+    },
+    {
+        name: "Plum",
+        color: "rgb(133, 51, 144)"
+    },
+    {
+        name: "Wisteria",
+        color: "rgb(114, 78, 123)"
+    },
+    {
+        name: "Thistle",
+        color: "rgb(143, 124, 139)"
+    },
+    {
+        name: "Fog",
+        color: "rgb(165, 147, 176)"
+    },
+    {
+        name: "Mist",
+        color: "rgb(225, 206, 255)"
+    },
+    {
+        name: "Lavender",
+        color: "rgb(204, 164, 224)"
+    },
+    {
+        name: "Heather",
+        color: "rgb(151, 119, 189)"
+    },
+    {
+        name: "Purple",
+        color: "rgb(162, 97, 207)"
+    },
+    {
+        name: "Orchid",
+        color: "rgb(217, 80, 255)"
+    },
+    {
+        name: "Amethyst",
+        color: "rgb(153, 59, 208)"
+    },
+    {
+        name: "Nightshade",
+        color: "rgb(120, 46, 178)"
+    },
+    {
+        name: "Violet",
+        color: "rgb(100, 63, 156)"
+    },
+    {
+        name: "Grape",
+        color: "rgb(87, 15, 192)"
+    },
+    {
+        name: "Royal",
+        color: "rgb(77, 44, 137)"
+    },
+    {
+        name: "Eggplant",
+        color: "rgb(51, 43, 101)"
+    },
+    {
+        name: "Iris",
+        color: "rgb(83, 81, 149)"
+    },
+    {
+        name: "Storm",
+        color: "rgb(117, 122, 219)"
+    },
+    {
+        name: "Twilight",
+        color: "rgb(71, 74, 160)"
+    },
+    {
+        name: "Indigo",
+        color: "rgb(45, 35, 122)"
+    },
+    {
+        name: "Sapphire",
+        color: "rgb(13, 9, 91)"
+    },
+    {
+        name: "Navy",
+        color: "rgb(33, 43, 95)"
+    },
+    {
+        name: "Cobalt",
+        color: "rgb(0, 52, 132)"
+    },
+    {
+        name: "Ultramarine",
+        color: "rgb(28, 81, 231)"
+    },
+    {
+        name: "Blue",
+        color: "rgb(50, 75, 169)"
+    },
+    {
+        name: "Periwinkle",
+        color: "rgb(72, 102, 213)"
+    },
+    {
+        name: "Lapis",
+        color: "rgb(43, 132, 255)"
+    },
+    {
+        name: "Splash",
+        color: "rgb(99, 146, 223)"
+    },
+    {
+        name: "Cornflower",
+        color: "rgb(117, 168, 255)"
+    },
+    {
+        name: "Sky",
+        color: "rgb(174, 200, 255)"
+    },
+    {
+        name: "Stonewash",
+        color: "rgb(120, 149, 193)"
+    },
+    {
+        name: "Overcast",
+        color: "rgb(68, 79, 105)"
+    },
+    {
+        name: "Steel",
+        color: "rgb(85, 105, 121)"
+    },
+    {
+        name: "Denim",
+        color: "rgb(47, 69, 87)"
+    },
+    {
+        name: "Abyss",
+        color: "rgb(13, 30, 36)"
+    },
+    {
+        name: "Phthalo",
+        color: "rgb(11, 45, 70)"
+    },
+    {
+        name: "Azure",
+        color: "rgb(10, 61, 103)"
+    },
+    {
+        name: "Caribbean",
+        color: "rgb(0, 134, 206)"
+    },
+    {
+        name: "Teal",
+        color: "rgb(43, 118, 143)"
+    },
+    {
+        name: "Cerulean",
+        color: "rgb(0, 180, 214)"
+    },
+    {
+        name: "Cyan",
+        color: "rgb(0, 255, 240)"
+    },
+    {
+        name: "Robin",
+        color: "rgb(154, 234, 239)"
+    },
+    {
+        name: "Aqua",
+        color: "rgb(114, 196, 196)"
+    },
+    {
+        name: "Turquoise",
+        color: "rgb(58, 160, 161)"
+    },
+    {
+        name: "Spruce",
+        color: "rgb(139, 187, 178)"
+    },
+    {
+        name: "Pistachio",
+        color: "rgb(226, 255, 230)"
+    },
+    {
+        name: "Seafoam",
+        color: "rgb(178, 226, 189)"
+    },
+    {
+        name: "Mint",
+        color: "rgb(154, 255, 199)"
+    },
+    {
+        name: "Jade",
+        color: "rgb(97, 171, 137)"
+    },
+    {
+        name: "Spearmint",
+        color: "rgb(20, 142, 103)"
+    },
+    {
+        name: "Thicket",
+        color: "rgb(0, 94, 72)"
+    },
+    {
+        name: "Peacock",
+        color: "rgb(31, 71, 57)"
+    },
+    {
+        name: "Emerald",
+        color: "rgb(32, 96, 63)"
+    },
+    {
+        name: "Shamrock",
+        color: "rgb(35, 105, 37)"
+    },
+    {
+        name: "Jungle",
+        color: "rgb(30, 54, 26)"
+    },
+    {
+        name: "Hunter",
+        color: "rgb(29, 39, 21)"
+    },
+    {
+        name: "Forest",
+        color: "rgb(66, 80, 53)"
+    },
+    {
+        name: "Camo",
+        color: "rgb(81, 104, 76)"
+    },
+    {
+        name: "Algae",
+        color: "rgb(151, 175, 139)"
+    },
+    {
+        name: "Swamp",
+        color: "rgb(104, 127, 103)"
+    },
+    {
+        name: "Avocado",
+        color: "rgb(86, 124, 52)"
+    },
+    {
+        name: "Green",
+        color: "rgb(98, 156, 63)"
+    },
+    {
+        name: "Fern",
+        color: "rgb(126, 206, 115)"
+    },
+    {
+        name: "Mantis",
+        color: "rgb(153, 255, 156)"
+    },
+    {
+        name: "Pear",
+        color: "rgb(142, 205, 85)"
+    },
+    {
+        name: "Leaf",
+        color: "rgb(165, 227, 45)"
+    },
+    {
+        name: "Radioactive",
+        color: "rgb(198, 255, 0)"
+    },
+    {
+        name: "Honeydew",
+        color: "rgb(208, 230, 114)"
+    },
+    {
+        name: "Peridot",
+        color: "rgb(232, 255, 181)"
+    },
+    {
+        name: "Chartreuse",
+        color: "rgb(180, 205, 60)"
+    },
+    {
+        name: "Spring",
+        color: "rgb(169, 168, 50)"
+    },
+    {
+        name: "Crocodile",
+        color: "rgb(130, 131, 53)"
+    },
+    {
+        name: "Olive",
+        color: "rgb(105, 113, 53)"
+    },
+    {
+        name: "Murk",
+        color: "rgb(75, 68, 32)"
+    },
+    {
+        name: "Moss",
+        color: "rgb(126, 119, 69)"
+    },
+    {
+        name: "Goldenrod",
+        color: "rgb(190, 165, 93)"
+    },
+    {
+        name: "Amber",
+        color: "rgb(193, 142, 27)"
+    },
+    {
+        name: "Honey",
+        color: "rgb(209, 179, 0)"
+    },
+    {
+        name: "Lemon",
+        color: "rgb(255, 230, 59)"
+    },
+    {
+        name: "Yellow",
+        color: "rgb(249, 226, 85)"
+    },
+    {
+        name: "Grapefruit",
+        color: "rgb(247, 255, 111)"
+    },
+    {
+        name: "Banana",
+        color: "rgb(255, 236, 128)"
+    },
+    {
+        name: "Sanddollar",
+        color: "rgb(235, 231, 174)"
+    },
+    {
+        name: "Flaxen",
+        color: "rgb(253, 233, 174)"
+    },
+    {
+        name: "Ivory",
+        color: "rgb(255, 210, 151)"
+    },
+    {
+        name: "Buttercup",
+        color: "rgb(246, 191, 107)"
+    },
+    {
+        name: "Gold",
+        color: "rgb(232, 175, 73)"
+    },
+    {
+        name: "Metals",
+        color: "rgb(209, 176, 70)"
+    },
+    {
+        name: "Marigold",
+        color: "rgb(255, 180, 59)"
+    },
+    {
+        name: "Sunshine",
+        color: "rgb(250, 145, 43)"
+    },
+    {
+        name: "Saffron",
+        color: "rgb(255, 132, 0)"
+    },
+    {
+        name: "Sunset",
+        color: "rgb(255, 162, 72)"
+    },
+    {
+        name: "Peach",
+        color: "rgb(255, 181, 118)"
+    },
+    {
+        name: "Cantaloupe",
+        color: "rgb(255, 152, 79)"
+    },
+    {
+        name: "Orange",
+        color: "rgb(213, 96, 43)"
+    },
+    {
+        name: "Bronze",
+        color: "rgb(178, 86, 13)"
+    },
+    {
+        name: "Terracotta",
+        color: "rgb(178, 59, 7)"
+    },
+    {
+        name: "Carrot",
+        color: "rgb(255, 85, 0)"
+    },
+    {
+        name: "Fire",
+        color: "rgb(239, 92, 35)"
+    },
+    {
+        name: "Pumpkin",
+        color: "rgb(255, 104, 64)"
+    },
+    {
+        name: "Tangerine",
+        color: "rgb(255, 115, 96)"
+    },
+    {
+        name: "Cinnamon",
+        color: "rgb(192, 90, 57)"
+    },
+    {
+        name: "Caramel",
+        color: "rgb(198, 112, 71)"
+    },
+    {
+        name: "Sand",
+        color: "rgb(178, 119, 73)"
+    },
+    {
+        name: "Tan",
+        color: "rgb(196, 154, 112)"
+    },
+    {
+        name: "Beige",
+        color: "rgb(202, 187, 162)"
+    },
+    {
+        name: "Stone",
+        color: "rgb(130, 122, 100)"
+    },
+    {
+        name: "Taupe",
+        color: "rgb(109, 102, 90)"
+    },
+    {
+        name: "Slate",
+        color: "rgb(86, 77, 72)"
+    },
+    {
+        name: "Driftwood",
+        color: "rgb(118, 99, 89)"
+    },
+    {
+        name: "Latte",
+        color: "rgb(151, 123, 108)"
+    },
+    {
+        name: "Dirt",
+        color: "rgb(118, 72, 63)"
+    },
+    {
+        name: "Clay",
+        color: "rgb(96, 63, 61)"
+    },
+    {
+        name: "Sable",
+        color: "rgb(87, 55, 44)"
+    },
+    {
+        name: "Umber",
+        color: "rgb(47, 30, 26)"
+    },
+    {
+        name: "Soil",
+        color: "rgb(90, 69, 52)"
+    },
+    {
+        name: "Hickory",
+        color: "rgb(114, 86, 57)"
+    },
+    {
+        name: "Tarnish",
+        color: "rgb(133, 92, 50)"
+    },
+    {
+        name: "Ginger",
+        color: "rgb(144, 83, 43)"
+    },
+    {
+        name: "Brown",
+        color: "rgb(142, 91, 63)"
+    },
+    {
+        name: "Chocolate",
+        color: "rgb(86, 48, 18)"
+    },
+    {
+        name: "Auburn",
+        color: "rgb(123, 60, 29)"
+    },
+    {
+        name: "Copper",
+        color: "rgb(164, 75, 40)"
+    },
+    {
+        name: "Rust",
+        color: "rgb(139, 50, 32)"
+    },
+    {
+        name: "Tomato",
+        color: "rgb(186, 49, 28)"
+    },
+    {
+        name: "Vermilion",
+        color: "rgb(226, 45, 23)"
+    },
+    {
+        name: "Ruby",
+        color: "rgb(205, 0, 14)"
+    },
+    {
+        name: "Cherry",
+        color: "rgb(170, 0, 36)"
+    },
+    {
+        name: "Crimson",
+        color: "rgb(133, 0, 18)"
+    },
+    {
+        name: "Garnet",
+        color: "rgb(91, 15, 20)"
+    },
+    {
+        name: "Sanguine",
+        color: "rgb(46, 0, 2)"
+    },
+    {
+        name: "Blood",
+        color: "rgb(69, 23, 23)"
+    },
+    {
+        name: "Maroon",
+        color: "rgb(101, 33, 39)"
+    },
+    {
+        name: "Berry",
+        color: "rgb(139, 39, 44)"
+    },
+    {
+        name: "Red",
+        color: "rgb(193, 39, 45)"
+    },
+    {
+        name: "Strawberry",
+        color: "rgb(222, 50, 53)"
+    },
+    {
+        name: "Cerise",
+        color: "rgb(162, 41, 41)"
+    },
+    {
+        name: "Carmine",
+        color: "rgb(177, 58, 58)"
+    },
+    {
+        name: "Brick",
+        color: "rgb(154, 83, 77)"
+    },
+    {
+        name: "Coral",
+        color: "rgb(204, 111, 111)"
+    },
+    {
+        name: "Blush",
+        color: "rgb(255, 162, 162)"
+    },
+    {
+        name: "Cottoncandy",
+        color: "rgb(235, 121, 151)"
+    },
+    {
+        name: "Watermelon",
+        color: "rgb(219, 81, 141)"
+    },
+    {
+        name: "Magenta",
+        color: "rgb(233, 52, 170)"
+    },
+    {
+        name: "Fuchsia",
+        color: "rgb(236, 0, 137)"
+    },
+    {
+        name: "Raspberry",
+        color: "rgb(138, 2, 73)"
+    },
+    {
+        name: "Wine",
+        color: "rgb(77, 15, 40)"
+    },
+    {
+        name: "Mauve",
+        color: "rgb(156, 72, 117)"
+    },
+    {
+        name: "Pink",
+        color: "rgb(231, 127, 191)"
+    },
+    {
+        name: "Bubblegum",
+        color: "rgb(234, 169, 255)"
+    },
+    {
+        name: "Rose",
+        color: "rgb(255, 214, 246)"
+    },
+    {
+        name: "Pearl",
+        color: "rgb(251, 233, 248)"
+    },
 ];
 
 /*            */
