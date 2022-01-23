@@ -1593,7 +1593,7 @@ var keyblades = [
         id: "StrokeOfMidnight",
         name: "Stroke of Midnight",
         gameIndex: 4,
-        dergID: 25089353
+        dergID: 75110804
     },
     {
         id: "FairyStars",
@@ -2732,25 +2732,6 @@ var dragonsMap = {
         genes: [
             "Crystal",
             "Butterfly",
-            "Spines"
-        ]
-    },
-    25089353: {
-        name: "StrokeOfMidnight",
-        dragonID: 25089353,
-        species: "Imperial",
-        silhouette: "Male",
-        element: "Fire",
-        sceneID: 1,
-        familiarID: 33306,
-        colors: [
-            "Robin",
-            "Iris",
-            "Stonewash"
-        ],
-        genes: [
-            "Iridescent",
-            "Shimmer",
             "Spines"
         ]
     },
@@ -4557,6 +4538,25 @@ var dragonsMap = {
             "Metallic",
             "Bee",
             "Filigree"
+        ]
+    },
+    75110804: {
+        name: "StrokeOfMidnight",
+        dragonID: 75110804,
+        species: "Imperial",
+        silhouette: "Male",
+        element: "Shadow",
+        sceneID: 1,
+        familiarID: 33306,
+        colors: [
+            "Ice",
+            "Ice",
+            "Indigo"
+        ],
+        genes: [
+            "Iridescent",
+            "Shimmer",
+            "Opal"
         ]
     },
     75174766: {
