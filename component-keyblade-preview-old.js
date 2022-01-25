@@ -1,5 +1,7 @@
 // This is the previous version of the component-keyblade-preview.js
 // This one is too big and detailed and as such is replaced. 
+// I'm keeping this around for reference, basically. 
+//      (Note: CSS will be out of date ∏_∏)
 
 app.component('keyblade-preview', {
     mixins: [
