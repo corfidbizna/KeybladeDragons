@@ -27,6 +27,48 @@ app.component('keyblade-preview', {
             };
             return (urlPrefix + gameIconMap[gameName]);
         },
+        gameColor: function() {
+            var alpha = '0.25'; //'0.25'
+            var gameIndex = this.keyblade.gameIndex;
+            var gameName = kHGames[gameIndex];
+            var gameColorMap = {
+                'KINGDOM HEARTS': 'rgb(55, 96, 184, ' + alpha + ')',
+                'Chain of Memories': 'rgb(255, 0, 255, ' + alpha + ')',
+                'KINGDOM HEARTS II': 'rgb(84, 91, 104, ' + alpha + ')',
+                '358/2 Days': 'rgb(186, 77, 30, ' + alpha + ')',
+                'Birth by Sleep': 'rgb(59, 158, 233, ' + alpha + ')',
+                'Re:coded': 'rgb(237, 220, 34, ' + alpha + ')',
+                'Dream Drop Distance': 'rgb(225, 37, 235, ' + alpha + ')',
+                'Unchained χ / Union Cross': 'rgb(41, 176, 151, ' + alpha + ')',
+                'KINGDOM HEARTS III': 'rgb(78, 82, 89, ' + alpha + ')',
+            };
+            return gameColorMap[gameName];
+        },
+        backgroundGradient: function() {
+            var active = this.active;
+            if (active) {
+                return "background-image: none;";
+            }
+            var gameGradient = `
+                background-image: 
+                    linear-gradient(`
+                    + this.getGameColor(0.25)
+                    + ` 0%,
+                    ` + this.getGameColor(0.5)
+                    + ` 100%
+                    ),
+                `;
+            var baseGradient = `
+                linear-gradient(
+                    to bottom,
+                    #DDD 0%,
+                    #EEE 10%,
+                    #EEE 50%,
+                    #DDD 100%
+                )
+            ;`;
+            return gameGradient + baseGradient;
+        },
         title: function() {
             return (
                 this.keyblade.name 
@@ -84,6 +126,24 @@ app.component('keyblade-preview', {
             );
         },
     },
+    methods: {
+        getGameColor: function(alpha) {
+            var gameIndex = this.keyblade.gameIndex;
+            var gameName = kHGames[gameIndex];
+            var gameColorMap = {
+                'KINGDOM HEARTS': 'rgb(55, 96, 184, ' + alpha + ')',
+                'Chain of Memories': 'rgb(255, 0, 255, ' + alpha + ')',
+                'KINGDOM HEARTS II': 'rgb(84, 91, 104, ' + alpha + ')',
+                '358/2 Days': 'rgb(186, 77, 30, ' + alpha + ')',
+                'Birth by Sleep': 'rgb(59, 158, 233, ' + alpha + ')',
+                'Re:coded': 'rgb(237, 220, 34, ' + alpha + ')',
+                'Dream Drop Distance': 'rgb(225, 37, 235, ' + alpha + ')',
+                'Unchained χ / Union Cross': 'rgb(41, 176, 151, ' + alpha + ')',
+                'KINGDOM HEARTS III': 'rgb(78, 82, 89, ' + alpha + ')',
+            };
+            return gameColorMap[gameName];
+        }
+    },
     template: /*html*/`
     <router-link
         class="keyblade-preview"
@@ -96,33 +156,37 @@ app.component('keyblade-preview', {
                 [keybladeID]: true,
                 active: active,
             }"
+            :style="backgroundGradient"
         >
             <div
                 class="name-container"
                 :class="'game-' + keyblade.gameIndex"
+                :style="'background-color: ' + gameColor + ';'"
             >
-                <img 
-                    class="game-image"
-                    :src="gameThumbnail"
-                />
                 <div
                     class="name"
                 >{{keyblade.name}}</div>
             </div>
-            <div>
-                <div
-                    class="key-info"
-                    :title="title"
-                >
-                    <img 
-                        :src="'./KeybladeImages/' + keybladeID + '.png'"
-                        class="key-image"
-                    />
-                </div>
+            <div class="main-contents">
                 <div
                     class="dragon-info"
                 >
-                    <div>
+                    <div
+                        class="key-info"
+                        :title="title"
+                    >
+                        <img 
+                            class="game-image"
+                            :src="gameThumbnail"
+                        />
+                        <img 
+                            :src="'./KeybladeImages/' + keybladeID + '.png'"
+                            class="key-image"
+                        />
+                    </div>
+                    <div
+                        class="derg-portrait"
+                    >
                         <img 
                             :src="dragonPortraitURL"
                             width="75"

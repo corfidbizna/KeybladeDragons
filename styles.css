@@ -43,15 +43,16 @@ body {
 
 #keyblade-list {
     flex: 0 0 auto;
-    background-color: #DDD;
-    background-image: linear-gradient(
+    /* background-color: #DDD; */
+    background-color: #6b2412;
+    /* background-image: linear-gradient(
         to bottom, 
         #CCC 0%,
         #EEE 100%
-    );
+    ); */
     overflow-x: scroll;
     transform: scaleY(-1);
-    border-top: 2px solid #BBB;
+    /* border-top: 2px solid #BBB; */
     /* border: 2px solid #BBB; */
     /* border-radius: 1.3em 1.3em 0 0; */
     line-height: 0;
@@ -63,30 +64,48 @@ body {
     text-align: inherit;
     color: #000;
 }
+.keyblade-preview .main-contents {
+    text-align: right;
+}
 .keyblade-preview .key-box {
+    /* background-image: 
+        linear-gradient(
+            #F0F2 0%,
+            #F0F2 100%
+        ),
+        linear-gradient(
+            to bottom,
+            #DDD 0%,
+            #EEE 10%,
+            #EEE 50%,
+            #DDD 100%
+            )
+    ; */
     transform: scaleY(-1);
-    margin: 0.15em;
+    margin: 2px;
     display: inline-block;
+    width: 75px;
 }
 .keyblade-preview .key-image {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 70px;
+    max-width: 70px;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
     filter: 
-        drop-shadow(0 0.25em 0.5em #0002)
+        drop-shadow(0 0.1em 0.25em #0002)
     ;
 }
 .key-info {
     display: inline-block;
     text-align: center;
     object-fit: contain;
-    width: 120px;
-    height: 120px;
-    background-color: #FFF8;
-    border-radius: 0.85em;
+    width: 75px;
+    height: 75px;
+    border-radius: 0;
+    border-top-right-radius: 0.85em;
+    border-top-left-radius: 0.85em;
     position: relative;
 }
 .dragon-info {
@@ -94,9 +113,10 @@ body {
     text-align: center;
     vertical-align: top;
     margin: 0;
-    margin-left: 4px;
     object-fit: fill;
     width: 75px;
+    background-color: #FFFC;
+    border-radius: 0.85em;
 }
 .dragon-info * {
     padding: 0px;
@@ -105,22 +125,29 @@ body {
     margin: 0 4px;
 }
 .keyblade-preview .name-container {
-    border-radius: 1em;
-    margin-bottom: 0.25em;
+    border-radius: 1.125em;
+    transform: rotate(90deg);
+    transform-origin: 0.8em 0.8em;
+    position: absolute;
+    z-index: 2;
+    width: 194px;
+    left: 3px;
+    top: 2px;
+    visibility: collapse;
 }
 .keyblade-preview .name {
     display: inline-block;
     vertical-align: text-bottom;
     padding: 0.25em;
-    padding-left: 2.1em;
+    padding-left: 0.5em;
     font-size: 1em;
     font-style: italic;
     line-height: normal;
 }
 .keyblade-preview .game-image {
     position: absolute;
-    top: 0.1em;
-    left: 0.25em;
+    top: 0.2em;
+    left: 0.2em;
     width: 2em;
 }
 .keyblade-preview .active {
@@ -134,31 +161,7 @@ body {
         inset 0 0 1em #FEA8;
     /* border-width: 2px; */
     background-image: none;
-    background-color: #EEE;
-}
-.keyblade-preview .game-0 {
-    background-color: rgb(55, 96, 184, 0.25);
-}
-.keyblade-preview .game-2 {
-    background-color: rgb(84, 91, 104, 0.25);
-}
-.keyblade-preview .game-3 {
-    background-color: rgb(186, 77, 30, 0.25);
-}
-.keyblade-preview .game-4 {
-    background-color: rgb(59, 158, 233, 0.25);
-}
-.keyblade-preview .game-5 {
-    background-color: rgb(237, 220, 34, 0.25);
-}
-.keyblade-preview .game-6 {
-    background-color: rgb(225, 37, 235, 0.25);
-}
-.keyblade-preview .game-7 {
-    background-color: rgb(41, 176, 151, 0.25);
-}
-.keyblade-preview .game-8 {
-    background-color: rgb(78, 82, 89, 0.25);
+    background-color: #FEFEFE;
 }
 
 .container {
@@ -201,8 +204,8 @@ body {
     border: 0.5px solid #BBB;
     border-top: 2px solid #BBB;
     border-bottom: 2px solid #BBB;
-    outline: 1px solid #0004;
-    outline-offset: -1px;
+    /* outline: 1px solid #0004;
+    outline-offset: -1px; */
 }
 .navi-container .router-link-active {
     background-image: linear-gradient(
