@@ -57,6 +57,7 @@ body {
     /* border-radius: 1.3em 1.3em 0 0; */
     line-height: 0;
     white-space: nowrap;
+    padding-top: 0.2em;
 }
 .keyblade-preview {
     display: contents;
@@ -68,6 +69,7 @@ body {
     text-align: right;
 }
 .keyblade-preview .key-box {
+    position: relative;
     /* background-image: 
         linear-gradient(
             #F0F2 0%,
@@ -82,9 +84,13 @@ body {
             )
     ; */
     transform: scaleY(-1);
-    margin: 2px;
+    margin: 0;
     display: inline-block;
     width: 75px;
+    border: 0 solid #000;
+    border-radius: 0.75em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 .keyblade-preview .key-image {
     max-height: 70px;
@@ -116,7 +122,7 @@ body {
     object-fit: fill;
     width: 75px;
     background-color: #FFFC;
-    border-radius: 0.85em;
+    border-radius: 0.5em;
 }
 .dragon-info * {
     padding: 0px;

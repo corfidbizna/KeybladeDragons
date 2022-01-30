@@ -47,14 +47,14 @@ app.component('keyblade-preview', {
         backgroundGradient: function() {
             var active = this.active;
             if (active) {
-                return "background-image: none;";
+                return "background-image: none; z-index: 1;";
             }
             var gameGradient = `
                 background-image: 
                     linear-gradient(`
                     + this.getGameColor(0.25)
                     + ` 0%,
-                    ` + this.getGameColor(0.5)
+                    ` + this.getGameColor(1)
                     + ` 100%
                     ),
                 `;
