@@ -27,23 +27,6 @@ app.component('keyblade-preview', {
             };
             return (urlPrefix + gameIconMap[gameName]);
         },
-        gameColor: function() {
-            var alpha = '0.25'; //'0.25'
-            var gameIndex = this.keyblade.gameIndex;
-            var gameName = kHGames[gameIndex];
-            var gameColorMap = {
-                'KINGDOM HEARTS': 'rgb(55, 96, 184, ' + alpha + ')',
-                'Chain of Memories': 'rgb(255, 0, 255, ' + alpha + ')',
-                'KINGDOM HEARTS II': 'rgb(84, 91, 104, ' + alpha + ')',
-                '358/2 Days': 'rgb(186, 77, 30, ' + alpha + ')',
-                'Birth by Sleep': 'rgb(59, 158, 233, ' + alpha + ')',
-                'Re:coded': 'rgb(237, 220, 34, ' + alpha + ')',
-                'Dream Drop Distance': 'rgb(225, 37, 235, ' + alpha + ')',
-                'Unchained χ / Union Cross': 'rgb(41, 176, 151, ' + alpha + ')',
-                'KINGDOM HEARTS III': 'rgb(78, 82, 89, ' + alpha + ')',
-            };
-            return gameColorMap[gameName];
-        },
         backgroundGradient: function() {
             var active = this.active;
             if (active) {
@@ -52,9 +35,9 @@ app.component('keyblade-preview', {
             var gameGradient = `
                 background-image: 
                     linear-gradient(`
-                    + this.getGameColor(0.25)
+                    + this.getGameColor('44')
                     + ` 0%,
-                    ` + this.getGameColor(1)
+                    ` + this.getGameColor('FF')
                     + ` 100%
                     ),
                 `;
@@ -128,18 +111,21 @@ app.component('keyblade-preview', {
     },
     methods: {
         getGameColor: function(alpha) {
+            // if (!alpha) {     // 
+            //     alpha = 'FF'; // Does this work? 
+            // }                 // 
             var gameIndex = this.keyblade.gameIndex;
             var gameName = kHGames[gameIndex];
             var gameColorMap = {
-                'KINGDOM HEARTS': 'rgb(55, 96, 184, ' + alpha + ')',
-                'Chain of Memories': 'rgb(255, 0, 255, ' + alpha + ')',
-                'KINGDOM HEARTS II': 'rgb(84, 91, 104, ' + alpha + ')',
-                '358/2 Days': 'rgb(186, 77, 30, ' + alpha + ')',
-                'Birth by Sleep': 'rgb(59, 158, 233, ' + alpha + ')',
-                'Re:coded': 'rgb(237, 220, 34, ' + alpha + ')',
-                'Dream Drop Distance': 'rgb(225, 37, 235, ' + alpha + ')',
-                'Unchained χ / Union Cross': 'rgb(41, 176, 151, ' + alpha + ')',
-                'KINGDOM HEARTS III': 'rgb(78, 82, 89, ' + alpha + ')',
+                'KINGDOM HEARTS': '#346CE3' + alpha, //'rgb(55, 96, 184, ' + alpha + ')',
+                'Chain of Memories': '#FF00FF' + alpha, //'rgb(255, 0, 255, ' + alpha + ')',
+                'KINGDOM HEARTS II': '#949494' + alpha, //'rgb(84, 91, 104, ' + alpha + ')',
+                '358/2 Days': '#EE622C' + alpha, //'rgb(186, 77, 30, ' + alpha + ')',
+                'Birth by Sleep': '#5BBED3' + alpha, //'rgb(59, 158, 233, ' + alpha + ')',
+                'Re:coded': '#EADD4A' + alpha, //'rgb(237, 220, 34, ' + alpha + ')',
+                'Dream Drop Distance': '#EC4FA3' + alpha, //'rgb(225, 37, 235, ' + alpha + ')',
+                'Unchained χ / Union Cross': '#52BB93' + alpha, //'rgb(41, 176, 151, ' + alpha + ')',
+                'KINGDOM HEARTS III': '#515151' + alpha, //'rgb(78, 82, 89, ' + alpha + ')',
             };
             return gameColorMap[gameName];
         }
@@ -157,11 +143,12 @@ app.component('keyblade-preview', {
                 active: active,
             }"
             :style="backgroundGradient"
+            :title="title"
         >
             <div
                 class="name-container"
                 :class="'game-' + keyblade.gameIndex"
-                :style="'background-color: ' + gameColor + ';'"
+                :style="'background-color: ' + getGameColor('44') + ';'"
             >
                 <div
                     class="name"
@@ -173,7 +160,6 @@ app.component('keyblade-preview', {
                 >
                     <div
                         class="key-info"
-                        :title="title"
                     >
                         <img 
                             class="game-image"
