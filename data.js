@@ -402,7 +402,11 @@ var fRGenePairs = [
     [
         "Pharaoh",
         "Sarcophagus"
-    ]
+    ],
+    [
+        "Ground",
+        "Fissure"
+    ],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -1491,7 +1495,7 @@ var keyblades = [
         id: "AbyssalTide",
         name: "Abyssal Tide",
         gameIndex: 3,
-        dergID: 12842754
+        dergID: 75489880
     },
     {
         id: "Leviathan",
@@ -1551,7 +1555,7 @@ var keyblades = [
         id: "AstralBlast",
         name: "Astral Blast",
         gameIndex: 3,
-        dergID: 56865289
+        dergID: 75196198
     },
     {
         id: "MaverickFlare",
@@ -4576,6 +4580,44 @@ var dragonsMap = {
             "Giraffe",
             "Basic",
             "Basic"
+        ]
+    },
+    75196198: {
+        name: "AstralBlast",
+        dragonID: 75196198,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 39745,
+        familiarID: 34750,
+        colors: [
+            "Orca",
+            "Cornflower",
+            "Pthalo"
+        ],
+        genes: [
+            "Ribbon",
+            "Eel",
+            "Runes"
+        ]
+    },
+    75489880: {
+        name: "AbyssalTide",
+        dragonID: 75489880,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Wind",
+        sceneID: 39215,
+        familiarID: 20156,
+        colors: [
+            "Periwinkle",
+            "Sky",
+            "Periwinkle"
+        ],
+        genes: [
+            "Wasp",
+            "Alloy",
+            "Spines"
         ]
     },
 };
