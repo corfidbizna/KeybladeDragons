@@ -43,18 +43,9 @@ body {
 
 #keyblade-list {
     flex: 0 0 auto;
-    /* background-color: #DDD; */
     background-color: #6b2412;
-    /* background-image: linear-gradient(
-        to bottom, 
-        #CCC 0%,
-        #EEE 100%
-    ); */
     overflow-x: scroll;
     transform: scaleY(-1);
-    /* border-top: 2px solid #BBB; */
-    /* border: 2px solid #BBB; */
-    /* border-radius: 1.3em 1.3em 0 0; */
     line-height: 0;
     white-space: nowrap;
     padding-top: 0.2em;
@@ -70,19 +61,6 @@ body {
 }
 .keyblade-preview .key-box {
     position: relative;
-    /* background-image: 
-        linear-gradient(
-            #F0F2 0%,
-            #F0F2 100%
-        ),
-        linear-gradient(
-            to bottom,
-            #DDD 0%,
-            #EEE 10%,
-            #EEE 50%,
-            #DDD 100%
-            )
-    ; */
     transform: scaleY(-1);
     margin: 0;
     display: inline-block;
@@ -93,22 +71,22 @@ body {
     border-top-right-radius: 0;
 }
 .keyblade-preview .key-image {
-    max-height: 70px;
-    max-width: 70px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    height: 35px;
+    width: 70px;
+    object-fit: contain;
+    position: relative;
+    top: 15px;
     filter: 
         drop-shadow(0 0.1em 0.25em #0002)
     ;
+    transform: rotate(-10deg);
 }
 .key-info {
     display: inline-block;
     text-align: center;
     object-fit: contain;
     width: 75px;
-    height: 75px;
+    height: 55px;
     border-radius: 0;
     border-top-right-radius: 0.85em;
     border-top-left-radius: 0.85em;
@@ -127,34 +105,38 @@ body {
 .dragon-info * {
     padding: 0px;
 }
+.derg-portrait img {
+    width: 75px;
+    height: 40px;
+    object-fit: cover;
+}
 .keyblade-preview .dragon-id {
     margin: 0 4px;
 }
 .keyblade-preview .name-container {
+    font-size: 0.5em;
     border-radius: 1.125em;
-    transform: rotate(90deg);
-    transform-origin: 0.8em 0.8em;
     position: absolute;
     z-index: 2;
-    width: 194px;
-    left: 3px;
-    top: 2px;
-    visibility: collapse;
+    width: 9.1em;
+    left: 0.625em;
+    top: 0.625em;
 }
 .keyblade-preview .name {
     display: inline-block;
     vertical-align: text-bottom;
     padding: 0.25em;
-    padding-left: 0.5em;
+    padding-left: 2.2em;
     font-size: 1em;
     font-style: italic;
     line-height: normal;
+    transform: scaleX(75%);
 }
 .keyblade-preview .game-image {
     position: absolute;
-    top: 0.2em;
-    left: 0.2em;
-    width: 2em;
+    top: -0.1em;
+    left: 0.1em;
+    width: 1.2em;
 }
 .keyblade-preview .active {
     border-color: #FFF;
@@ -165,7 +147,6 @@ body {
         inset 1px -1px 0 #FFF,
         inset -1px 1px 0 #FFF,
         inset 0 0 1em #FEA8;
-    /* border-width: 2px; */
     background-image: none;
     background-color: #FEFEFE;
 }
@@ -173,12 +154,6 @@ body {
 .container {
     flex: 1 1 auto;
     overflow-y: scroll;
-    /* height: calc(100vh - 232px);
-    overflow-y: scroll; */
-    /* display: flex;
-    flex-flow: column;
-    flex: 1 1 auto;
-    overflow-y: auto; */
 }
 
 /* ======================== */
@@ -279,11 +254,12 @@ body {
 #dragon-showcase .key-image {
     display: inline;
     position: relative;
-    width: 210px;
-    max-height: 350px;
+    width: 350px;
+    height: 210px;
     object-fit: contain;
-    left: 320px;
-    top: 100px;
+    left: 225px;
+    top: 25px;
+    transform: rotate(-90deg);
 }
 
 /* ======================== */
@@ -361,20 +337,21 @@ body {
     margin: 4px auto;
     width: min-content;
     vertical-align: top;
-    width: 1080px;
+    width: 900px;
 }
 #dragon-visuals .key-box {
     flex: 350px;
 }
 #dragon-visuals .key-image {
     width: 350px;
-    max-height: 300px;
+    height: 200px;
     object-fit: contain;
-    /* vertical-align: middle; */
-    transform: translate(-50%, -50%);
+    /* vertical-align: middle;
+    transform: translate(-50%, -50%); */
     position: absolute;
-    top: 50%;
-    left: 195px;
+    top: 80px;
+    left: -70px;
+    transform: rotate(-90deg);
 }
 #dragon-visuals * {
     text-align: right;

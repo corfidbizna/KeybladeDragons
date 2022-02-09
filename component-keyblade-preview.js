@@ -175,8 +175,6 @@ app.component('keyblade-preview', {
                     >
                         <img 
                             :src="dragonPortraitURL"
-                            width="75"
-                            height="75"
                         />
                     </div>
                     <div>
