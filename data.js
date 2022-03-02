@@ -49,6 +49,7 @@ var fRBreeds = [
     'Gaoler',
     'Banescale',
     'Veilspun',
+    'Aberration',
 ];
 var fRGenePairs = [
     [
@@ -407,6 +408,14 @@ var fRGenePairs = [
         "Ground",
         "Fissure"
     ],
+    [
+        "Orb (Aberration)",
+        "Weaver (Aberration)"
+    ],
+    [
+        "Diamond (Aberration)",
+        "Spade (Aberration)"
+    ],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -486,7 +495,14 @@ var fRGenesTertiary = [
     "Capsule (Gaoler)",
     "Gliders (Banescale)",
     "Pinions (Gaoler)",
-    "Angler (Veilspun)"
+    "Angler (Veilspun)",
+    "Fangs (Aberration)",
+    "Kumo (Aberration)",
+    "Jewels (Aberration)",
+    "Frills (Aberration)",
+    "Mucous (Aberration)",
+    "Polkadot (Aberration)",
+    "Polypore (Aberration)",
   ];
 var fRColors = [
     {
@@ -1459,7 +1475,7 @@ var keyblades = [
         id: "MissingAche",
         name: "Missing Ache",
         gameIndex: 3,
-        dergID: 48377777
+        dergID: 75913451
     },
     {
         id: "OminousBlight",
@@ -1507,13 +1523,13 @@ var keyblades = [
         id: "TrueLightsFlight",
         name: "True Light's Flight",
         gameIndex: 3,
-        dergID: 48389536
+        dergID: 75702000
     },
     {
         id: "RejectionOfFate",
         name: "Rejection of Fate",
         gameIndex: 3,
-        dergID: 14447317
+        dergID: 48389536
     },
     {
         id: "MidnightRoar",
@@ -1549,7 +1565,7 @@ var keyblades = [
         id: "DarkerThanDark",
         name: "Darker than Darkness",
         gameIndex: 3,
-        dergID: 12352765
+        dergID: 44981642
     },
     {
         id: "AstralBlast",
@@ -2213,7 +2229,7 @@ var dragonsMap = {
         species: "Ridgeback",
         silhouette: "Female",
         element: "Lightning",
-        sceneID: 38215,
+        sceneID: 34841,
         familiarID: 42692,
         colors: [
             "Obsidian",
@@ -2574,7 +2590,7 @@ var dragonsMap = {
         species: "Imperial",
         silhouette: "Female",
         element: "Fire",
-        sceneID: 34841,
+        sceneID: 43382,
         familiarID: 34370,
         colors: [
             "Lavender",
@@ -2908,6 +2924,25 @@ var dragonsMap = {
             "Crystal",
             "Shimmer",
             "Underbelly"
+        ]
+    },
+    44981642: {
+        name: "DarkerThanDark",
+        dragonID: 44981642,
+        species: "Bogsneak",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 38411,
+        familiarID: 16484,
+        colors: [
+            "Mist",
+            "Purple",
+            "Sky"
+        ],
+        genes: [
+            "Cherub",
+            "Current",
+            "Basic"
         ]
     },
     45466968: {
@@ -4618,6 +4653,44 @@ var dragonsMap = {
             "Wasp",
             "Alloy",
             "Spines"
+        ]
+    },
+    75702000: {
+        name: "TrueLightsFlight",
+        dragonID: 75702000,
+        species: "Bogsneak",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 37882,
+        familiarID: 42756,
+        colors: [
+            "Dust",
+            "Ice",
+            "White"
+        ],
+        genes: [
+            "Metallic",
+            "Alloy",
+            "Opal"
+        ]
+    },
+    75913451: {
+        name: "MissingAche",
+        dragonID: 75913451,
+        species: "Fae",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 37361,
+        familiarID: 18982,
+        colors: [
+            "Honeydew",
+            "Peridot",
+            "Chartreuce"
+        ],
+        genes: [
+            "Iridescent",
+            "Shimmer",
+            "Gembond"
         ]
     },
 };
