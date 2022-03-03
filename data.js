@@ -416,6 +416,78 @@ var fRGenePairs = [
         "Diamond (Aberration)",
         "Spade (Aberration)"
     ],
+    [
+        "Fade (Aberration)",
+        "Blend (Aberration)"
+    ],
+    [
+        "Bar (Aberration)",
+        "Daub (Aberration)"
+    ],
+    [
+        "Crystal (Aberration)",
+        "Facet (Aberration)"
+    ],
+    [
+        "Falcon (Aberration)",
+        "Peregrine (Aberration)"
+    ],
+    [
+        "Giraffe (Aberration)",
+        "Hex (Aberration)"
+    ],
+    [
+        "Tapir (Aberration)",
+        "Striation (Aberration)"
+    ],
+    [
+        "Vipera (Aberration)",
+        "Hypnotic (Aberration)"
+    ],
+    [
+        "Ground (Aberration)",
+        "Fissure (Aberration)"
+    ],
+    [
+        "Jaguar (Aberration)",
+        "Rosette (Aberration)"
+    ],
+    [
+        "Lionfish (Aberration)",
+        "Noxtide (Aberration)"
+    ],
+    [
+        "Speckle (Aberration)",
+        "Freckle (Aberration)"
+    ],
+    [
+        "Pharaoh (Aberration)",
+        "Sarcophagus (Aberration)"
+    ],
+    [
+        "Savannah (Aberration)",
+        "Safari (Aberration)"
+    ],
+    [
+        "Swirl (Aberration)",
+        "Marbled (Aberration)"
+    ],
+    [
+        "Slime (Aberration)",
+        "Sludge (Aberration)"
+    ],
+    [
+        "Ribbon (Aberration)",
+        "Eel (Aberration)"
+    ],
+    [
+        "Stitched (Aberration)",
+        "Patchwork (Aberration)"
+    ],
+    [
+        "Wasp (Aberration)",
+        "Bee (Aberration)"
+    ],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -503,6 +575,14 @@ var fRGenesTertiary = [
     "Mucous (Aberration)",
     "Polkadot (Aberration)",
     "Polypore (Aberration)",
+    "Capsule (Aberration)",
+    "Firefly (Aberration)",
+    "Ghost (Aberration)",
+    "Glowtail (Aberration)",
+    "Peacock (Aberration)",
+    "Scales (Aberration)",
+    "Thylacine (Aberration)",
+    "Veined (Aberration)",
   ];
 var fRColors = [
     {
