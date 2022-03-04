@@ -44,6 +44,17 @@ window.viewDragonBio = {
             }
             return title;
         },
+        biotext: function() {
+            if (this.keyblade.bio) {
+                return this.keyblade.bio;
+            }
+        },
+        temptext: function() {
+            return `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim id sapien placerat bibendum at et tellus. Aliquam eget blandit lectus, eget facilisis arcu. Integer blandit ante et dolor facilisis euismod. Ut venenatis tincidunt gravida. 
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tempus erat libero, id pharetra odio consequat non. Nullam sit amet egestas est. Mauris blandit massa ipsum, sed pretium mauris accumsan eget. Nunc fermentum commodo tincidunt. Etiam ac metus vitae lorem maximus imperdiet. `
+            ;
+        },
     },
     template: /*html*/ `
         <div id="bio-box">
@@ -102,12 +113,9 @@ window.viewDragonBio = {
                     <span
                         class="bio-text"
                     >
-                        <br>
-                        The great Earthshaker pulled Kingdom Key from a deceivingly strong Keyblade. The blade in question holds a unique power and always manages to find itself in key places at the right times—a trait not lost in transition to dragon.
-                        <br><br>
-                        Kingdom Key isn't one to talk much, but he's always willing to help you out in a pinch. He's a notoriously subtle teacher—some dragons only realizing the lesson has taken place long after it happened. If you see Kingdom Key within earshot when such realizations are exclaimed aloud, you'll catch hints of a smirk on his face.
-                        <br>
-                        <br>
+                        <textarea
+                            :placeholder="temptext"
+                        >{{biotext}}</textarea>
                     </span>
                     <img 
                         :src="
