@@ -1780,7 +1780,7 @@ Midnight Roar may not be strongest dragon, but she is always brimming with coura
         id: "GlimpseOfDark",
         name: "Glimpse of Darkness",
         gameIndex: 3,
-        dergID: 18277680,
+        dergID: 74110180,
         bio: `The Keyblade from which Glimpse of Darkness was pulled had a crushing strength that would intimidate any self-respecting snapper. While the dragon pulled from this blade is less combat oriented, that indominable spirit is alive and well. 
 
 There are few dragons who are willing to get into contests of strength with Glimpse of Darkness. While fighting is not in her nature, she does enjoy going on daring expeditions. To this day no challenge has yet intimidated her. That is not to say no challenge has beat her, though Midnight Roar will be the last to admit it. `,
@@ -1798,7 +1798,7 @@ Total Eclipse is extremely strong and nearly completely blind. Unlike most of th
         id: "SilentDirge",
         name: "Silent Dirge",
         gameIndex: 3,
-        dergID: 18277678,
+        dergID: 75504843,
         bio: `Despite its power, only when the situation proved truly uncertain would the full strength of Silent Dirge's source blade surface. 
 
 Silent Dirge is not one to startle easily. He has a very calm and softspoken attitude, making him an asset in a crisis. Outside of trouble, this temperment makes him irksome to those who try to rile him up or believe him to be noncommital. On account of Silent Dirge's soft speech, he has a remarkable singing voice. I've only heard him once or twice myself though…. `,
@@ -4858,7 +4858,7 @@ var dragonsMap = {
         species: "Fae",
         silhouette: "Male",
         element: "Water",
-        sceneID: 39745,
+        sceneID: 38411,
         familiarID: 25414,
         colors: [
             "Sapphire",
@@ -5010,7 +5010,7 @@ var dragonsMap = {
         species: "Bogsneak",
         silhouette: "Male",
         element: "Lightning",
-        sceneID: 1,
+        sceneID: 38411,
         familiarID: 25174,
         colors: [
             "Obsidian",
@@ -5040,6 +5040,25 @@ var dragonsMap = {
             "Shaggy (Gaoler)",
             "Stripes (Gaoler)",
             "Basic"
+        ]
+    },
+    74110180: {
+        name: "GlimpseOfDark",
+        dragonID: 74110180,
+        species: "Obelisk",
+        silhouette: "Female",
+        element: "Fire",
+        sceneID: 34837,
+        familiarID: 8319,
+        colors: [
+            "Obsidian",
+            "Cantaloupe",
+            "White"
+        ],
+        genes: [
+            "Basic",
+            "Trail",
+            "Underbelly"
         ]
     },
     74962088: {
@@ -5135,6 +5154,25 @@ var dragonsMap = {
             "Wasp",
             "Alloy",
             "Spines"
+        ]
+    },
+    75504843: {
+        name: "SilentDirge",
+        dragonID: 75504843,
+        species: "Obelisk",
+        silhouette: "Female",
+        element: "Water",
+        sceneID: 38411,
+        familiarID: 34798,
+        colors: [
+            "Royal",
+            "Maize",
+            "Pearl"
+        ],
+        genes: [
+            "Fade",
+            "Blend",
+            "Contour"
         ]
     },
     75702000: {
