@@ -1789,7 +1789,7 @@ There are few dragons who are willing to get into contests of strength with Glim
         id: "TotalEclipse",
         name: "Total Eclipse",
         gameIndex: 3,
-        dergID: 11503095,
+        dergID: 62304383,
         bio: `While not all Keyblades are weapons, there is no dispute with this one. Despite this, as a dragon Total Eclipse displayes more of a live and let live mindset. That just goes to show that you can never judge a dragon before it hatches. 
 
 Total Eclipse is extremely strong and nearly completely blind. Unlike most of the burly dragons who live here, he doesn't spend any time physically training to maintain his bulk. Despite being unable to see well—or perhaps because of that—he has a very unique fighting style. He's a first-choice pick for night time or low visibility gathering trips. `,
@@ -4850,6 +4850,25 @@ var dragonsMap = {
             "Savannah",
             "Trail",
             "Spines"
+        ]
+    },
+    62304383: {
+        name: "TotalEclipse",
+        dragonID: 62304383,
+        species: "Skydancer",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 34837,
+        familiarID: 34723,
+        colors: [
+            "Eldritch",
+            "Tan",
+            "Marigold"
+        ],
+        genes: [
+            "Ripple",
+            "Morph",
+            "Runes"
         ]
     },
     67442536: {
