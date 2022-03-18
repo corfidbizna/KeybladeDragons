@@ -1834,7 +1834,7 @@ Astral Blast is a prickly dragon. She's constantly irritable on account of never
         id: "MaverickFlare",
         name: "Maverick Flare",
         gameIndex: 3,
-        dergID: 14447316,
+        dergID: 76378955,
         bio: `Even without being pulled into a dragon, Maverick Flare's source blade thrives in the heat of battle. If the blade could reach, its foes would fall beneath its wielder's strikes. 
 
 Maverick Flare has proven himself quite a champion in competitions. No matter the contest, his sharp mind and dextrous ability allow him to take on opponents or challenges of nearly any size. Plus Maverick Flare is absolutely charming towards his fans with his roguish good looks and cordial personality. `,
@@ -2841,7 +2841,7 @@ var dragonsMap = {
     13704566: {
         name: "HyperDrive",
         dragonID: 13704566,
-        species: "Imperial",
+        species: "Fae",
         silhouette: "Male",
         element: "Fire",
         sceneID: 1,
@@ -4524,7 +4524,7 @@ var dragonsMap = {
             "Carrot"
         ],
         genes: [
-            "Basic",
+            "Ground",
             "Basic",
             "Basic"
         ]
@@ -5230,6 +5230,25 @@ var dragonsMap = {
             "Iridescent",
             "Shimmer",
             "Gembond"
+        ]
+    },
+    76378955: {
+        name: "MaverickFlare",
+        dragonID: 76378955,
+        species: "Mirror",
+        silhouette: "Male",
+        element: "Fire",
+        sceneID: 35702,
+        familiarID: 31188,
+        colors: [
+            "Obsidian",
+            "Carrot",
+            "Black"
+        ],
+        genes: [
+            "Ripple",
+            "Shimmer",
+            "Smoke"
         ]
     },
 };
