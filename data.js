@@ -1843,7 +1843,7 @@ Maverick Flare has proven himself quite a champion in competitions. No matter th
         id: "TwilightBlaze",
         name: "Twilight Blaze",
         gameIndex: 3,
-        dergID: 14447313,
+        dergID: 76638833,
         bio: `As the light of the setting sun shines briefly but brightly, the Keyblade from which Twilight Blaze was pulled could deal with any who stood before it in a flash. Both blade and dragon strive to become an ultimate fighting force. 
 
 Twilight Blaze is a highly capable hunter whose specialty is ground combat. Both physically strong and quick, she'll get in close and roast his opponents from angles they can't quite defend from. In combat the only thing you'll see her use his wings for is to aid in leaping rather than attacking from above. She wouldn't want you to know this, but Twilight Blaze is actually extremely clumsy in the air. `,
@@ -5249,6 +5249,25 @@ var dragonsMap = {
             "Ripple",
             "Shimmer",
             "Smoke"
+        ]
+    },
+    76638833: {
+        name: "TwilightBlaze",
+        dragonID: 76638833,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Plague",
+        sceneID: 35702,
+        familiarID: 34790,
+        colors: [
+            "Obsidian",
+            "Strawberry",
+            "Obsidian"
+        ],
+        genes: [
+            "Lionfish",
+            "Alloy",
+            "Basic"
         ]
     },
 };
