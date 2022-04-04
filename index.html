@@ -29,7 +29,10 @@
             <router-link 
                 :to="'/' + activeKeyblade + '/visuals'"
             >Visuals</router-link>
-            <a>Statistics</a>
+            <router-link
+                :to="'/' + activeKeyblade + '/stats'"
+            >Statistics</router-link>
+            <a>Other???</a>
         </div>
         <div
             class="container"
@@ -44,9 +47,11 @@
     <script src="view-dragon-bio.js"></script>
     <script src="view-dragon-visuals.js"></script>
     <script src="view-species-details.js"></script>
+    <script src="view-dragon-stats.js"></script>
     <script src="router.js"></script>
     <script src="index.js"></script>
     <script src="component-keyblade-preview.js"></script>
+    <script src="component-stat-genes.js"></script>
     <script>var mountedApp = app.mount('#app');</script>
 </body>
 </html>
