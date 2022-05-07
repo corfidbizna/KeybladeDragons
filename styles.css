@@ -384,5 +384,46 @@ body {
     /* height: 400px;
     overflow-y: scroll; */
 }
+#dragon-genes .key-box {
+    display: inline-block;
+}
+#dragon-genes .portrait {
+    border-radius: 0.75em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #FFF;
+}
+#dragon-genes .stat-list {
+    display: block;
+    background: linear-gradient(
+        to bottom,
+        #0000 0%,
+        #FFFB 50%,
+        #FFF 100%
+    );
+    padding-left: 4px;
+    border-radius: 0.75em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.gene-row {
+    height: 1.5em;
+    display: block;
+    max-width: 181px;
+    position: relative;
+    padding-left: 4px;
+}
+.gene-color {
+    width: 1em;
+    height: 1em; 
+    display: inline-block;
+    border-radius: 0.25em;
+    border: 1px solid #0004;
+}
+.gene-info {
+    position: absolute;
+    left: 26px;
+    top: 1px;
+}
 
 

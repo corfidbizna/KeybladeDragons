@@ -16,6 +16,8 @@ window.viewDragonStats = {
     },
     template: /* html */`
         <div id="dragon-stats">
+            <dragon-genes>
+            </dragon-genes>
             <span>
                 <dragon-stat
                     :prop-to-check="dragon.species"

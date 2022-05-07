@@ -488,6 +488,10 @@ var fRGenePairs = [
         "Wasp (Aberration)",
         "Bee (Aberration)"
     ],
+    [
+        "Clouded (Banescale)",
+        "Leopard (Banescale)"
+    ],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -583,6 +587,11 @@ var fRGenesTertiary = [
     "Scales (Aberration)",
     "Thylacine (Aberration)",
     "Veined (Aberration)",
+    "Sparkle",
+    "Sparkle (Aberration)",
+    "Sparkle (Banescale)",
+    "Sparkle (Gaoler)",
+    "Sparkle (Veilspun)",
   ];
 var fRColors = [
     {
@@ -3367,7 +3376,7 @@ var dragonsMap = {
         genes: [
             "Iridescent",
             "Shimmer",
-            "Ghost"
+            "Sparkle"
         ]
     },
     42575407: {
@@ -4038,7 +4047,7 @@ var dragonsMap = {
     53610383: {
         name: "LunarEclipse",
         dragonID: 53610383,
-        species: "Skydancer",
+        species: "Snapper",
         silhouette: "Female",
         element: "Ice",
         sceneID: 38411,
@@ -4260,7 +4269,7 @@ var dragonsMap = {
         genes: [
             "Tapir",
             "Striation",
-            "Runes"
+            "Sparkle"
         ]
     },
     54305679: {
@@ -4450,7 +4459,7 @@ var dragonsMap = {
         genes: [
             "Metallic",
             "Bee",
-            "Firefly"
+            "Sparkle"
         ]
     },
     54940512: {
@@ -4564,7 +4573,7 @@ var dragonsMap = {
         genes: [
             "Crystal",
             "Shimmer",
-            "Basic"
+            "Sparkle"
         ]
     },
     55539104: {
@@ -4855,7 +4864,7 @@ var dragonsMap = {
     62304383: {
         name: "TotalEclipse",
         dragonID: 62304383,
-        species: "Skydancer",
+        species: "Snapper",
         silhouette: "Female",
         element: "Ice",
         sceneID: 34837,
