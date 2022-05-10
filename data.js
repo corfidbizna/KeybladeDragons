@@ -2512,7 +2512,7 @@ Vulpus, with the shape of a fox, is very easy to talk to. She is a advocate for 
         dergID: 71731909,
         bio: `The source blade for this dragon is no doubt the source of her erudite qualities. The blade accompanied many on their way to mastery of the Keyblade for the first—and often most harrowing—leg of their journeys. 
 
-        A studious dragon, [Keyblade] spends her days studying to become a master on par with Master's Defender. You'll find she makes a great research partner and sparing companion. [Keyblade] is never shy to speak her opinion and though discussing her reasoning one will discover just how comprehensive her though process is. `,
+A studious dragon, [Keyblade] spends her days studying to become a master on par with Master's Defender. You'll find she makes a great research partner and sparing companion. [Keyblade] is never shy to speak her opinion and though discussing her reasoning one will discover just how comprehensive her though process is. `,
     }
 ];
 var keybladesMap = {};
