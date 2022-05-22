@@ -492,6 +492,10 @@ var fRGenePairs = [
         "Clouded (Banescale)",
         "Leopard (Banescale)"
     ],
+    [
+        "Boulder",
+        "Myrid"
+    ],
 ];
 var fRGenesTertiary = [
     "Basic",
