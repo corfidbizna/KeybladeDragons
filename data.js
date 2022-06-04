@@ -51,451 +51,231 @@ var fRBreeds = [
     'Veilspun',
     'Aberration',
 ];
-var fRGenePairs = [
-    [
-        "Basic",
-        "Basic"
-    ],
-    [
-        "Iridescent",
-        "Shimmer"
-    ],
-    [
-        "Tiger",
-        "Stripes"
-    ],
-    [
-        "Clown",
-        "Eye Spots"
-    ],
-    [
-        "Speckle",
-        "Freckle"
-    ],
-    [
-        "Ripple",
-        "Current"
-    ],
-    [
-        "Bar",
-        "Daub"
-    ],
-    [
-        "Crystal",
-        "Facet"
-    ],
-    [
-        "Vipera",
-        "Hypnotic"
-    ],
-    [
-        "Piebald",
-        "Paint"
-    ],
-    [
-        "Cherub",
-        "Seraph"
-    ],
-    [
-        "Poison",
-        "Toxin"
-    ],
-    [
-        "Giraffe",
-        "Hex"
-    ],
-    [
-        "Petals",
-        "Butterfly"
-    ],
-    [
-        "Jupiter",
-        "Saturn"
-    ],
-    [
-        "Skink",
-        "Spinner"
-    ],
-    [
-        "Falcon",
-        "Perigrine"
-    ],
-    [
-        "Metallic",
-        "Alloy"
-    ],
-    [
-        "Savannah",
-        "Safari"
-    ],
-    [
-        "Jaguar",
-        "Rosette"
-    ],
-    [
-        "Wasp",
-        "Bee"
-    ],
-    [
-        "Tapir",
-        "Striation"
-    ],
-    [
-        "Pinstripe",
-        "Trail"
-    ],
-    [
-        "Python",
-        "Morph"
-    ],
-    [
-        "Starmap",
-        "Constellation"
-    ],
-    [
-        "Lionfish",
-        "Noxtide"
-    ],
-    [
-        "Laced",
-        "Edged"
-    ],
-    [
-        "Giraffe (Gaoler)",
-        "Hex (Gaoler)"
-    ],
-    [
-        "Wasp (Gaoler)",
-        "Bee (Gaoler)"
-    ],
-    [
-        "Shaggy (Gaoler)",
-        "Streak (Gaoler)"
-    ],
-    [
-        "Falcon (Gaoler)",
-        "Peregrine (Gaoler)"
-    ],
-    [
-        "Piebald (Gaoler)",
-        "Paint (Gaoler)"
-    ],
-    [
-        "Pinstripe (Gaoler)",
-        "Trail (Gaoler)"
-    ],
-    [
-        "Jaguar (Gaoler)",
-        "Rosette (Gaoler)"
-    ],
-    [
-        "Bar (Gaoler)",
-        "Daub (Gaoler)"
-    ],
-    [
-        "Tapir (Gaoler)",
-        "Striation (Gaoler)"
-    ],
-    [
-        "Tiger (Gaoler)",
-        "Stripes (Gaoler)"
-    ],
-    [
-        "Crystal (Gaoler)",
-        "Facet (Gaoler)"
-    ],
-    [
-        "Mosaic (Gaoler)",
-        "Breakup (Gaoler)"
-    ],
-    [
-        "Phantom (Gaoler)",
-        "Spirit (Gaoler)"
-    ],
-    [
-        "Leopard",
-        "Clouded"
-    ],
-    [
-        "Slime",
-        "Sludge"
-    ],
-    [
-        "Fade",
-        "Blend"
-    ],
-    [
-        "Cherub (Banescale)",
-        "Seraph (Banescale)"
-    ],
-    [
-        "Jaguar (Banescale)",
-        "Rosette (Banescale)"
-    ],
-    [
-        "Pinstripe (Banescale)",
-        "Trail (Banescale)"
-    ],
-    [
-        "Tiger (Banescale)",
-        "Stripes (Banescale)"
-    ],
-    [
-        "Marble (Banescale)",
-        "Mottle (Banescale)"
-    ],
-    [
-        "Laced (Banescale)",
-        "Edged (Banescale)"
-    ],
-    [
-        "Metallic (Banescale)",
-        "Alloy (Banescale)"
-    ],
-    [
-        "Savannah (Banescale)",
-        "Safari (Banescale)"
-    ],
-    [
-        "Petals (Banescale)",
-        "Butterfly (Banescale)"
-    ],
-    [
-        "Skink (Banescale)",
-        "Spinner (Banescale)"
-    ],
-    [
-        "Poison (Banescale)",
-        "Toxin (Banescale)"
-    ],
-    [
-        "Chevron (Banescale)",
-        "Arrow (Banescale)"
-    ],
-    [
-        "Candycane (Banescale)",
-        "Sugarplum (Banescale)"
-    ],
-    [
-        "Ragged (Banescale)",
-        "Tear (Banescale)"
-    ],
-    [
-        "Swirl",
-        "Marbled"
-    ],
-    [
-        "Mosaic",
-        "Breakup"
-    ],
-    [
-        "Stitched",
-        "Patchwork"
-    ],
-    [
-        "Fade (Veilspun)",
-        "Bee (Veilspun)"
-    ],
-    [
-        "Laced (Veilspun)",
-        "Blend (Veilspun)"
-    ],
-    [
-        "Tapir (Veilspun)",
-        "Edged (Veilspun)"
-    ],
-    [
-        "Vipera (Veilspun)",
-        "Striation (Veilspun)"
-    ],
-    [
-        "Jupiter (Veilspun)",
-        "Hypnotic (Veilspun)"
-    ],
-    [
-        "Starmap (Veilspun)",
-        "Saturn (Veilspun)"
-    ],
-    [
-        "Stitched (Veilspun)",
-        "Constellation (Veilspun)"
-    ],
-    [
-        "Skink (Veilspun)",
-        "Patchwork (Veilspun)"
-    ],
-    [
-        "Wasp (Veilspun)",
-        "Spinner (Veilspun)"
-    ],
-    [
-        "Bright (Veilspun)",
-        "Vivid (Veilspun)"
-    ],
-    [
-        "Arc (Veilspun)",
-        "Loop (Veilspun)"
-    ],
-    [
-        "Shell (Veilspun)",
-        "Web (Veilspun)"
-    ],
-    [
-        "Sphinxmoth (Veilspun)",
-        "Hawkmoth (Veilspun)"
-    ],
-    [
-        "Laced (Gaoler)",
-        "Edged (Gaoler)"
-    ],
-    [
-        "Tapir (Banescale)",
-        "Striation (Banescale)"
-    ],
-    [
-        "Clown (Banescale)",
-        "Eye Spots (Banescale)"
-    ],
-    [
-        "Clown (Veilspun)",
-        "Eye Spots (Veilspun)"
-    ],
-    [
-        "Clown (Gaoler)",
-        "Eye Spots (Gaoler)"
-    ],
-    [
-        "Ripple (Gaoler)",
-        "Current (Gaoler)"
-    ],
-    [
-        "Ripple (Banescale)",
-        "Current (Banescale)"
-    ],
-    [
-        "Falcon (Banescale)",
-        "Peregrine (Banescale)"
-    ],
-    [
-        "Giraffe (Banescale)",
-        "Hex (Banescale)"
-    ],
-    [
-        "Flaunt",
-        "Flair"
-    ],
-    [
-        "Giraffe (Veilspun)",
-        "Hex (Veilspun)"
-    ],
-    [
-        "Ribbon",
-        "Eel"
-    ],
-    [
-        "Fade (Banescale)",
-        "Blend (Banescale)"
-    ],
-    [
-        "Fade (Gaoler)",
-        "Blend (Gaoler)"
-    ],
-    [
-        "Pharaoh",
-        "Sarcophagus"
-    ],
-    [
-        "Ground",
-        "Fissure"
-    ],
-    [
-        "Orb (Aberration)",
-        "Weaver (Aberration)"
-    ],
-    [
-        "Diamond (Aberration)",
-        "Spade (Aberration)"
-    ],
-    [
-        "Fade (Aberration)",
-        "Blend (Aberration)"
-    ],
-    [
-        "Bar (Aberration)",
-        "Daub (Aberration)"
-    ],
-    [
-        "Crystal (Aberration)",
-        "Facet (Aberration)"
-    ],
-    [
-        "Falcon (Aberration)",
-        "Peregrine (Aberration)"
-    ],
-    [
-        "Giraffe (Aberration)",
-        "Hex (Aberration)"
-    ],
-    [
-        "Tapir (Aberration)",
-        "Striation (Aberration)"
-    ],
-    [
-        "Vipera (Aberration)",
-        "Hypnotic (Aberration)"
-    ],
-    [
-        "Ground (Aberration)",
-        "Fissure (Aberration)"
-    ],
-    [
-        "Jaguar (Aberration)",
-        "Rosette (Aberration)"
-    ],
-    [
-        "Lionfish (Aberration)",
-        "Noxtide (Aberration)"
-    ],
-    [
-        "Speckle (Aberration)",
-        "Freckle (Aberration)"
-    ],
-    [
-        "Pharaoh (Aberration)",
-        "Sarcophagus (Aberration)"
-    ],
-    [
-        "Savannah (Aberration)",
-        "Safari (Aberration)"
-    ],
-    [
-        "Swirl (Aberration)",
-        "Marbled (Aberration)"
-    ],
-    [
-        "Slime (Aberration)",
-        "Sludge (Aberration)"
-    ],
-    [
-        "Ribbon (Aberration)",
-        "Eel (Aberration)"
-    ],
-    [
-        "Stitched (Aberration)",
-        "Patchwork (Aberration)"
-    ],
-    [
-        "Wasp (Aberration)",
-        "Bee (Aberration)"
-    ],
-    [
-        "Clouded (Banescale)",
-        "Leopard (Banescale)"
-    ],
-    [
-        "Boulder",
-        "Myrid"
-    ],
+var fRGenesPrimary = [
+    "Basic",
+    "Iridescent",
+    "Tiger",
+    "Clown",
+    "Speckle",
+    "Ripple",
+    "Bar",
+    "Crystal",
+    "Vipera",
+    "Piebald",
+    "Cherub",
+    "Poison",
+    "Giraffe",
+    "Petals",
+    "Jupiter",
+    "Skink",
+    "Falcon",
+    "Metallic",
+    "Savannah",
+    "Jaguar",
+    "Wasp",
+    "Tapir",
+    "Pinstripe",
+    "Python",
+    "Starmap",
+    "Lionfish",
+    "Laced",
+    "Giraffe (Gaoler)",
+    "Wasp (Gaoler)",
+    "Shaggy (Gaoler)",
+    "Falcon (Gaoler)",
+    "Piebald (Gaoler)",
+    "Pinstripe (Gaoler)",
+    "Jaguar (Gaoler)",
+    "Bar (Gaoler)",
+    "Tapir (Gaoler)",
+    "Tiger (Gaoler)",
+    "Crystal (Gaoler)",
+    "Mosaic (Gaoler)",
+    "Phantom (Gaoler)",
+    "Leopard",
+    "Slime",
+    "Fade",
+    "Cherub (Banescale)",
+    "Jaguar (Banescale)",
+    "Pinstripe (Banescale)",
+    "Tiger (Banescale)",
+    "Marble (Banescale)",
+    "Laced (Banescale)",
+    "Metallic (Banescale)",
+    "Savannah (Banescale)",
+    "Petals (Banescale)",
+    "Skink (Banescale)",
+    "Poison (Banescale)",
+    "Chevron (Banescale)",
+    "Candycane (Banescale)",
+    "Ragged (Banescale)",
+    "Swirl",
+    "Mosaic",
+    "Stitched",
+    "Fade (Veilspun)",
+    "Laced (Veilspun)",
+    "Tapir (Veilspun)",
+    "Vipera (Veilspun)",
+    "Jupiter (Veilspun)",
+    "Starmap (Veilspun)",
+    "Stitched (Veilspun)",
+    "Skink (Veilspun)",
+    "Wasp (Veilspun)",
+    "Bright (Veilspun)",
+    "Arc (Veilspun)",
+    "Shell (Veilspun)",
+    "Sphinxmoth (Veilspun)",
+    "Laced (Gaoler)",
+    "Tapir (Banescale)",
+    "Clown (Banescale)",
+    "Clown (Veilspun)",
+    "Clown (Gaoler)",
+    "Ripple (Gaoler)",
+    "Ripple (Banescale)",
+    "Falcon (Banescale)",
+    "Giraffe (Banescale)",
+    "Flaunt",
+    "Giraffe (Veilspun)",
+    "Ribbon",
+    "Fade (Banescale)",
+    "Fade (Gaoler)",
+    "Pharaoh",
+    "Ground",
+    "Orb (Aberration)",
+    "Diamond (Aberration)",
+    "Fade (Aberration)",
+    "Bar (Aberration)",
+    "Crystal (Aberration)",
+    "Falcon (Aberration)",
+    "Giraffe (Aberration)",
+    "Tapir (Aberration)",
+    "Vipera (Aberration)",
+    "Ground (Aberration)",
+    "Jaguar (Aberration)",
+    "Lionfish (Aberration)",
+    "Speckle (Aberration)",
+    "Pharaoh (Aberration)",
+    "Savannah (Aberration)",
+    "Swirl (Aberration)",
+    "Slime (Aberration)",
+    "Ribbon (Aberration)",
+    "Stitched (Aberration)",
+    "Wasp (Aberration)",
+    "Clouded (Banescale)",
+    "Boulder"
+];
+var fRGenesSecondary = [
+    "Basic",
+    "Shimmer",
+    "Stripes",
+    "Eye Spots",
+    "Freckle",
+    "Current",
+    "Daub",
+    "Facet",
+    "Hypnotic",
+    "Paint",
+    "Seraph",
+    "Toxin",
+    "Hex",
+    "Butterfly",
+    "Saturn",
+    "Spinner",
+    "Perigrine",
+    "Alloy",
+    "Safari",
+    "Rosette",
+    "Bee",
+    "Striation",
+    "Trail",
+    "Morph",
+    "Constellation",
+    "Noxtide",
+    "Edged",
+    "Hex (Gaoler)",
+    "Bee (Gaoler)",
+    "Streak (Gaoler)",
+    "Peregrine (Gaoler)",
+    "Paint (Gaoler)",
+    "Trail (Gaoler)",
+    "Rosette (Gaoler)",
+    "Daub (Gaoler)",
+    "Striation (Gaoler)",
+    "Stripes (Gaoler)",
+    "Facet (Gaoler)",
+    "Breakup (Gaoler)",
+    "Spirit (Gaoler)",
+    "Clouded",
+    "Sludge",
+    "Blend",
+    "Seraph (Banescale)",
+    "Rosette (Banescale)",
+    "Trail (Banescale)",
+    "Stripes (Banescale)",
+    "Mottle (Banescale)",
+    "Edged (Banescale)",
+    "Alloy (Banescale)",
+    "Safari (Banescale)",
+    "Butterfly (Banescale)",
+    "Spinner (Banescale)",
+    "Toxin (Banescale)",
+    "Arrow (Banescale)",
+    "Sugarplum (Banescale)",
+    "Tear (Banescale)",
+    "Marbled",
+    "Breakup",
+    "Patchwork",
+    "Bee (Veilspun)",
+    "Blend (Veilspun)",
+    "Edged (Veilspun)",
+    "Striation (Veilspun)",
+    "Hypnotic (Veilspun)",
+    "Saturn (Veilspun)",
+    "Constellation (Veilspun)",
+    "Patchwork (Veilspun)",
+    "Spinner (Veilspun)",
+    "Vivid (Veilspun)",
+    "Loop (Veilspun)",
+    "Web (Veilspun)",
+    "Hawkmoth (Veilspun)",
+    "Edged (Gaoler)",
+    "Striation (Banescale)",
+    "Eye Spots (Banescale)",
+    "Eye Spots (Veilspun)",
+    "Eye Spots (Gaoler)",
+    "Current (Gaoler)",
+    "Current (Banescale)",
+    "Peregrine (Banescale)",
+    "Hex (Banescale)",
+    "Flair",
+    "Hex (Veilspun)",
+    "Eel",
+    "Blend (Banescale)",
+    "Blend (Gaoler)",
+    "Sarcophagus",
+    "Fissure",
+    "Weaver (Aberration)",
+    "Spade (Aberration)",
+    "Blend (Aberration)",
+    "Daub (Aberration)",
+    "Facet (Aberration)",
+    "Peregrine (Aberration)",
+    "Hex (Aberration)",
+    "Striation (Aberration)",
+    "Hypnotic (Aberration)",
+    "Fissure (Aberration)",
+    "Rosette (Aberration)",
+    "Noxtide (Aberration)",
+    "Freckle (Aberration)",
+    "Sarcophagus (Aberration)",
+    "Safari (Aberration)",
+    "Marbled (Aberration)",
+    "Sludge (Aberration)",
+    "Eel (Aberration)",
+    "Patchwork (Aberration)",
+    "Bee (Aberration)",
+    "Leopard (Banescale)",
+    "Myrid"
 ];
 var fRGenesTertiary = [
     "Basic",
