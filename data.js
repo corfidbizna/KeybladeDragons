@@ -3226,7 +3226,7 @@ var dragonsMap = {
         species: "Snapper",
         silhouette: "Male",
         element: "Arcane",
-        sceneID: 1,
+        sceneID: 45486,
         familiarID: 7597,
         colors: [
             "Ruby",
@@ -5105,5 +5105,24 @@ var dragonMixin = {
         },
     },
 };
+
+/*            */
+/*    Derg    */
+/*   Stats    */
+/*            */
+var dragonStatCounter = function(propertyName, index) {
+    var result = {};
+    dragons.forEach(function(derg) {
+        var gene = derg[propertyName][index];
+        result[gene] = (result[gene] || 0) + 1;
+    });
+    return result;
+};
+var dragonGeneCountPrimary = dragonStatCounter('genes', 0);
+var dragonGeneCountSecondary = dragonStatCounter('genes', 1);
+var dragonGeneCountTertiary = dragonStatCounter('genes', 2);
+var dragonColorCountPrimary = dragonStatCounter('genes', 0);
+var dragonColorCountSecondary = dragonStatCounter('genes', 2);
+var dragonColorCountTertiary = dragonStatCounter('genes', 1);
 
 // console.table(keybladesMap);
