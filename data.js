@@ -162,7 +162,9 @@ var fRGenesPrimary = [
     "Stitched (Aberration)",
     "Wasp (Aberration)",
     "Clouded (Banescale)",
-    "Boulder"
+    "Boulder",
+    "Flaunt (Aberration)",
+    "Flaunt (Gaoler)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -275,7 +277,9 @@ var fRGenesSecondary = [
     "Patchwork (Aberration)",
     "Bee (Aberration)",
     "Leopard (Banescale)",
-    "Myrid"
+    "Myrid",
+    "Flair (Aberration)",
+    "Flair (Gaoler)",
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -376,6 +380,10 @@ var fRGenesTertiary = [
     "Sparkle (Banescale)",
     "Sparkle (Gaoler)",
     "Sparkle (Veilspun)",
+    "Glimmer (Aberration)",
+    "Glimmer (Banescale)",
+    "Glimmer (Gaoler)",
+    "Glimmer (Veilspun)",
   ];
 var fRColors = [
     {
