@@ -28,29 +28,25 @@ var app = Vue.createApp({
             this.activeDragon = newDragon;
         },
         keydownListener: function(keydownEvent) {
-            var direction = 0;
-            var keyblade = this.activeKeyblade;
-            var keybladeNames = Object.keys(keybladesMap);
             if (keydownEvent.key === 'ArrowLeft') {
-                var direction = -1;
+                this.nudgeActiveDragon(-1);
                 // keydownEvent.preventDefault(); 
                 // ^^ Hey Browser, don't do what you normally do. 
             }
             if (keydownEvent.key === 'ArrowRight') {
-                var direction = 1;
+                this.nudgeActiveDragon(1);
             }
-            var activeBladeIndex = keybladeNames.findIndex((blade) => blade === keyblade);
-            var newActiveBladeIndex = activeBladeIndex + direction;
-            if (newActiveBladeIndex < 0) {
-                newActiveBladeIndex = keybladeNames.length - 1;
-            }
-            if (newActiveBladeIndex >= keybladeNames.length) {
-                newActiveBladeIndex = 0;
-            }
-            if (activeBladeIndex != newActiveBladeIndex) {
+        },
+        nudgeActiveDragon: function(direction) {
+            if (direction != 0) {
+                var keyblade = this.activeKeyblade;
+                var keybladeNames = Object.keys(keybladesMap);
+                var len = keybladeNames.length;
+                var currentIndex = keybladeNames.findIndex((blade) => blade === keyblade);
+                var newIndex = (currentIndex + len + direction) %len; 
                 router.push(
                     this.$route.fullPath.replace(
-                        keyblade, keybladeNames[newActiveBladeIndex]
+                        keyblade, keybladeNames[newIndex]
                     )
                 );
             }
