@@ -384,6 +384,8 @@ var fRGenesTertiary = [
     "Glimmer (Banescale)",
     "Glimmer (Gaoler)",
     "Glimmer (Veilspun)",
+    "Flecks",
+    "Felcks (Aberration",
   ];
 var fRColors = [
     {
