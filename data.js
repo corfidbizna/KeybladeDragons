@@ -5142,7 +5142,7 @@ var dragonsMap = {
         colors: [
             "Honeydew",
             "Peridot",
-            "Chartreuce"
+            "Chartreuse"
         ],
         genes: [
             "Iridescent",

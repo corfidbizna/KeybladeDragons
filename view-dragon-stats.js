@@ -12,7 +12,13 @@ window.viewDragonStats = {
         },
         dragon: function() {
             return dragonsMap[this.keyblade.dergID];
-        }
+        },
+        fRElements: function() {
+            return fRElements;
+        },
+        fRBreeds: function() {
+            return fRBreeds;
+        },
     },
     template: /* html */`
         <div id="dragon-stats">
@@ -20,14 +26,16 @@ window.viewDragonStats = {
             </dragon-genes>
             <span>
                 <dragon-stat
-                    :prop-to-check="dragon.species"
-                    string-to-compare="Snapper"
+                    prop-to-check="species"
+                    :string-to-compare="dragon.species"
+                    :source-of-compare="fRBreeds"
                 ></dragon-stat>
             </span>
             <span>
                 <dragon-stat
-                    :prop-to-check="dragon.species"
-                    string-to-compare="Mirror"
+                    prop-to-check="element"
+                    :string-to-compare="dragon.element"
+                    :source-of-compare="fRElements"
                 ></dragon-stat>
             </span>
         </div>
