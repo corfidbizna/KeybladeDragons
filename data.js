@@ -501,6 +501,8 @@ var fRGenesTertiary = [
     "Glimmer (Veilspun)",
     "Flecks",
     "Felcks (Aberration)",
+    "Soap",
+    "Peacock (Banescale)"
   ];
 var fRColors = [
     {
@@ -5066,7 +5068,7 @@ var dragonsMap = {
         colors: [
             "Orca",
             "Cornflower",
-            "Pthalo"
+            "Phthalo"
         ],
         genes: [
             "Ribbon",
