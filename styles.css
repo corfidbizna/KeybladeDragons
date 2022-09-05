@@ -419,6 +419,7 @@ body {
     display: inline-block;
     border-radius: 0.25em;
     border: 1px solid #0004;
+    font-size: 0.9em;
 }
 .gene-info {
     position: absolute;
@@ -426,4 +427,24 @@ body {
     top: 1px;
 }
 
+/* ======================== */
+/*        Dragon Bio        */
+/* ======================== */
+
+svg {
+    /* background-color: #FFF; */
+    background-image: linear-gradient(to bottom, #FFF 0%,#EEE 100%);
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #BBB;
+    border-radius: 1.125em;
+}
+svg .bar-quantity {
+    text-anchor: middle;
+    font-size: 0.9em;
+}
+svg .bar-label {
+    text-anchor: end;
+    /* transform: translate(0px 16px) rotate(15deg); */
+}
 

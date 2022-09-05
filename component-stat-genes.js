@@ -12,6 +12,9 @@ app.component('dragon-stat', {
         return {
             barWidth: 16,
             barPadding: 2,
+            chartPaddingTop: 20,
+            chartPaddingBot: 104,
+            chartPaddingSides: 16,
         };
     },
     computed: {
@@ -36,6 +39,20 @@ app.component('dragon-stat', {
         },
         comparisonCount: function() {
             return this.sourceOfCompare.length;
+        },
+        viewbox: function() {
+            var padding = this.barPadding;
+            var width = this.barWidth; 
+            var horizontalOffsets = this.chartPaddingSides;
+            return [
+                0,
+                -(200 + this.chartPaddingTop),
+                (
+                    padding 
+                    + ((width + padding) * (this.comparisonCount + 1)) 
+                    + horizontalOffsets),
+                (200 + this.chartPaddingBot)
+            ].join(' ');
         },
         // propertyQuantity: function() {
         //     var count = 0; 
@@ -77,7 +94,8 @@ app.component('dragon-stat', {
         getXSpacing: function(index) {
             var padding = this.barPadding;
             var width = this.barWidth; 
-            return padding + ((width + padding) * index);
+            var horizontalOffsets = this.chartPaddingSides;
+            return padding + ((width + padding) * index) + horizontalOffsets;
         },
         getYHeight: function(toCheck) {
             return 200 * ((this.propertyQuantity(toCheck)) / this.maxCount);
@@ -85,24 +103,38 @@ app.component('dragon-stat', {
     },
     template: /* html */ `
 <svg
-    height="200" viewBox="0 -200 400 200"
+    height="300" :viewBox="viewbox"
 >
-    <g>
-        <rect
+    <g
+        class="chart"
+    >
+        <g
+            class="bar"
             v-for="(item, index) in sourceOfCompare"
             :key="item"
-            :class="item"
-            :x="getXSpacing(index)" 
-            :y="-getYHeight(item)" 
-            width="16" 
-            :height="getYHeight(item)" 
-            rx="2"
-            :fill="getFill(item)"
-        />
+        >
+            <rect
+                :class="item"
+                :x="getXSpacing(index)" 
+                :y="-getYHeight(item)" 
+                width="16" 
+                :height="getYHeight(item)" 
+                rx="2"
+                :fill="getFill(item)"
+            />
+            <text
+                class="bar-quantity"
+                :y="-(4 + getYHeight(item))"
+                :x="getXSpacing(index) + (getXSpacing(0)/2)"
+                color="#FFF"
+            >{{propertyQuantity(item)}}</text>
+            <text 
+                class="bar-label"
+                y="12"
+                :style="'transform: translateX(' + getXSpacing(index) + 'px) rotate(-80deg) translateX(-4px)'"
+            >{{item}}</text>
+        </g>
     </g>
 </svg>
-<div>
-    <span>{{propToCheck}}: {{stringToCompare}}</span>
-</div>
     `,
 })
