@@ -2177,7 +2177,7 @@ Having apprenticed to The Gazing Eye has reinforced No Name's already haughty at
         id: "HerosOrigin",
         name: "Hero's Origin",
         gameIndex: 8,
-        dergID: 48632981,
+        dergID: 80339535,
         bio: `There were several Keyblades that were forged by the concept of being the strongest and kindest. Hero's Origin is perhaps one of the most enthusiastic, but whose strength tends to get carried away. 
 
 Moreso than his associates, Hero's Orgin preffers to preside over contests than participating in them. He'll offer many contests and feats of strength to those willing to prove themselves. Hero's Origin is a massive, burly snapper with impressive long-range lightning magic. In his time, he demonstrated himself to be a formidable warrior. These days, he lays around so much that most of his mass is not as muscular as it once was. `,
@@ -5188,6 +5188,25 @@ var dragonsMap = {
             "Lionfish",
             "Alloy",
             "Basic"
+        ]
+    },
+    80339535: {
+        name: "HerosOrigin",
+        dragonID: 80339535,
+        species: "Obelisk",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 1,
+        familiarID: 40092,
+        colors: [
+            "Obsidian",
+            "Obsidian",
+            "Garnet"
+        ],
+        genes: [
+            "Metallic",
+            "Alloy",
+            "Veined"
         ]
     },
 };
