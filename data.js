@@ -5248,8 +5248,8 @@ var dragonStatCounter = function(propertyName, index) {
 var dragonGeneCountPrimary = dragonStatCounter('genes', 0);
 var dragonGeneCountSecondary = dragonStatCounter('genes', 1);
 var dragonGeneCountTertiary = dragonStatCounter('genes', 2);
-var dragonColorCountPrimary = dragonStatCounter('genes', 0);
-var dragonColorCountSecondary = dragonStatCounter('genes', 2);
-var dragonColorCountTertiary = dragonStatCounter('genes', 1);
+var dragonColorCountPrimary = dragonStatCounter('colors', 0);
+var dragonColorCountSecondary = dragonStatCounter('colors', 2);
+var dragonColorCountTertiary = dragonStatCounter('colors', 1);
 
 // console.table(keybladesMap);
