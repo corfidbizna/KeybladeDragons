@@ -5206,7 +5206,7 @@ var dragonsMap = {
         genes: [
             "Metallic",
             "Alloy",
-            "Veined"
+            "Soap"
         ]
     },
 };
