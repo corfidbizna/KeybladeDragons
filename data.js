@@ -2821,7 +2821,7 @@ var dragonsMap = {
         species: "Spiral",
         silhouette: "Male",
         element: "Ice",
-        sceneID: 35959,
+        sceneID: 47042,
         familiarID: 35957,
         colors: [
             "Midnight",
@@ -3315,7 +3315,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Arcane",
-        sceneID: 47042,
+        sceneID: 35959,
         familiarID: 20146,
         colors: [
             "Flint",
