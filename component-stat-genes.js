@@ -3,10 +3,7 @@ app.component('dragon-stat', {
         dragonMixin,
     ],
     props: {
-        // keybladeID: String,
-        propToCheck: String,
-        stringToCompare: String,
-        sourceOfCompare: Array,
+        graphData: Array,
     },
     data: function() {
         return {
@@ -18,27 +15,25 @@ app.component('dragon-stat', {
         };
     },
     computed: {
-        total: function() {
-            return dragons.length; 
+        keybladeID: function() {
+            return this.keybladeIDFromParams;
         },
-        maxCount: function() {
+        keyblade: function() {
+            return keybladesMap[this.keybladeID];
+        },
+        dragon: function() {
+            return dragonsMap[this.keyblade.dergID];
+        },
+        maxQuantity: function() {
             var maxCount = -Infinity;
-            var list = this.sourceOfCompare;
-            var toCheck = this.propToCheck;
-            list.forEach(function(toCount) {
-                var count = 0; 
-                var property = toCheck;
-                dragons.forEach(function(dragon) {
-                    if (dragon[property] === toCount){
-                        count++;
-                    }
-                });
-                maxCount = Math.max(count, maxCount);
+            var data = this.graphData;
+            data.forEach(function(item) {
+                maxCount = Math.max(maxCount, item.quantity);
             });
-            return maxCount;
+            return maxCount; 
         },
-        comparisonCount: function() {
-            return this.sourceOfCompare.length;
+        columnCount: function() {
+            return this.graphData.length;
         },
         viewbox: function() {
             var padding = this.barPadding;
@@ -49,47 +44,32 @@ app.component('dragon-stat', {
                 -(200 + this.chartPaddingTop),
                 (
                     padding 
-                    + ((width + padding) * (this.comparisonCount + 1)) 
+                    + ((width + padding) * (this.columnCount + 1)) 
                     + horizontalOffsets),
                 (200 + this.chartPaddingBot)
             ].join(' ');
         },
-        // propertyQuantity: function() {
-        //     var count = 0; 
-        //     var property = this.propToCheck;
-        //     var value = this.stringToCompare;
-        //     dragons.forEach(function(dragon, index) {
-        //         if (dragon[property] === value){
-        //             count++;
-        //         }
-        //     });
-        //     return count;
-        // },
-        // percentOfTotal: function() {
-        //     return (this.propertyQuantity / this.total) * 1000;
-        // },
     },
     methods: {
-        propertyQuantity: function(toCheck) {
-            var count = 0; 
-            var property = this.propToCheck;
-            var value = toCheck;
-            dragons.forEach(function(dragon) {
-                if (dragon[property] === value){
-                    count++;
+        getFill: function(column) {
+            var color = "#448";
+            if (column.color) {
+                return column.color;
+            }
+            // if (column.name === this.stringToCompare) {
+            //     color = "#88A";
+            // }
+            return color;
+        },
+        getStroke: function(column) {
+            var stroke = "none";
+            var values = Object.values(this.dragon);
+            values.forEach(function(string) {
+                if (column.name === string) {
+                    stroke = "#000";
                 }
             });
-            return count;
-        },
-        percentOfTotal: function(count) {
-            return (count / this.total);
-        },
-        getFill: function(toCheck) {
-            var color = "#448";
-            if (toCheck === this.stringToCompare) {
-                color = "#88A";
-            }
-            return color;
+            return stroke;
         },
         getXSpacing: function(index) {
             var padding = this.barPadding;
@@ -97,8 +77,8 @@ app.component('dragon-stat', {
             var horizontalOffsets = this.chartPaddingSides;
             return padding + ((width + padding) * index) + horizontalOffsets;
         },
-        getYHeight: function(toCheck) {
-            return 200 * ((this.propertyQuantity(toCheck)) / this.maxCount);
+        getYHeight: function(column) {
+            return 200 * ((column.quantity) / this.maxQuantity);
         },
     },
     template: /* html */ `
@@ -108,31 +88,41 @@ app.component('dragon-stat', {
     <g
         class="chart"
     >
+    <rect
+        class="chart-bg"
+        :x="chartPaddingSides"
+        y="-210"
+        :width="getXSpacing(this.graphData.length - 1) + barPadding"
+        height="210"
+        rx="4"
+        fill="#FFF"
+    />
         <g
             class="bar"
-            v-for="(item, index) in sourceOfCompare"
-            :key="item"
+            v-for="(item, index) in graphData"
+            :key="item.name"
         >
             <rect
-                :class="item"
+                :class="item.name"
                 :x="getXSpacing(index)" 
                 :y="-getYHeight(item)" 
-                width="16" 
+                :width="barWidth" 
                 :height="getYHeight(item)" 
                 rx="2"
                 :fill="getFill(item)"
+                :stroke="getStroke(item)"
             />
             <text
                 class="bar-quantity"
                 :y="-(4 + getYHeight(item))"
                 :x="getXSpacing(index) + (getXSpacing(0)/2)"
                 color="#FFF"
-            >{{propertyQuantity(item)}}</text>
+            >{{item.quantity}}</text>
             <text 
                 class="bar-label"
                 y="12"
                 :style="'transform: translateX(' + getXSpacing(index) + 'px) rotate(-80deg) translateX(-4px)'"
-            >{{item}}</text>
+            >{{item.name}}</text>
         </g>
     </g>
 </svg>

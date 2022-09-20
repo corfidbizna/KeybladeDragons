@@ -5215,9 +5215,11 @@ var dragons = Object.values(dragonsMap);
 var dragonMixin = {
     computed: {
         keybladeIDFromParams: function () {
+            // Active Keyblade(?)
             return this.$route.params.keybladeID || 'KingdomKey';
         },
         activeView: function () {
+            // Active View
             return this.$route.path.split('/').pop() || 'showcase';
         },
     },
@@ -5256,19 +5258,115 @@ var dragonMixin = {
 /*    Derg    */
 /*   Stats    */
 /*            */
-var dragonStatCounter = function(propertyName, index) {
-    var result = {};
-    dragons.forEach(function(derg) {
-        var gene = derg[propertyName][index];
-        result[gene] = (result[gene] || 0) + 1;
+
+var dragonStatCounterGeneric = function(nameList, parameterName) {
+    var result = [];
+    nameList.forEach(function(name, index) {
+        var count = 0;
+        dragons.forEach(function(derg) {
+            if (derg[parameterName] === name) {
+                count ++;
+            }
+        });
+        result[index] = {
+            name: name,
+            quantity: count,
+        };
     });
     return result;
 };
-var dragonGeneCountPrimary = dragonStatCounter('genes', 0);
-var dragonGeneCountSecondary = dragonStatCounter('genes', 1);
-var dragonGeneCountTertiary = dragonStatCounter('genes', 2);
-var dragonColorCountPrimary = dragonStatCounter('colors', 0);
-var dragonColorCountSecondary = dragonStatCounter('colors', 2);
-var dragonColorCountTertiary = dragonStatCounter('colors', 1);
+
+var dragonStatCounterArray = function(nameList, parameterName, index) {
+    var result = nameList.map(function(name) {
+        return {
+            name: name,
+            quantity: 0,
+        }
+    });
+    dragons.forEach(function(derg) {
+        result.find(function(column) {
+            if (column.name === derg[parameterName][index]) {
+                column.quantity ++;
+            }
+        });
+    });
+    return result;
+};
+
+/* Chart Vars */
+//  Chart data is an array of objects. 
+//  Objects contain the data's name and quantity. 
+
+var dragonGeneCountPrimary = dragonStatCounterArray(fRGenesPrimary, "genes", 0);
+var dragonGeneCountSecondary = dragonStatCounterArray(fRGenesSecondary, "genes", 1);
+var dragonGeneCountTertiary = dragonStatCounterArray(fRGenesTertiary, "genes", 2);
+
+var getColorNames = function() {
+    return fRColors.map(function(color) {
+        return color.name;
+    });
+};
+
+var dragonColorCountPrimary = dragonStatCounterArray(getColorNames(), "colors", 0);
+var dragonColorCountSecondary = dragonStatCounterArray(getColorNames(), "colors", 1);
+var dragonColorCountTertiary = dragonStatCounterArray(getColorNames(), "colors", 2);
+
+// Below is where all the color attachment happens. 
+
+var attachColorDataColors = function(destination) {
+    var newData = destination;
+    newData.forEach(function(column, index) {
+        column.color = fRColors[index].color;
+    });
+    return newData;
+};
+var attachColorDataBreeds = function(destination) {
+    var newData = destination;
+    newData.forEach(function(column) {
+        var breed = column.name;
+        var color = '';
+        switch (breed) {
+            case 'Fae': 
+            case 'Spiral': 
+            case 'Skydancer': 
+            case 'Banescale': 
+                // Insects
+                color = "#FB8";
+                break;
+            case 'Guardian':
+            case 'Mirror': 
+            case 'Nocturne': 
+            case 'Wildclaw': 
+            case 'Gaoler': 
+            case 'Aberration': 
+                // Meat
+                color = "#F88";
+                break;
+            case 'Ridgeback': 
+            case 'Imperial': 
+            case 'Coatl': 
+            case 'Obelisk': 
+                // Seafood
+                color = "#8AF";
+                break;
+            case 'Tundra': 
+            case 'Pearlcatcher': 
+            case 'Snapper': 
+            case 'Bogsneak': 
+                // Plants
+                color = "#8A8";
+                break;
+            default: 
+                color = '#F0F';
+                break;
+        }
+        column.color = color;
+    });
+    return newData;
+};
+
+dragonColorCountPrimary = attachColorDataColors(dragonColorCountPrimary);
+dragonColorCountSecondary = attachColorDataColors(dragonColorCountSecondary);
+dragonColorCountTertiary = attachColorDataColors(dragonColorCountTertiary);
 
 // console.table(keybladesMap);
