@@ -3315,7 +3315,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Arcane",
-        sceneID: 35959,
+        sceneID: 47042,
         familiarID: 20146,
         colors: [
             "Flint",
