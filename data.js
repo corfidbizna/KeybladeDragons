@@ -1979,8 +1979,8 @@ Frolic Flame is quite the cocksure, energetic type. He has a lot of physical ene
         id: "LostMemory",
         name: "Lost Memory",
         gameIndex: 4,
-        dergID: 47928896,
-        bio: `The weilder of this blade had been shattered and broken more than once. With help he had been pieced back together, but beneath the calm surface lies layers of forgotten feelings and disjointed memories. 
+        dergID: 78332013,
+        bio: `The wielder of this blade had been shattered and broken more than once. With help he had been pieced back together, but beneath the calm surface lies layers of forgotten feelings and disjointed memories. 
 
 Lost Memory has never really opened up to anyone before, so there's not much to say about him. I do know he's very easily overwhelmed and sleeps for long periods of time. The clan leaders make sure he's taken care of though. He moves about so silently he might startle you when he passes you by, but he never means any harm. `,
     },
@@ -2601,7 +2601,7 @@ var dragonsMap = {
             "Pink"
         ],
         genes: [
-            "Iridescent",
+            "Boulder",
             "Shimmer",
             "Underbelly"
         ]
@@ -2954,7 +2954,7 @@ var dragonsMap = {
         species: "Coatl",
         silhouette: "Female",
         element: "Fire",
-        sceneID: 38799,
+        sceneID: 43921,
         familiarID: 25759,
         colors: [
             "Maize",
@@ -3828,7 +3828,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Female",
         element: "Wind",
-        sceneID: 1,
+        sceneID: 47090,
         familiarID: 42691,
         colors: [
             "White",
@@ -4569,7 +4569,7 @@ var dragonsMap = {
         species: "Fae",
         silhouette: "Male",
         element: "Wind",
-        sceneID: 38799,
+        sceneID: 43921,
         familiarID: 34775,
         colors: [
             "Honeydew",
@@ -5188,6 +5188,25 @@ var dragonsMap = {
             "Lionfish",
             "Alloy",
             "Basic"
+        ]
+    },
+    78332013: {
+        name: "LostMemory",
+        dragonID: 78332013,
+        species: "Obelisk",
+        silhouette: "Female",
+        element: "Ice",
+        sceneID: 36759,
+        familiarID: 44083,
+        colors: [
+            "Antique",
+            "Antique",
+            "Red"
+        ],
+        genes: [
+            "Tapir",
+            "Safari",
+            "Underbelly"
         ]
     },
     80339535: {
