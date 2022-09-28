@@ -2603,7 +2603,7 @@ var dragonsMap = {
         genes: [
             "Boulder",
             "Shimmer",
-            "Underbelly"
+            "Basic"
         ]
     },
     12570049: {
