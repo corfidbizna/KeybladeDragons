@@ -4387,7 +4387,7 @@ var dragonsMap = {
             "Ultramarine"
         ],
         genes: [
-            "Skink",
+            "Boulder",
             "Seraph",
             "Basic"
         ]
