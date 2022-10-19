@@ -502,7 +502,9 @@ var fRGenesTertiary = [
     "Flecks",
     "Felcks (Aberration)",
     "Soap",
-    "Peacock (Banescale)"
+    "Peacock (Banescale)",
+    "Points",
+    "Koi (Veilspun)",
   ];
 var fRColors = [
     {
@@ -2764,7 +2766,7 @@ var dragonsMap = {
         species: "Fae",
         silhouette: "Male",
         element: "Fire",
-        sceneID: 1,
+        sceneID: 34842,
         familiarID: 34717,
         colors: [
             "Splash",
@@ -3078,7 +3080,7 @@ var dragonsMap = {
         genes: [
             "Basic",
             "Eye Spots",
-            "Basic"
+            "Underbelly"
         ]
     },
     18277678: {
@@ -4236,7 +4238,7 @@ var dragonsMap = {
         ],
         genes: [
             "Ripple",
-            "Current",
+            "Flair",
             "Scales"
         ]
     },
@@ -4925,12 +4927,12 @@ var dragonsMap = {
         ]
     },
     71731909: {
-        name: "Unnamed",
+        name: "ScalaAdCaelum",
         dragonID: 71731909,
         species: "Guardian",
         silhouette: "Female",
         element: "Lightning",
-        sceneID: 40841,
+        sceneID: 45486,
         familiarID: 26100,
         colors: [
             "Silver",
@@ -5025,7 +5027,7 @@ var dragonsMap = {
         species: "Imperial",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 1,
+        sceneID: 38283,
         familiarID: 33306,
         colors: [
             "Ice",
@@ -5035,7 +5037,7 @@ var dragonsMap = {
         genes: [
             "Iridescent",
             "Shimmer",
-            "Opal"
+            "Scales"
         ]
     },
     75174766: {
