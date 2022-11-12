@@ -165,6 +165,7 @@ var fRGenesPrimary = [
     "Boulder",
     "Flaunt (Aberration)",
     "Flaunt (Gaoler)",
+    "Tide",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -280,6 +281,7 @@ var fRGenesSecondary = [
     "Myrid",
     "Flair (Aberration)",
     "Flair (Gaoler)",
+    "Foam",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -394,7 +396,8 @@ var fRGenePairs = [
     ["Clouded (Banescale)", "Leopard (Aberration)"],
     ["Boulder", "Myrid"],
     ["Flaunt (Aberration)", "Flare (Aberration)"],
-    ["Flaunt (Gaoler)", "Flare (Gaoler)"], 
+    ["Flaunt (Gaoler)", "Flare (Gaoler)"],
+    ["Tide", "Foam"],
 ];
 var fRGenesTertiary = [
     "Basic",
