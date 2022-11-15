@@ -3662,7 +3662,7 @@ var dragonsMap = {
         species: "Ridgeback",
         silhouette: "Male",
         element: "Ice",
-        sceneID: 1,
+        sceneID: 34840,
         familiarID: 35638,
         colors: [
             "Midnight",
@@ -3890,7 +3890,7 @@ var dragonsMap = {
         species: "Skydancer",
         silhouette: "Female",
         element: "Fire",
-        sceneID: 39215,
+        sceneID: 47663,
         familiarID: 25411,
         colors: [
             "Lead",
@@ -4745,7 +4745,7 @@ var dragonsMap = {
         species: "Nocturne",
         silhouette: "Male",
         element: "Nature",
-        sceneID: 1,
+        sceneID: 35018,
         familiarID: 41328,
         colors: [
             "Overcast",
@@ -4916,7 +4916,7 @@ var dragonsMap = {
         species: "Tundra",
         silhouette: "Female",
         element: "Arcane",
-        sceneID: 38283,
+        sceneID: 35018,
         familiarID: 1968,
         colors: [
             "Rose",
