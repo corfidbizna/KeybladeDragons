@@ -3044,7 +3044,7 @@ var dragonsMap = {
         ],
         genes: [
             "Iridescent",
-            "Shimmer",
+            "Foam",
             "Underbelly"
         ]
     },
