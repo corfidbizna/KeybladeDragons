@@ -3884,7 +3884,7 @@ var dragonsMap = {
         species: "Ridgeback",
         silhouette: "Female",
         element: "Shadow",
-        sceneID: 1,
+        sceneID: 48120,
         familiarID: 31189,
         colors: [
             "Overcast",
