@@ -189,6 +189,9 @@ var fRGenesPrimary = [
     "Ripple (Undertide)",
     "Poison (Undertide)",
     "Boulder (Undertide)",
+    "Fern",
+    "Fern (Banescale)",
+    "Fern (Veilspun)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -327,6 +330,9 @@ var fRGenesSecondary = [
     "Current (Undertide)",
     "Toxin (Undertide)",
     "Myrid (Undertide)",
+    "Paisley",
+    "Paisley (Banescale)",
+    "Paisley (Veilspun)",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -465,6 +471,9 @@ var fRGenePairs = [
     ["Ripple (Undertide)", "Current (Undertide)"],
     ["Poison (Undertide)", "Toxin (Undertide)"],
     ["Boulder (Undertide)", "Myrid (Undertide)"],
+    ["Fern", "Paisley"],
+    ["Fern (Banescale)", "Paisley (Banescale)"],
+    ["Fern (Veilspun)", "Paisley (Banescale)"],
 ];
 var fRGenesTertiary = [
     "Basic",
