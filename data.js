@@ -3152,7 +3152,7 @@ var dragonsMap = {
         species: "Coatl",
         silhouette: "Male",
         element: "Fire",
-        sceneID: 37360,
+        sceneID: 48173,
         familiarID: 42688,
         colors: [
             "Mulberry",
@@ -3361,7 +3361,7 @@ var dragonsMap = {
         species: "Snapper",
         silhouette: "Female",
         element: "Earth",
-        sceneID: 1,
+        sceneID: 48174,
         familiarID: 26206 - 1,
         colors: [
             "Splash",
@@ -4444,7 +4444,7 @@ var dragonsMap = {
         species: "Mirror",
         silhouette: "Male",
         element: "Light",
-        sceneID: 42541,
+        sceneID: 48233,
         familiarID: 42616,
         colors: [
             "Black",
@@ -4539,7 +4539,7 @@ var dragonsMap = {
         species: "Guardian",
         silhouette: "Female",
         element: "Light",
-        sceneID: 1,
+        sceneID: 37359,
         familiarID: 25166,
         colors: [
             "Steel",
@@ -4843,7 +4843,7 @@ var dragonsMap = {
         species: "Nocturne",
         silhouette: "Male",
         element: "Nature",
-        sceneID: 35018,
+        sceneID: 37360,
         familiarID: 41328,
         colors: [
             "Overcast",
