@@ -192,6 +192,13 @@ var fRGenesPrimary = [
     "Fern",
     "Fern (Banescale)",
     "Fern (Veilspun)",
+    "Falcon (Veilspun)",
+    "Poison (Veilspun)",
+    "Slime (Veilspun)",
+    "Leopard (Veilspun)",
+    "Petals (Veilspun)",
+    "Speck (Veilspun)",
+    "Bar (Veilspun)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -333,6 +340,13 @@ var fRGenesSecondary = [
     "Paisley",
     "Paisley (Banescale)",
     "Paisley (Veilspun)",
+    "Peregrine (Veilspun)",
+    "Toxin (Veilspun)",
+    "Sludge (Veilspun)",
+    "Clouded (Veilspun)",
+    "Butterfly (Veilspun)",
+    "Freckle (Veilspun)",
+    "Daub (Veilspun)",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -473,7 +487,14 @@ var fRGenePairs = [
     ["Boulder (Undertide)", "Myrid (Undertide)"],
     ["Fern", "Paisley"],
     ["Fern (Banescale)", "Paisley (Banescale)"],
-    ["Fern (Veilspun)", "Paisley (Banescale)"],
+    ["Fern (Veilspun)", "Paisley (Veilspun)"],
+    ["Falcon (Veilspun)", "Peregrine (Veilspun)"],
+    ["Poison (Veilspun)", "Toxin (Veilspun)"],
+    ["Slime (Veilspun)", "Sludge (Veilspun)"],
+    ["Leopard (Veilspun)", "Clouded (Veilspun)"],
+    ["Petals (Veilspun)", "Butterfly (Veilspun)"],
+    ["Speck (Veilspun)", "Freckle (Veilspun)"],
+    ["Bar (Veilspun)", "Daub (Veilspun)"],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -606,6 +627,9 @@ var fRGenesTertiary = [
     "Soap (Undertide)",
     "Circuit (Undertide)",
     "Okapi (Undertide)",
+    "Ghost (Veilspun)",
+    "Filigree (Veilspun)",
+    "Veined (Veilspun)",
   ];
 var fRColors = [
     {
@@ -4509,7 +4533,7 @@ var dragonsMap = {
             "Cobalt"
         ],
         genes: [
-            "Iridescent",
+            "Tide",
             "Shimmer",
             "Smoke"
         ]
