@@ -5355,6 +5355,25 @@ var dragonsMap = {
             "Soap"
         ]
     },
+    82852932: {
+        name: "Darkgnaw",
+        dragonID: 82852932,
+        species: "Snapper",
+        silhouette: "Female",
+        element: "Plague",
+        sceneID: 38411,
+        familiarID: 42689,
+        colors: [
+            "Taupe",
+            "Blood",
+            "Blood"
+        ],
+        genes: [
+            "Bar",
+            "Striation",
+            "Peacock"
+        ]
+    },
 };
 var dragons = Object.values(dragonsMap);
 
