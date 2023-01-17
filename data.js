@@ -2034,7 +2034,7 @@ Ends of the Earth often takes other clan members under his protective wing. He's
         id: "Darkgnaw",
         name: "Darkgnaw",
         gameIndex: 4,
-        dergID: 54271293,
+        dergID: 82852932,
         bio: `Some Keyblades come forth after the wielder has proven themself through a trial or challenge. This blade is one of those, and thus the dragon born from it is one of great strength and tenacity. 
 
 Darkgnaw's skill in close combat is almost terrifying. He never hesitates to use his massive jaw to crush anything no matter how tough it may seem. Despite his massive body strength and deep voice he's actually quite short from end to end. But he always holds himself so immensely that you'd never know from looking. `,
@@ -4281,14 +4281,14 @@ var dragonsMap = {
         sceneID: 38411,
         familiarID: 42689,
         colors: [
-            "Midnight",
-            "Maize",
-            "Carmine"
+            "Taupe",
+            "Blood",
+            "Blood"
         ],
         genes: [
-            "Ripple",
-            "Current",
-            "Smoke"
+            "Bar",
+            "Striation",
+            "Peacock"
         ]
     },
     54273226: {
