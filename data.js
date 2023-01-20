@@ -199,6 +199,8 @@ var fRGenesPrimary = [
     "Petals (Veilspun)",
     "Speck (Veilspun)",
     "Bar (Veilspun)",
+    "Crystal (Veilspun)",
+    "Speckle (Banescale)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -347,6 +349,8 @@ var fRGenesSecondary = [
     "Butterfly (Veilspun)",
     "Freckle (Veilspun)",
     "Daub (Veilspun)",
+    "Facet (Veilspun)",
+    "Freckle (Banescale)",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -495,6 +499,8 @@ var fRGenePairs = [
     ["Petals (Veilspun)", "Butterfly (Veilspun)"],
     ["Speck (Veilspun)", "Freckle (Veilspun)"],
     ["Bar (Veilspun)", "Daub (Veilspun)"],
+    ["Crystal (Veilspun)", "Facet (Veilspun)"],
+    ["Speckle (Banescale)", "Freckle (Banescale)"],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -630,6 +636,7 @@ var fRGenesTertiary = [
     "Ghost (Veilspun)",
     "Filigree (Veilspun)",
     "Veined (Veilspun)",
+    "Underbelly (Aberration)",
   ];
 var fRColors = [
     {
