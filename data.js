@@ -1915,7 +1915,7 @@ Omega is very skilled in many things. Cooking, fancy tricks, magic, trivia, comb
         id: "Umbrella",
         name: "Umbrella",
         gameIndex: 3,
-        dergID: 52548728,
+        dergID: 83990324,
         bio: `The great Earthshaker didn't quite know what to make of this… erm, "Keyblade" when he encountered it, but he pulled it into the form of a dragon nontheless. 
 
 Umbrella loves to play in rain and storm. She's been seen folding her wings around her body in such a way that it makes a shield-shape, with her head and neck sticking straight out the center. She must like feeling the rain runing down the webbing of her wings? Though once I saw her doing that to shelter some small birds who would otherwise have been drenched in a particularly severe storm. She has a good heart, but is a little bit of an airhead. `,
@@ -2558,7 +2558,25 @@ Vulpus, with the shape of a fox, is very easy to talk to. She is a advocate for 
         bio: `The source blade for this dragon is no doubt the source of her erudite qualities. The blade accompanied many on their way to mastery of the Keyblade for the first—and often most harrowing—leg of their journeys. 
 
 A studious dragon, [Keyblade] spends her days studying to become a master on par with Master's Defender. You'll find she makes a great research partner and sparing companion. [Keyblade] is never shy to speak her opinion and though discussing her reasoning one will discover just how comprehensive her though process is. `,
-    }
+    },
+    {
+        id: "Kinsetsu",
+        name: "Kinsetsu",
+        gameIndex: 7,
+        dergID: 83686913,
+        bio: `TEXT 
+
+TEXT`,
+    },
+    {
+        id: "Enkaku",
+        name: "Enkaku",
+        gameIndex: 7,
+        dergID: 83685280,
+        bio: `TEXT  
+
+TEXT`,
+    },
 ];
 var keybladesMap = {};
 keyblades.forEach(function (keyblade) {
@@ -5379,6 +5397,63 @@ var dragonsMap = {
             "Bar",
             "Striation",
             "Peacock"
+        ]
+    },
+    83686913: {
+        name: "Kinsetsu",
+        dragonID: 83686913,
+        species: "Pearlcatcher",
+        silhouette: "Male",
+        element: "Arcane",
+        sceneID: 35018,
+        familiarID: 33619,
+        colors: [
+            "Berry",
+            "Black",
+            "Platinum"
+        ],
+        genes: [
+            "Metallic",
+            "Facet",
+            "Firefly"
+        ]
+    },
+    83685280: {
+        name: "Enkaku",
+        dragonID: 83685280,
+        species: "Spiral",
+        silhouette: "Female",
+        element: "Shadow",
+        sceneID: 35018,
+        familiarID: 40567,
+        colors: [
+            "Mantis",
+            "Green",
+            "Forest"
+        ],
+        genes: [
+            "Pharaoh",
+            "Sarcophagus",
+            "Smoke"
+        ]
+    },
+    83990324: {
+        name: "Umbrella",
+        dragonID: 83990324,
+        species: "Wildclaw",
+        silhouette: "Male",
+        element: "Water",
+        sceneID: 45956,
+        familiarID: 42691,
+        colors: [
+            "White",
+            "White",
+            "Overcast"
+        ],
+        genes: [
+            "Iridescent",
+            "Shimmer",
+            "Soap"
         ]
     },
 };
