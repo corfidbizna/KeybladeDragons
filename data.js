@@ -224,6 +224,16 @@ var fRGenesPrimary = [
     "Starmap (Aether)",
     "Stitched (Aether)",
     "Tide (Aether)",
+    "Harlequin",
+    "Tide (Gaoler)",
+    "Boa (Gaoler)",
+    "Leopard (Gaoler)",
+    "Poison (Gaoler)",
+    "Ribbon (Gaoler)",
+    "Skink (Gaoler)",
+    "Slime (Gaoler)",
+    "Stitched (Gaoler)",
+    "Swirl (Gaoler)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -396,6 +406,16 @@ var fRGenesSecondary = [
     "Constelation (Aether)",
     "Patchwork (Aether)",
     "Foam (Aether)",
+    "Jester",
+    "Foam (Gaoler)",
+    "Saddle (Gaoler)",
+    "Clouded (Gaoler)",
+    "Toxin (Gaoler)",
+    "Eel (Gaoler)",
+    "Spinner (Gaoler)",
+    "Sludge (Gaoler)",
+    "Patchwork (Gaoler)",
+    "Marbled (Gaoler)",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -564,6 +584,16 @@ var fRGenePairs = [
     ["Starmap (Aether)", "Constelation (Aether)"],
     ["Stitched (Aether)", "Patchwork (Aether)"],
     ["Tide (Aether)", "Foam (Aether)"],
+    ["Harlequin", "Jester"],
+    ["Foam (Gaoler)", "Foam (Gaoler)"],
+    ["Saddle (Gaoler)", "Saddle (Gaoler)"],
+    ["Clouded (Gaoler)", "Clouded (Gaoler)"],
+    ["Toxin (Gaoler)", "Toxin (Gaoler)"],
+    ["Eel (Gaoler)", "Eel (Gaoler)"],
+    ["Spinner (Gaoler)", "Spinner (Gaoler)"],
+    ["Sludge (Gaoler)", "Sludge (Gaoler)"],
+    ["Patchwork (Gaoler)", "Patchwork (Gaoler)"],
+    ["Marbled (Gaoler)", "Marbled (Gaoler)"],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -721,6 +751,8 @@ var fRGenesTertiary = [
     "Spines (Aether)",
     "Stained (Aether)",
     "Underbelly (Aether)",
+    "Angler (Gaoler)",
+    "Contor (Gaoler)",
   ];
 var fRColors = [
     {
@@ -3000,7 +3032,7 @@ var dragonsMap = {
         species: "Fae",
         silhouette: "Male",
         element: "Fire",
-        sceneID: 34842,
+        sceneID: 49890,
         familiarID: 34717,
         colors: [
             "Splash",
@@ -3513,7 +3545,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Female",
         element: "Ice",
-        sceneID: 37882,
+        sceneID: 49891,
         familiarID: 21153,
         colors: [
             "Cornflower",
@@ -4045,7 +4077,7 @@ var dragonsMap = {
         species: "Spiral",
         silhouette: "Female",
         element: "Light",
-        sceneID: 41418,
+        sceneID: 48995,
         familiarID: 6604,
         colors: [
             "White",
