@@ -234,6 +234,11 @@ var fRGenesPrimary = [
     "Slime (Gaoler)",
     "Stitched (Gaoler)",
     "Swirl (Gaoler)",
+    "Bar (Banescale)",
+    "Crystal (Banescale)",
+    "Ribbon (Banescale)",
+    "Tide (Banescale)",
+    "Pharaoh (Banescale)",
 ];
 var fRGenesSecondary = [
     "Basic",
@@ -416,6 +421,11 @@ var fRGenesSecondary = [
     "Sludge (Gaoler)",
     "Patchwork (Gaoler)",
     "Marbled (Gaoler)",
+    "Daub (Banescale)",
+    "Facet (Banescale)",
+    "Eel (Banescale)",
+    "Foam (Banescale)",
+    "Sarcophagus (Banescale)",
 ];
 var fRGenePairs = [
     ["Basic", "Basic"],
@@ -594,6 +604,11 @@ var fRGenePairs = [
     ["Sludge (Gaoler)", "Sludge (Gaoler)"],
     ["Patchwork (Gaoler)", "Patchwork (Gaoler)"],
     ["Marbled (Gaoler)", "Marbled (Gaoler)"],
+    ["Bar (Banescale)", "Daub (Banescale)"],
+    ["Crystal (Banescale)", "Facet (Banescale)"],
+    ["Ribbon (Banescale)", "Eel (Banescale)"],
+    ["Tide (Banescale)", "Foam (Banescale)"],
+    ["Pharaoh (Banescale)", "Sarcophagus (Banescale)"],
 ];
 var fRGenesTertiary = [
     "Basic",
@@ -753,6 +768,9 @@ var fRGenesTertiary = [
     "Underbelly (Aether)",
     "Angler (Gaoler)",
     "Contor (Gaoler)",
+    "Monarch (Banescale)",
+    "Soap (Banescale)",
+    "Spines (Banescale)",
   ];
 var fRColors = [
     {
