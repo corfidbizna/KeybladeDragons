@@ -771,6 +771,14 @@ var fRGenesTertiary = [
     "Monarch (Banescale)",
     "Soap (Banescale)",
     "Spines (Banescale)",
+    "Firebreather",
+    "Carnivore (Aberration)",
+    "Carnivore (Aether)",
+    "Carnivore (Banescale)",
+    "Carnivore (Gaoler)",
+    "Carnivore (Undertide)",
+    "Carnivore (Veilspun)",
+    "Polkadot",
   ];
 var fRColors = [
     {
@@ -3202,7 +3210,7 @@ var dragonsMap = {
         species: "Snapper",
         silhouette: "Female",
         element: "Earth",
-        sceneID: 1,
+        sceneID: 50697,
         familiarID: 25404,
         colors: [
             "Brown",
@@ -3525,7 +3533,7 @@ var dragonsMap = {
         species: "Spiral",
         silhouette: "Female",
         element: "Earth",
-        sceneID: 36048,
+        sceneID: 38215,
         familiarID: 41628,
         colors: [
             "Midnight",
@@ -3753,7 +3761,7 @@ var dragonsMap = {
         species: "Ridgeback",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 36759,
+        sceneID: 50694,
         familiarID: 42342,
         colors: [
             "Coal",
@@ -3829,7 +3837,7 @@ var dragonsMap = {
         species: "Fae",
         silhouette: "Male",
         element: "Arcane",
-        sceneID: 36048,
+        sceneID: 34842,
         familiarID: 42619,
         colors: [
             "Orca",
@@ -3867,7 +3875,7 @@ var dragonsMap = {
         species: "Mirror",
         silhouette: "Male",
         element: "Ice",
-        sceneID: 37361,
+        sceneID: 41976,
         familiarID: 41965,
         colors: [
             "Coal",
@@ -4133,7 +4141,7 @@ var dragonsMap = {
         species: "Guardian",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 1,
+        sceneID: 50696,
         familiarID: 33450,
         colors: [
             "Midnight",
@@ -4152,7 +4160,7 @@ var dragonsMap = {
         species: "Spiral",
         silhouette: "Male",
         element: "Ice",
-        sceneID: 40841,
+        sceneID: 50695,
         familiarID: 747,
         colors: [
             "Slate",
@@ -4247,7 +4255,7 @@ var dragonsMap = {
         species: "Snapper",
         silhouette: "Female",
         element: "Ice",
-        sceneID: 38411,
+        sceneID: 38215,
         familiarID: 33308,
         colors: [
             "Black",
@@ -4418,7 +4426,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Light",
-        sceneID: 37361,
+        sceneID: 42764,
         familiarID: 41974,
         colors: [
             "Obsidian",
@@ -4760,7 +4768,7 @@ var dragonsMap = {
         species: "Skydancer",
         silhouette: "Female",
         element: "Ice",
-        sceneID: 38215,
+        sceneID: 50693,
         familiarID: 24514,
         colors: [
             "Peridot",
@@ -4931,7 +4939,7 @@ var dragonsMap = {
         species: "Skydancer",
         silhouette: "Female",
         element: "Nature",
-        sceneID: 34837,
+        sceneID: 40841,
         familiarID: 41969,
         colors: [
             "White",
@@ -5273,7 +5281,7 @@ var dragonsMap = {
         species: "Obelisk",
         silhouette: "Female",
         element: "Fire",
-        sceneID: 34837,
+        sceneID: 34846,
         familiarID: 8319,
         colors: [
             "Obsidian",
@@ -5368,7 +5376,7 @@ var dragonsMap = {
         species: "Spiral",
         silhouette: "Female",
         element: "Wind",
-        sceneID: 39215,
+        sceneID: 47663,
         familiarID: 20156,
         colors: [
             "Periwinkle",
@@ -5387,7 +5395,7 @@ var dragonsMap = {
         species: "Obelisk",
         silhouette: "Female",
         element: "Water",
-        sceneID: 38411,
+        sceneID: 34842,
         familiarID: 34798,
         colors: [
             "Royal",
@@ -5406,7 +5414,7 @@ var dragonsMap = {
         species: "Bogsneak",
         silhouette: "Male",
         element: "Fire",
-        sceneID: 37882,
+        sceneID: 48233,
         familiarID: 42756,
         colors: [
             "Dust",
@@ -5482,7 +5490,7 @@ var dragonsMap = {
         species: "Obelisk",
         silhouette: "Female",
         element: "Ice",
-        sceneID: 36759,
+        sceneID: 50692,
         familiarID: 44083,
         colors: [
             "Antique",
