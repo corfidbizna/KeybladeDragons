@@ -88,7 +88,7 @@ var frGenesMap = {
     "Boulder": {
         self: "Boulder", 
         pair: "Myrid",
-        species: ["Modern", "Undertide", "Aether", "Sandsurge"],
+        species: ["Modern", "Undertide", "Aether", "Sandsurge", "Aberration"],
     },
     "Candy": {
         self: "Candy", 
@@ -108,7 +108,7 @@ var frGenesMap = {
     "Cherub": {
         self: "Cherub", 
         pair: "Seraph",
-        species: ["Modern", "Banescale", "Undertide", "Sandsurge"],
+        species: ["Modern", "Banescale", "Undertide", "Sandsurge", "Aberration"],
     },
     "Chevron": {
         self: "Chevron", 
@@ -123,7 +123,7 @@ var frGenesMap = {
     "Clown": {
         self: "Clown", 
         pair: "Eye Spot",
-        species: ["Modern", "Banescale", "Veilspun", "Gaoler", "Aether", "Sandsurge"],
+        species: ["Modern", "Banescale", "Veilspun", "Gaoler", "Aether", "Sandsurge", "Aberration"],
     },
     "Crystal": {
         self: "Crystal", 
@@ -148,7 +148,7 @@ var frGenesMap = {
     "Fern": {
         self: "Fern", 
         pair: "Paisley",
-        species: ["Modern", "Banescale", "Veilspun"],
+        species: ["Modern", "Banescale", "Veilspun", "Aberration"],
     },
     "Flaunt": {
         self: "Flaunt", 
@@ -168,7 +168,7 @@ var frGenesMap = {
     "Harlequin": {
         self: "Harlequin", 
         pair: "Jester",
-        species: ["Modern", "Sandsurge"],
+        species: ["Modern", "Sandsurge", "Aberration"],
     },
     "Iridescent": {
         self: "Iridescent", 
@@ -193,7 +193,7 @@ var frGenesMap = {
     "Leopard": {
         self: "Leopard", 
         pair: "Clouded",
-        species: ["Modern", "Veilspun", "Gaoler"],
+        species: ["Modern", "Veilspun", "Gaoler", "Aberration"],
     },
     "Lionfish": {
         self: "Lionfish", 
@@ -248,12 +248,12 @@ var frGenesMap = {
     "Pinstripe": {
         self: "Pinstripe", 
         pair: "Trail",
-        species: ["Modern", "Gaoler", "Banescale", "Undertide", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Banescale", "Undertide", "Sandsurge", "Aberration"],
     },
     "Poison": {
         self: "Poison", 
         pair: "Toxin",
-        species: ["Modern", "Banescale", "Undertide", "Veilspun", "Gaoler"],
+        species: ["Modern", "Banescale", "Undertide", "Veilspun", "Gaoler", "Aberration"],
     },
     "Python": {
         self: "Python", 
@@ -278,7 +278,7 @@ var frGenesMap = {
     "Ripple": {
         self: "Ripple", 
         pair: "Current",
-        species: ["Modern", "Gaoler", "Banescale", "Undertide"],
+        species: ["Modern", "Gaoler", "Banescale", "Undertide", "Aberration"],
     },
     "Savannah": {
         self: "Savannah", 
@@ -298,7 +298,7 @@ var frGenesMap = {
     "Skink": {
         self: "Skink", 
         pair: "Spinner",
-        species: ["Modern", "Banescale", "Veilspun", "Aether", "Gaoler"],
+        species: ["Modern", "Banescale", "Veilspun", "Aether", "Gaoler", "Aberration"],
     },
     "Slime": {
         self: "Slime", 
@@ -323,7 +323,7 @@ var frGenesMap = {
     "Starmap": {
         self: "Starmap", 
         pair: "Constelation",
-        species: ["Modern", "Veilspun", "Aether"],
+        species: ["Modern", "Veilspun", "Aether", "Aberration"],
     },
     "Stitched": {
         self: "Stitched", 
@@ -343,7 +343,7 @@ var frGenesMap = {
     "Tide": {
         self: "Tide", 
         pair: "Foam",
-        species: ["Modern", "Undertide", "Aether", "Gaoler", "Banescale"],
+        species: ["Modern", "Undertide", "Aether", "Gaoler", "Banescale", "Aberration"],
     },
     "Tiger": {
         self: "Tiger", 
@@ -361,7 +361,7 @@ var frGenesMap = {
         species: ["Modern", "Veilspun", "Aberration"],
     },
     "Wasp": {
-        self: "", 
+        self: "Wasp", 
         pair: "Bee",
         species: ["Modern", "Gaoler", "Veilspun", "Aberration", "Undertide", "Sandsurge"],
     },
@@ -1223,6 +1223,17 @@ var fRGenesTertiary = [
     "Peacock (Sandsurge)",
     "Thundercrack (Sandsurge)",
     "Thundercrack (Gaoler)",
+    "Augment (Aberration)",
+    "Braids (Aberration)",
+    "Contour (Aberration)",
+    "Fans (Aberration)",
+    "Firebelly (Aberration)",
+    "Koi (Aberration)",
+    "Skeletal (Aberration)",
+    "Smirch (Aberration)",
+    "Spines (Aberration)",
+    "Stained (Aberration)",
+    "Thorns (Aberration)",
   ];
 var fRColors = [
     {
@@ -3173,6 +3184,25 @@ keyblades.forEach(function (keyblade) {
 /*  Dragons   */
 /*            */
 var dragonsMap = {
+    1: {
+        name: "Earthshaker",
+        dragonID: 1,
+        species: "Guardian",
+        silhouette: "Male",
+        element: "Earth",
+        sceneID: 36759,
+        familiarID: 2151,
+        colors: [
+            "Stone",
+            "Slate",
+            "Brown"
+        ],
+        genes: [
+            "Basic",
+            "Basic",
+            "Basic"
+        ]
+    },
     8978770: {
         name: "DiamondDust",
         dragonID: 8978770,
@@ -3711,7 +3741,7 @@ var dragonsMap = {
         species: "Mirror",
         silhouette: "Male",
         element: "Earth",
-        sceneID: 34845,
+        sceneID: 52287,
         familiarID: 22394,
         colors: [
             "Silver",
@@ -3939,7 +3969,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Female",
         element: "Shadow",
-        sceneID: 34848,
+        sceneID: 52287,
         familiarID: 28246,
         colors: [
             "Silver",
@@ -4775,7 +4805,7 @@ var dragonsMap = {
         species: "Ridgeback",
         silhouette: "Male",
         element: "Water",
-        sceneID: 34848,
+        sceneID: 34845,
         familiarID: 40565,
         colors: [
             "Dust",
@@ -5003,7 +5033,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 41418,
+        sceneID: 50695,
         familiarID: 24511,
         colors: [
             "Stone",
@@ -5136,7 +5166,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Water",
-        sceneID: 39215,
+        sceneID: 44049,
         familiarID: 13431,
         colors: [
             "Sky",
@@ -5592,7 +5622,7 @@ var dragonsMap = {
         species: "Skydancer",
         silhouette: "Male",
         element: "Wind",
-        sceneID: 1,
+        sceneID: 51585,
         familiarID: 15280,
         colors: [
             "Obsidian",
