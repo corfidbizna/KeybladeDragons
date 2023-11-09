@@ -83,7 +83,7 @@ var frGenesMap = {
     "Boa": {
         self: "Boa", 
         pair: "Saddle",
-        species: ["Undertide", "Gaoler", "Sandsurge"],
+        species: ["Undertide", "Gaoler", "Sandsurge", "Modern", "Aberration", "Aether", "Banescale", "Veilspun"],
     },
     "Boulder": {
         self: "Boulder", 
@@ -1234,6 +1234,11 @@ var fRGenesTertiary = [
     "Spines (Aberration)",
     "Stained (Aberration)",
     "Thorns (Aberration)",
+    "Starfall (Aether)",
+    "Starfall (Sandsurge)",
+    "Riot (Aberration)",
+    "Riot (Gaoler)",
+    "Wish",
   ];
 var fRColors = [
     {
@@ -3912,7 +3917,7 @@ var dragonsMap = {
         species: "Nocturne",
         silhouette: "Male",
         element: "Lightning",
-        sceneID: 38411,
+        sceneID: 52051,
         familiarID: 40821,
         colors: [
             "Black",
@@ -5318,7 +5323,7 @@ var dragonsMap = {
         species: "Imperial",
         silhouette: "Female",
         element: "Lightning",
-        sceneID: 38411,
+        sceneID: 52051,
         familiarID: 28771,
         colors: [
             "Charcoal",
@@ -5983,7 +5988,7 @@ var dragonsMap = {
         species: "Obelisk",
         silhouette: "Male",
         element: "Lightning",
-        sceneID: 1,
+        sceneID: 52963,
         familiarID: 40092,
         colors: [
             "Obsidian",
