@@ -115,6 +115,11 @@ var frGenesMap = {
         pair: "Arrow",
         species: ["Banescale"],
     },
+    "Chrysocolla": {
+        self: "Chrysocolla",
+        pair: "Malachite",
+        species: ["Modern", "Sandsurge"],
+    },
     "Cinder": {
         self: "Cinder", 
         pair: "Blaze",
