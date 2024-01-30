@@ -53,6 +53,7 @@ var fRBreeds = [
     'Undertide',
     'Aether',
     'Sandsurge',
+    'Auraboa',
 ];
 var frGenesMap = {
     "Arapaima": {
@@ -68,7 +69,7 @@ var frGenesMap = {
     "Bar": {
         self: "Bar", 
         pair: "Daub",
-        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Aether", "Banescale"],
+        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Aether", "Banescale", "Auraboa"],
     },
     "Basic": {
         self: "Basic", 
@@ -83,12 +84,12 @@ var frGenesMap = {
     "Boa": {
         self: "Boa", 
         pair: "Saddle",
-        species: ["Undertide", "Gaoler", "Sandsurge", "Modern", "Aberration", "Aether", "Banescale", "Veilspun"],
+        species: ["Undertide", "Gaoler", "Sandsurge", "Modern", "Aberration", "Aether", "Banescale", "Veilspun", "Auraboa"],
     },
     "Boulder": {
         self: "Boulder", 
         pair: "Myrid",
-        species: ["Modern", "Undertide", "Aether", "Sandsurge", "Aberration"],
+        species: ["Modern", "Undertide", "Aether", "Sandsurge", "Aberration", "Auraboa"],
     },
     "Candy": {
         self: "Candy", 
@@ -99,6 +100,11 @@ var frGenesMap = {
         self: "Candycane", 
         pair: "Sugarplum",
         species: ["Banescale"],
+    },
+    "Caterpillar": {
+        self: "Caterpillar",
+        pair: "Larvae",
+        species: ["Auraboa"],
     },
     "Checkers": {
         self: "Checkers", 
@@ -143,27 +149,27 @@ var frGenesMap = {
     "Fade": {
         self: "Fade", 
         pair: "Blend",
-        species: ["Modern", "Veilspun", "Banescale", "Gaoler", "Aberration", "Undertide", "Aether", "Sandsurge"],
+        species: ["Modern", "Veilspun", "Banescale", "Gaoler", "Aberration", "Undertide", "Aether", "Sandsurge", "Auraboa"],
     },
     "Falcon": {
         self: "Falcon", 
         pair: "Perigrine",
-        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Undertide", "Veilspun"],
+        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Undertide", "Veilspun", "Auraboa"],
     },
     "Fern": {
         self: "Fern", 
         pair: "Paisley",
-        species: ["Modern", "Banescale", "Veilspun", "Aberration"],
+        species: ["Modern", "Banescale", "Veilspun", "Aberration", "Auraboa"],
     },
     "Flaunt": {
         self: "Flaunt", 
         pair: "Flare",
-        species: ["Modern", "Aberration", "Gaoler", "Aether", "Sandsurge"],
+        species: ["Modern", "Aberration", "Gaoler", "Aether", "Sandsurge", "Auraboa"],
     },
     "Giraffe": {
         self: "Giraffe", 
         pair: "Hex",
-        species: ["Modern", "Gaoler", "Banescale", "Veilspun", "Aberration", "Undertide"],
+        species: ["Modern", "Gaoler", "Banescale", "Veilspun", "Aberration", "Undertide", "Auraboa"],
     },
     "Ground": {
         self: "Ground", 
@@ -173,7 +179,7 @@ var frGenesMap = {
     "Harlequin": {
         self: "Harlequin", 
         pair: "Jester",
-        species: ["Modern", "Sandsurge", "Aberration"],
+        species: ["Modern", "Sandsurge", "Aberration", "Auraboa"],
     },
     "Iridescent": {
         self: "Iridescent", 
@@ -183,7 +189,7 @@ var frGenesMap = {
     "Jaguar": {
         self: "Jaguar", 
         pair: "Rosette",
-        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Aether", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Aether", "Sandsurge", "Auraboa"],
     },
     "Jupiter": {
         self: "Jupiter", 
@@ -193,7 +199,7 @@ var frGenesMap = {
     "Laced": {
         self: "Laced", 
         pair: "Edged",
-        species: ["Modern", "Banescale", "Veilspun", "Gaoler", "Aether"],
+        species: ["Modern", "Banescale", "Veilspun", "Gaoler", "Aether", "Auraboa"],
     },
     "Leopard": {
         self: "Leopard", 
@@ -213,12 +219,17 @@ var frGenesMap = {
     "Metallic": {
         self: "Metallic", 
         pair: "Alloy",
-        species: ["Modern", "Banescale", "Aether"],
+        species: ["Modern", "Banescale", "Aether", "Auraboa"],
+    },
+    "Mochlus": {
+        self: "Mochlus",
+        pair: "Lacquer",
+        species: ["Auraboa"],
     },
     "Mosaic": {
         self: "Mosaic", 
         pair: "Breakup",
-        species: ["Modern", "Gaoler", "Aether", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Aether", "Sandsurge", "Auraboa"],
     },
     "Octopus": {
         self: "Octopus", 
@@ -228,7 +239,7 @@ var frGenesMap = {
     "Orb": {
         self: "Orb", 
         pair: "Weaver",
-        species: ["Aberration"],
+        species: ["Aberration", "Auraboa"],
     },
     "Petals": {
         self: "Petals", 
@@ -248,7 +259,7 @@ var frGenesMap = {
     "Piebald": {
         self: "Piebald", 
         pair: "Paint",
-        species: ["Modern", "Gaoler", "Aether", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Aether", "Sandsurge", "Auraboa"],
     },
     "Pinstripe": {
         self: "Pinstripe", 
@@ -263,7 +274,7 @@ var frGenesMap = {
     "Python": {
         self: "Python", 
         pair: "Morph",
-        species: ["Modern", "Aether", "Sandsurge"],
+        species: ["Modern", "Aether", "Sandsurge", "Auraboa"],
     },
     "Ragged": {
         self: "Ragged", 
@@ -273,7 +284,7 @@ var frGenesMap = {
     "Rattlesnake": {
         self: "Rattlesnake", 
         pair: "Diamondback",
-        species: ["Sandsurge"],
+        species: ["Sandsurge", "Auraboa"],
     },
     "Ribbon": {
         self: "Ribbon", 
@@ -283,7 +294,7 @@ var frGenesMap = {
     "Ripple": {
         self: "Ripple", 
         pair: "Current",
-        species: ["Modern", "Gaoler", "Banescale", "Undertide", "Aberration"],
+        species: ["Modern", "Gaoler", "Banescale", "Undertide", "Aberration", "Auraboa"],
     },
     "Savannah": {
         self: "Savannah", 
@@ -328,7 +339,7 @@ var frGenesMap = {
     "Starmap": {
         self: "Starmap", 
         pair: "Constelation",
-        species: ["Modern", "Veilspun", "Aether", "Aberration"],
+        species: ["Modern", "Veilspun", "Aether", "Aberration", "Auraboa"],
     },
     "Stitched": {
         self: "Stitched", 
@@ -343,7 +354,7 @@ var frGenesMap = {
     "Tapir": {
         self: "Tapir", 
         pair: "Striation",
-        species: ["Modern", "Gaoler", "Veilspun", "Banescale", "Aberration", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Veilspun", "Banescale", "Aberration", "Sandsurge", "Auraboa"],
     },
     "Tide": {
         self: "Tide", 
@@ -353,22 +364,32 @@ var frGenesMap = {
     "Tiger": {
         self: "Tiger", 
         pair: "Stripes",
-        species: ["Modern", "Gaoler", "Banescale", "Sandsurge"],
+        species: ["Modern", "Gaoler", "Banescale", "Sandsurge", "Auraboa"],
     },
     "Twinkle": {
         self: "Twinkle", 
         pair: "Flicker",
         species: ["Aether"],
     },
+    "Varnish": {
+        self: "Varnish",
+        pair: "Riopa",
+        species: ["Auraboa"],
+    },
     "Vipera": {
         self: "Vipera", 
         pair: "Hypnotic",
-        species: ["Modern", "Veilspun", "Aberration"],
+        species: ["Modern", "Veilspun", "Aberration", "Auraboa"],
     },
     "Wasp": {
         self: "Wasp", 
         pair: "Bee",
         species: ["Modern", "Gaoler", "Veilspun", "Aberration", "Undertide", "Sandsurge"],
+    },
+    "Wicker": {
+        self: "Wicker",
+        pair: "Woven",
+        species: ["Auraboa"],
     },
     "Wolf": {
         self: "Wolf", 
@@ -381,6 +402,106 @@ var frGenesMap = {
         species: ["Sandsurge"],
     },
 };
+var frGenesTertMap = {
+    "Angler": ["Veilspun", "Gaoler"],
+    "Augment": ["Sandsurge", "Aberration"],
+    "Basic": [],
+    "Batty": ["Auraboa"],
+    "Beard": ["Sandsurge"],
+    "Beetle": ["Veilspun"],
+    "Blossom": ["Gaoler"],
+    "Braids": ["Gaoler", "Aberration"],
+    "Branches": ["Veilspun", "Sandsurge", "Auraboa"],
+    "Brightshine": ["Veilspun", "Undertide"],
+    "Capsule": ["Modern", "Veilspun", "Banescale", "Gaoler", "Aberration", "Undertide", "Auraboa"],
+    "Carnivore": ["Aberration", "Aether", "Banescale", "Gaoler", "Undertide", "Veilspun"],
+    "Chitin": ["Sandsurge"],
+    "Circuit": ["Modern", "Undertide", "Aether"],
+    "Contour": ["Modern", "Banescale", "Aether", "Gaoler", "Aberration", "Auraboa"],
+    "Crackle": ["Modern", "Banescale", "Veilspun", "Undertide", "Auraboa"],
+    "Crest": ["Sandsurge", "Auraboa"],
+    "Crystalline": ["Auraboa", "Gaoler"],
+    "Darts": ["Sandsurge"],
+    "Diaphanous": ["Veilspun"],
+    "Fangs": ["Aberration"],
+    "Fans": ["Banescale", "Gaoler", "Aberration"],
+    "Featherbeard": ["Undertide"],
+    "Filigree": ["Modern", "Banescale", "Undertide", "Veilspun"],
+    "Firebreather": ["Modern", "Aberration", "Auraboa"],
+    "Firefly": ["Modern", "Veilspun", "Aberration", "Auraboa"],
+    "Fishbone": ["Sandsurge", "Auraboa"],
+    "Flecks": ["Veilspun", "Modern", "Aberration", "Undertide"],
+    "Flutter": ["Aether"],
+    "Frills": ["Aberration"],
+    "Gembond": ["Modern", "Undertide", "Aether", "Sandsurge"],
+    "Ghost": ["Modern", "Gaoler", "Banescale", "Aberration", "Undertide", "Veilspun"],
+    "Gliders": ["Banescale"],
+    "Glimmer": ["Modern", "Aberration", "Banescale", "Gaoler", "Veilspun"],
+    "Glowtail": ["Modern", "Aberration", "Aether"],
+    "Gnarlhorns": ["Gaoler"],
+    "Jewels": ["Aberration"],
+    "Keel": ["Modern", "Aether", "Sandsurge", "Auraboa"],
+    "Koi": ["Modern", "Veilspun", "Aberration", "Auraboa"],
+    "Kumo": ["Aberration", "Sandsurge"],
+    "Lace": ["Modern", "Banescale", "Aether", "Sandsurge"],
+    "Mandibles": ["Aether"],
+    "Marlin": ["Sandsurge"],
+    "Medusa": ["Auraboa"],
+    "Monarch": ["Aether", "Banescale"],
+    "Mop": ["Veilspun"],
+    "Mucous": ["Aberration"],
+    "Nudibranch": ["Undertide"],
+    "Okapi": ["Modern", "Gaoler", "Veilspun", "Undertide", "Sandsurge"],
+    "Opal": ["Modern", "Veilspun", "Auraboa"],
+    "Paradise": ["Auraboa"],
+    "Peacock": ["Modern", "Veilspun", "Aberration", "Banescale", "Sandsurge", "Auraboa"],
+    "Pinions": ["Gaoler"],
+    "Plating": ["Undertide"],
+    "Plumage": ["Banescale", "Auraboa"],
+    "Points": ["Modern", "Aether"],
+    "Polkadot": ["Aberration", "Modern", "Auraboa"],
+    "Polypore": ["Aberration"],
+    "Porcupine": ["Banescale", "Auraboa"],
+    "Pufferfish": ["Undertide"],
+    "Remora": ["Undertide"],
+    "Ringlets": ["Modern", "Gaoler", "Banescale", "Undertide"],
+    "Riot": ["Aberration", "Gaoler"],
+    "Rockbreaker": ["Auraboa", "Sandsurge"],
+    "Runes": ["Modern", "Gaoler", "Veilspun", "Undertide", "Sandsurge"],
+    "Sailfin": ["Undertide", "Auraboa"],
+    "Sailfish": ["Sandsurge"],
+    "Scales": ["Modern", "Aberration", "Aether", "Auraboa"],
+    "Scorpion": ["Gaoler"],
+    "Scuttle": ["Auraboa"],
+    "Shardflank": ["Gaoler"],
+    "Shark": ["Sandsurge"],
+    "Skeletal": ["Banescale", "Aberration"],
+    "Smirch": ["Modern", "Aether", "Sandsurge", "Aberration"],
+    "Smoke": ["Modern", "Gaoler", "Aether", "Auraboa"],
+    "Soap": ["Modern", "Undertide", "Banescale", "Sandsurge"],
+    "Space": ["Aether"],
+    "Sparkle": ["Modern", "Aberration", "Banescale", "Gaoler", "Veilspun", "Undertide", "Aether", "Sandsurge"],
+    "Spectre": ["Sandsurge"],
+    "Spines": ["Modern", "Aether", "Banescale", "Sandsurge", "Aberration", "Auraboa"],
+    "Squiggle": ["Banescale"],
+    "Stained": ["Modern", "Banescale", "Gaoler", "Veilspun", "Undertide", "Aether", "Sandsurge", "Aberration", "Auraboa"],
+    "Starfall": ["Aether", "Sandsurge"],
+    "Stinger": ["Aether", "Auraboa"],
+    "Tentacles": ["Undertide"],
+    "Terracotta": ["Auraboa"], 
+    "Thorns": ["Veilspun", "Aberration", "Auraboa"],
+    "Thundercrack": ["Sandsurge", "Gaoler"],
+    "Thylacine": ["Modern", "Gaoler", "Aberration", "Sandsurge"],
+    "Topcoat": ["Auraboa"],
+    "Trimmings": ["Banescale"],
+    "Underbelly": ["Modern", "Gaoler", "Banescale", "Veilspun", "Undertide", "Aberration", "Aether", "Sandsurge", "Auraboa"],
+    "Veined": ["Modern", "Banescale", "Aberration", "Undertide", "Veilspun"],
+    "Weathered": ["Gaoler"],
+    "Whiskers": ["Aether"],
+    "Willow": ["Auraboa"],
+    "Wintercoat": ["Gaoler"],
+    "Wish": ["Aether", "Modern"],
+}
 var fRGenesPrimary = [
     "Basic",
     "Iridescent",
@@ -1244,7 +1365,41 @@ var fRGenesTertiary = [
     "Riot (Aberration)",
     "Riot (Gaoler)",
     "Wish",
-  ];
+    "Medusa (Auraboa)",
+    "Paradise (Auraboa)",
+    "Terracotta (Auraboa)", 
+    "Topcoat (Auraboa)",
+    "Willow (Auraboa)",
+    "Scuttle (Auraboa)",
+    "Batty (Auraboa)",
+    "Branches (Auraboa)",
+    "Capsule (Auraboa)",
+    "Contour (Auraboa)",
+    "Crackle (Auraboa)",
+    "Crest (Auraboa)",
+    "Firebreather (Auraboa)",
+    "Firefly (Auraboa)",
+    "Fishbone (Auraboa)",
+    "Keel (Auraboa)",
+    "Koi (Auraboa)", 
+    "Opal (Auraboa)",
+    "Peacock (Auraboa)",
+    "Plumage (Auraboa)",
+    "Polkadot (Auraboa)",
+    "Porcupine (Auraboa)",
+    "Sailfin (Auraboa)", 
+    "Scales (Auraboa)",
+    "Smoke (Auraboa)", 
+    "Spines (Auraboa)", 
+    "Stained (Auraboa)", 
+    "Stinger (Auraboa)", 
+    "Thorns (Auraboa)", 
+    "Underbelly (Auraboa)",
+    "Rockbreaker (Auraboa)", 
+    "Rockbreaker (Sandsurge)",
+    "Crystalline (Auraboa)", 
+    "Crystalline (Gaoler)", 
+];
 var fRColors = [
     {
         name: "Maize",
@@ -2729,7 +2884,7 @@ Lost Memory has never really opened up to anyone before, so there's not much to 
         id: "Xehanort",
         name: "Xehanort",
         gameIndex: 4,
-        dergID: 21146563,
+        dergID: 90759729,
         bio: `The great Earthshaker almost didn't give existence to this dragon, as the blade it was pulled from has a… peculiar nature. It is not uncommon for Keyblades to have inherited from others, but this one has no predecessors and has a ludicrous number of descendants. Not only that, but the blade itself gives almost no regard to those descendants, but merely stands aloof and watches from a distance. 
 
 [Xehanort] is one of the few dragons in the clan with the title of "master." Yet he spends most of his time away from the lair, wandering the world of Sornieth. When he visits the lair, he usually takes the time to duel Master's Defender in games of chess. `,
@@ -3713,7 +3868,7 @@ var dragonsMap = {
         species: "Mirror",
         silhouette: "Female",
         element: "Light",
-        sceneID: 34842,
+        sceneID: 52964,
         familiarID: 40822,
         colors: [
             "Banana",
@@ -5404,7 +5559,7 @@ var dragonsMap = {
         species: "Nocturne",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 34842,
+        sceneID: 52964,
         familiarID: 40823,
         colors: [
             "Lead",
@@ -5803,7 +5958,7 @@ var dragonsMap = {
         species: "Imperial",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 38283,
+        sceneID: 53737,
         familiarID: 33306,
         colors: [
             "Ice",
@@ -6082,6 +6237,25 @@ var dragonsMap = {
             "Soap"
         ]
     },
+    90759729: {
+        name: "Xehanort",
+        dragonID: 90759729,
+        species: "Sandsurge",
+        silhouette: "Female",
+        element: "Lightning",
+        sceneID: 52051,
+        familiarID: 40821,
+        colors: [
+            "Flint",
+            "Flint",
+            "Navy"
+        ],
+        genes: [
+            "Wrought",
+            "Seraph",
+            "Augment"
+        ]
+    }
 };
 var dragons = Object.values(dragonsMap);
 
@@ -6170,9 +6344,9 @@ var dragonStatCounterArray = function(nameList, parameterName, index) {
 //  Chart data is an array of objects. 
 //  Objects contain the data's name and quantity. 
 
-var dragonGeneCountPrimary = dragonStatCounterArray(fRGenesPrimary, "genes", 0);
-var dragonGeneCountSecondary = dragonStatCounterArray(fRGenesSecondary, "genes", 1);
-var dragonGeneCountTertiary = dragonStatCounterArray(fRGenesTertiary, "genes", 2);
+var dragonGeneCountPrimary = dragonStatCounterArray(Object.values(frGenesMap).map((genePair) => genePair.self), "genes", 0);
+var dragonGeneCountSecondary = dragonStatCounterArray(Object.values(frGenesMap).map((genePair) => genePair.pair), "genes", 1);
+var dragonGeneCountTertiary = dragonStatCounterArray(Object.keys(frGenesTertMap), "genes", 2);
 
 var getColorNames = function() {
     return fRColors.map(function(color) {
@@ -6203,6 +6377,7 @@ var attachColorDataBreeds = function(destination) {
             case 'Spiral': 
             case 'Skydancer': 
             case 'Banescale': 
+            case 'Sandsurge':
                 // Insects
                 color = "#FB8";
                 break;
@@ -6219,6 +6394,8 @@ var attachColorDataBreeds = function(destination) {
             case 'Imperial': 
             case 'Coatl': 
             case 'Obelisk': 
+            case 'Undertide':
+            case 'Auraboa':
                 // Seafood
                 color = "#8AF";
                 break;
@@ -6226,6 +6403,7 @@ var attachColorDataBreeds = function(destination) {
             case 'Pearlcatcher': 
             case 'Snapper': 
             case 'Bogsneak': 
+            case 'Aether':
                 // Plants
                 color = "#8A8";
                 break;
