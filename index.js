@@ -4,7 +4,7 @@ var app = Vue.createApp({
     ],
     data: function() {
         return {
-            elements: fRElements,
+            elements: Object.keys(frElementsMap),
             keybladesMap: keybladesMap,
             // activeKeyblade: 'KingdomKey',
         };

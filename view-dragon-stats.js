@@ -14,7 +14,7 @@ window.viewDragonStats = {
             return dragonsMap[this.keyblade.dergID];
         },
         fRElements: function() {
-            return dragonStatCounterGeneric(fRElements, "element").filter(column => column.quantity != 0);
+            return dragonStatCounterGeneric(Object.keys(frElementsMap), "element").filter(column => column.quantity != 0);
             // return fRElements;
         },
         fRBreeds: function() {

@@ -12,21 +12,28 @@ var kHGames = [
     'Unchained χ / Union Cross',
     'KINGDOM HEARTS III',
 ];
-var fRElements = [
-    'Earth',
-    'Plague',
-    'Wind',
-    'Water',
-    'Lightning',
-    'Ice',
-    'Shadow',
-    'Light',
-    'Arcane',
-    'Nature',
-    'Fire',
-    'Shade', // Not an element of FR, but dragons with this 
-             // will get the Shade (black) frames.
-];
+var frElementsMap = {
+    Earth: "#A2906B",
+    Plague: "#B72F27",
+    Wind: "#BDDC4E",
+    Water: "#1746B8",
+    Lightning: "#6AD2C5",
+    Ice: "#82B9DE",
+    Shadow: "#8F33E0",
+    Light: "#FAD963",
+    Arcane: "#ED5EDE",
+    Nature: "#3D802A",
+    Fire: "#F07F34",
+    Dark: "#524D5E", 
+    // ^^ Not an element of FR, but dragons with this 
+    // will get the Shade (black) frames.
+};
+var frFoodColors = {
+    Insects: "#FB8",
+    Meat: "#F88",
+    Seafood: "#8AF",
+    Plants: "#8A8",
+};
 var fRBreeds = [
     /* Modern Breeds */
     'Fae',
@@ -55,6 +62,34 @@ var fRBreeds = [
     'Sandsurge',
     'Auraboa',
 ];
+var frBreedsMap = {
+    /* Modern Breeds */
+    Fae: ["Insects"],
+    Guardian: ["Meat", "Seafood", "Plants", "Insects"],
+    Mirror: ["Meat", "Seafood"],
+    Pearlcatcher: ["Plants", "Insects"],
+    Ridgeback: ["Seafood"],
+    Tundra: ["Plants"],
+    Spiral: ["Insects", "Meat"],
+    Imperial: ["Seafood", "Meat", "Plants", "Insects"],
+    Snapper: ["Plants", "Seafood"],
+    Wildclaw: ["Meat"],
+    Nocturne: ["Meat", "Insects"],
+    Coatl: ["Seafood"],
+    Skydancer: ["Insects", "Plants"],
+    Bogsneak: ["Plants", "Meat"],
+    Obelisk: ["Seafood", "Insects"],
+    UNUSED: [],
+    /* Ancient Breeds */
+    Gaoler: ["Meat", "Plants"],
+    Banescale: ["Insects", "Seafood", "Meat"],
+    Veilspun: ["Insects", "Meat", "Plants", "Seafood"],
+    Aberration: ["Meat", "Insects", "Plants", "Seafood"],
+    Undertide: ["Seafood", "Plants"],
+    Aether: ["Plants", "Insects"],
+    Sandsurge: ["Insects", "Meat"],
+    Auraboa: ["Seafood", "Meat"],
+};
 var frGenesMap = {
     "Arapaima": {
         self: "Arapaima", 
@@ -6242,7 +6277,7 @@ var dragonsMap = {
         dragonID: 90759729,
         species: "Sandsurge",
         silhouette: "Female",
-        element: "Lightning",
+        element: "Dark",
         sceneID: 52051,
         familiarID: 40821,
         colors: [
@@ -6371,46 +6406,8 @@ var attachColorDataBreeds = function(destination) {
     var newData = destination;
     newData.forEach(function(column) {
         var breed = column.name;
-        var color = '';
-        switch (breed) {
-            case 'Fae': 
-            case 'Spiral': 
-            case 'Skydancer': 
-            case 'Banescale': 
-            case 'Sandsurge':
-                // Insects
-                color = "#FB8";
-                break;
-            case 'Guardian':
-            case 'Mirror': 
-            case 'Nocturne': 
-            case 'Wildclaw': 
-            case 'Gaoler': 
-            case 'Aberration': 
-                // Meat
-                color = "#F88";
-                break;
-            case 'Ridgeback': 
-            case 'Imperial': 
-            case 'Coatl': 
-            case 'Obelisk': 
-            case 'Undertide':
-            case 'Auraboa':
-                // Seafood
-                color = "#8AF";
-                break;
-            case 'Tundra': 
-            case 'Pearlcatcher': 
-            case 'Snapper': 
-            case 'Bogsneak': 
-            case 'Aether':
-                // Plants
-                color = "#8A8";
-                break;
-            default: 
-                color = '#F0F';
-                break;
-        }
+        var diet = frBreedsMap[breed];
+        var color = frFoodColors[diet[0]] || "#F0F";
         column.color = color;
     });
     return newData;

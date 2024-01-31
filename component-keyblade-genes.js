@@ -38,32 +38,17 @@ app.component('dragon-genes', {
         },
         dragonColor: function(colorName) {
             var colors = fRColors;
-            var result = "#F0F";
             var color = colors.find(function(element) {return element.name === colorName}).color;
             if (color) {
-                result = color;
+                return color;
             }
-            return result;
+            return "#F0F";
         },
         dragonEyeColor: function(color) {
-            var fRColorsMap = {
-                Earth: '#A2906B',
-                Plague: '#B72F27',
-                Wind: '#BDDC4E',
-                Water: '#1746B8',
-                Lightning: '#6AD2C5',
-                Ice: '#82B9DE',
-                Shadow: '#8F33E0',
-                Light: '#FAD963',
-                Arcane: '#ED5EDE',
-                Nature: '#3D802A',
-                Fire: '#F07F34',
-            };
-            var value = '#F0F';
-            if (fRColorsMap[color]) {
-                value = fRColorsMap[color];
+            if (frElementsMap[color]) {
+                return frElementsMap[color];
             }
-            return value;
+            return '#F0F';
         },
     },
     template: /*html*/ `

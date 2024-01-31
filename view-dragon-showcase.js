@@ -23,7 +23,7 @@ window.viewDragonShowcase = {
             var isScene = true;
             if (sceneID < 12) {
                 var dergElement = dragonsMap[this.keyblade.dergID].element;
-                var elementID = fRElements.findIndex(function(element) {
+                var elementID = Object.keys(frElementsMap).findIndex(function(element) {
                     return element === dergElement;
                 }) + 1;
                 url = ("https://www1.flightrising.com/static/layout/profile/backgrounds/" + elementID + ".jpg");
