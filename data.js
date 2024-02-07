@@ -2970,6 +2970,15 @@ Nightmare's End and Mirage Split are never apart. Like, seriously—never. Whene
 Mirage Split and Nightmare's End are never apart. Like, seriously—never. Whenever one seems to be by themselves, or even if the two are confirmed to be in separate locations, there's always a slight afterimage of the other. And while the two have opposite personalities, they'll work together with perfect synchronization should the situation call. `,
     },
     {
+        id: "RealityShift",
+        name: "Reality Split",
+        gameIndex: 6,
+        dergID: 82892287,
+        bio: `The original blade from which Horizon was wrought had an existence so fleeting as to hardly exist at all. Yet exist it did, and its power proved great enough so as to shift reality beneath its might.  
+
+Horizon is a gentle, quiet soul. Their synchronicity puts all other aberration pairs to shame. Despite contrasting personalities, they prove to complement each other perfectly. When they move it is with a grace all their own, even in combat. When Horizon is calm they shimmer and flicker, as though they may wink out of existence at any time. Yet they never do. `,
+    },
+    {
         id: "SkullNoise",
         name: "Skull Noise",
         gameIndex: 6,
@@ -6213,6 +6222,25 @@ var dragonsMap = {
             "Bar",
             "Striation",
             "Peacock"
+        ]
+    },
+    82892287: {
+        name: "RealityShift",
+        dragonID: 82892287,
+        species: "Aberration",
+        silhouette: "Male",
+        element: "Lightning",
+        sceneID: 52964,
+        familiarID: 40822,
+        colors: [
+            "Banana",
+            "Spruce",
+            "Orchid"
+        ],
+        genes: [
+            "Basic",
+            "Basic",
+            "Glowtail"
         ]
     },
     83686913: {
