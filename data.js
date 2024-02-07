@@ -2971,7 +2971,7 @@ Mirage Split and Nightmare's End are never apart. Like, seriously—never. Whene
     },
     {
         id: "RealityShift",
-        name: "Reality Split",
+        name: "Reality Shift",
         gameIndex: 6,
         dergID: 82892287,
         bio: `The original blade from which Horizon was wrought had an existence so fleeting as to hardly exist at all. Yet exist it did, and its power proved great enough so as to shift reality beneath its might.  
