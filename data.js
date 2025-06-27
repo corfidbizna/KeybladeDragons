@@ -142,12 +142,12 @@ var frGenesMap = {
     "Caterpillar": {
         self: "Caterpillar",
         pair: "Larvae",
-        species: ["Auraboa", "Everlux", "Veilspun"],
+        species: ["Auraboa", "Everlux", "Veilspun", "Aberration", "Aether", "Banescale", "Dusthide", "Gaoler", "Sandsurge", "Undertide"],
     },
     "Checkers": {
         self: "Checkers", 
         pair: "Chess",
-        species: ["Undertide", "Dusthide", "Aether", "Gaoler"],
+        species: ["Undertide", "Dusthide", "Aether", "Gaoler", "Modern"],
     },
     "Cherub": {
         self: "Cherub", 
@@ -267,7 +267,7 @@ var frGenesMap = {
     "Love": {
         self: "Love",
         pair: "Affection",
-        species: ["Auraboa"],
+        species: ["Auraboa", "Modern"],
     },
     "Marble": {
         self: "Marble", 
@@ -467,7 +467,7 @@ var frGenesMap = {
     "Vipera": {
         self: "Vipera", 
         pair: "Hypnotic",
-        species: ["Modern", "Veilspun", "Aberration", "Auraboa", "Aether"],
+        species: ["Modern", "Veilspun", "Aberration", "Auraboa", "Aether", "Banescale", "Gaoler", "Sandsurge", "Undertide"],
     },
     "Wasp": {
         self: "Wasp", 
@@ -4478,7 +4478,7 @@ var dragonsMap = {
         genes: [
             "Iridescent",
             "Shimmer",
-            "Circuit"
+            "Gecko"
         ]
     },
     47722786: {
