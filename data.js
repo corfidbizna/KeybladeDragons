@@ -107,7 +107,7 @@ var frGenesMap = {
     "Bar": {
         self: "Bar", 
         pair: "Daub",
-        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Aether", "Banescale", "Auraboa", "Dusthide", "Everlux"],
+        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Aether", "Banescale", "Auraboa", "Dusthide", "Everlux", "Sandsurge"],
     },
     "Basic": {
         self: "Basic", 
@@ -147,7 +147,7 @@ var frGenesMap = {
     "Checkers": {
         self: "Checkers", 
         pair: "Chess",
-        species: ["Undertide", "Dusthide", "Aether", "Gaoler", "Modern"],
+        species: ["Undertide", "Dusthide", "Aether", "Gaoler", "Modern", "Sandsurge"],
     },
     "Cherub": {
         self: "Cherub", 
@@ -187,7 +187,7 @@ var frGenesMap = {
     "Crystal": {
         self: "Crystal", 
         pair: "Facet",
-        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Banescale", "Aether", "Everlux"],
+        species: ["Modern", "Gaoler", "Aberration", "Undertide", "Veilspun", "Banescale", "Aether", "Everlux", "Sandsurge"],
     },
     "Diamond": {
         self: "Diamond", 
@@ -207,12 +207,12 @@ var frGenesMap = {
     "Falcon": {
         self: "Falcon", 
         pair: "Perigrine",
-        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Undertide", "Veilspun", "Auraboa", "Dusthide", "Aether"],
+        species: ["Modern", "Gaoler", "Banescale", "Aberration", "Undertide", "Veilspun", "Auraboa", "Dusthide", "Aether", "Sandsurge"],
     },
     "Fern": {
         self: "Fern", 
         pair: "Paisley",
-        species: ["Modern", "Banescale", "Veilspun", "Aberration", "Auraboa", "Undertide", "Aether"],
+        species: ["Modern", "Banescale", "Veilspun", "Aberration", "Auraboa", "Undertide", "Aether", "Sandsurge"],
     },
     "Flaunt": {
         self: "Flaunt", 
@@ -307,12 +307,12 @@ var frGenesMap = {
     "Petals": {
         self: "Petals", 
         pair: "Butterfly",
-        species: ["Modern", "Banescale", "Veilspun", "Aether", "Undertide", "Dusthide", "Everlux"],
+        species: ["Modern", "Banescale", "Veilspun", "Aether", "Undertide", "Dusthide", "Everlux", "Sandsurge"],
     },
     "Petrified": {
         self: "Petrified",
         pair: "Lode",
-        species: ["Dusthide", "Modern", "Everlux"],
+        species: ["Dusthide", "Modern", "Everlux", "Sandsurge"],
     },
     "Phantom": {
         self: "Phantom", 
@@ -347,7 +347,7 @@ var frGenesMap = {
     "Ragged": {
         self: "Ragged", 
         pair: "Tear",
-        species: ["Banescale"],
+        species: ["Banescale", "Sandsurge"],
     },
     "Rattlesnake": {
         self: "Rattlesnake", 
@@ -357,7 +357,7 @@ var frGenesMap = {
     "Ribbon": {
         self: "Ribbon", 
         pair: "Eel",
-        species: ["Modern", "Aberration", "Undertide", "Gaoler", "Banescale", "Dusthide", "Aether"],
+        species: ["Modern", "Aberration", "Undertide", "Gaoler", "Banescale", "Dusthide", "Aether", "Sandsurge"],
     },
     "Ripple": {
         self: "Ripple", 
@@ -387,7 +387,7 @@ var frGenesMap = {
     "Skink": {
         self: "Skink", 
         pair: "Spinner",
-        species: ["Modern", "Banescale", "Veilspun", "Aether", "Gaoler", "Aberration", "Dusthide", "Everlux"],
+        species: ["Modern", "Banescale", "Veilspun", "Aether", "Gaoler", "Aberration", "Dusthide", "Everlux", "Sandsurge"],
     },
     "Slime": {
         self: "Slime", 
@@ -407,7 +407,7 @@ var frGenesMap = {
     "Sphinxmoth": {
         self: "Sphinxmoth", 
         pair: "Hawkmoth",
-        species: ["Veilspun", "Everlux"],
+        species: ["Veilspun", "Everlux", "Sandsurge"],
     },
     "Spool": {
         self: "Spool", 
@@ -462,7 +462,7 @@ var frGenesMap = {
     "Varnish": {
         self: "Varnish",
         pair: "Lacquer",
-        species: ["Auraboa", "Undertide", "Dusthide", "Aether", "Everlux", "Gaoler"],
+        species: ["Auraboa", "Undertide", "Dusthide", "Aether", "Everlux", "Gaoler", "Sandsurge"],
     },
     "Vipera": {
         self: "Vipera", 
@@ -495,15 +495,15 @@ var frGenesTertMap = {
     "Antlers": ["Dusthide"],
     "Augment": ["Sandsurge", "Aberration", "Dusthide", "Everlux"],
     "Basic": [],
-    "Batty": ["Auraboa", "Dusthide", "Everlux"],
+    "Batty": ["Auraboa", "Dusthide", "Everlux", "Sandsurge"],
     "Beard": ["Sandsurge"],
     "Beetle": ["Veilspun"],
     "Blossom": ["Gaoler", "Undertide", "Dusthide", "Aether", "Veilspun"],
     "Braids": ["Gaoler", "Aberration", "Aether"],
     "Branches": ["Veilspun", "Sandsurge", "Auraboa", "Undertide", "Aether", "Gaoler"],
     "Brightshine": ["Veilspun", "Undertide"],
-    "Capsule": ["Modern", "Veilspun", "Banescale", "Gaoler", "Aberration", "Undertide", "Auraboa", "Aether"],
-    "Carnivore": ["Aberration", "Aether", "Banescale", "Gaoler", "Undertide", "Veilspun", "Dusthide"],
+    "Capsule": ["Modern", "Veilspun", "Banescale", "Gaoler", "Aberration", "Undertide", "Auraboa", "Aether", "Sandsurge"],
+    "Carnivore": ["Aberration", "Aether", "Banescale", "Gaoler", "Undertide", "Veilspun", "Dusthide", "Sandsurge"],
     "Chitin": ["Sandsurge", "Everlux"],
     "Circuit": ["Modern", "Undertide", "Aether", "Gaoler"],
     "Contour": ["Modern", "Banescale", "Aether", "Gaoler", "Aberration", "Auraboa", "Undertide"],
@@ -513,17 +513,17 @@ var frGenesTertMap = {
     "Darts": ["Sandsurge"],
     "Dewlap": ["Dusthide"],
     "Diaphanous": ["Veilspun", "Aether"],
-    "Eclipse": ["Everlux", "Modern", "Undertide", "Veilspun"],
+    "Eclipse": ["Everlux", "Modern", "Undertide", "Veilspun", "Sandsurge"],
     "Eclosion": ["Everlux"],
     "Fangs": ["Aberration"],
     "Fans": ["Banescale", "Gaoler", "Aberration", "Undertide", "Aether"],
     "Featherbeard": ["Undertide"],
     "Filigree": ["Modern", "Banescale", "Undertide", "Veilspun"],
     "Firebreather": ["Modern", "Aberration", "Auraboa", "Undertide", "Aether", "Banescale", "Gaoler", "Sandsurge", "Veilspun"],
-    "Firefly": ["Modern", "Veilspun", "Aberration", "Auraboa", "Undertide", "Aether"],
+    "Firefly": ["Modern", "Veilspun", "Aberration", "Auraboa", "Undertide", "Aether", "Sandsurge"],
     "Fishbone": ["Sandsurge", "Auraboa", "Dusthide", "Aether", "Everlux"],
     "Flameforger": ["Aberration", "Banescale", "Aether", "Sandsurge"],
-    "Flecks": ["Veilspun", "Modern", "Aberration", "Undertide", "Aether"],
+    "Flecks": ["Veilspun", "Modern", "Aberration", "Undertide", "Aether", "Sandsurge"],
     "Flutter": ["Aether", "Everlux"],
     "Frills": ["Aberration"],
     "Gecko": ["Everlux", "Modern", "Aberration", "Aether", "Auraboa", "Banescale", "Dusthide", "Gaoler", "Sandsurge", "Undertide", "Veilspun"],
@@ -533,7 +533,7 @@ var frGenesTertMap = {
     "Glimmer": ["Modern", "Aberration", "Banescale", "Gaoler", "Veilspun"],
     "Glitch": ["Everlux"],
     "Glowtail": ["Modern", "Aberration", "Aether", "Dusthide"],
-    "Gnarlhorns": ["Gaoler"],
+    "Gnarlhorns": ["Gaoler", "Sandsurge"],
     "Harp": ["Everlux"],
     "Jellyfish": ["Undertide", "Everlux"],
     "Jewels": ["Aberration"],
@@ -541,7 +541,7 @@ var frGenesTertMap = {
     "Koi": ["Modern", "Veilspun", "Aberration", "Auraboa", "Undertide", "Aether"],
     "Kumo": ["Aberration", "Sandsurge", "Everlux"],
     "Lace": ["Modern", "Banescale", "Aether", "Sandsurge"],
-    "Mandibles": ["Aether", "Dusthide", "Everlux"],
+    "Mandibles": ["Aether", "Dusthide", "Everlux", "Sandsurge"],
     "Marlin": ["Sandsurge"],
     "Medusa": ["Auraboa", "Undertide", "Aether"],
     "Mistral": ["Banescale", "Undertide"],
@@ -559,7 +559,7 @@ var frGenesTertMap = {
     "Plating": ["Undertide"],
     "Plumage": ["Banescale", "Auraboa"],
     "Points": ["Modern", "Aether", "Everlux"],
-    "Polkadot": ["Aberration", "Modern", "Auraboa", "Dusthide", "Everlux"],
+    "Polkadot": ["Aberration", "Modern", "Auraboa", "Dusthide", "Everlux", "Sandsurge"],
     "Polypore": ["Aberration"],
     "Porcupine": ["Banescale", "Auraboa", "Undertide", "Aether"],
     "Pufferfish": ["Undertide"],
@@ -577,13 +577,13 @@ var frGenesTertMap = {
     "Shark": ["Sandsurge", "Undertide"],
     "Skeletal": ["Banescale", "Aberration"],
     "Smirch": ["Modern", "Aether", "Sandsurge", "Aberration", "Undertide"],
-    "Smoke": ["Modern", "Gaoler", "Aether", "Auraboa", "Undertide", "Dusthide", "Everlux"],
+    "Smoke": ["Modern", "Gaoler", "Aether", "Auraboa", "Undertide", "Dusthide", "Everlux", "Sandsurge"],
     "Soap": ["Modern", "Undertide", "Banescale", "Sandsurge", "Aether", "Gaoler"],
     "Space": ["Aether", "Everlux"],
     "Sparkle": ["Modern", "Aberration", "Banescale", "Gaoler", "Veilspun", "Undertide", "Aether", "Sandsurge", "Dusthide", "Everlux"],
     "Spectre": ["Sandsurge"],
     "Spines": ["Modern", "Aether", "Banescale", "Sandsurge", "Aberration", "Auraboa", "Undertide", "Dusthide", "Everlux"],
-    "Spores": ["Dusthide", "Aether", "Everlux"],
+    "Spores": ["Dusthide", "Aether", "Everlux", "Sandsurge"],
     "Squiggle": ["Banescale"],
     "Stained": ["Modern", "Banescale", "Gaoler", "Veilspun", "Undertide", "Aether", "Sandsurge", "Aberration", "Auraboa", "Dusthide", "Everlux"],
     "Starfall": ["Aether", "Sandsurge", "Auraboa", "Gaoler"],
@@ -603,7 +603,7 @@ var frGenesTertMap = {
     "Warrior": ["Banescale", "Sandsurge", "Veilspun"],
     "Wavecrest": ["Dusthide", "Undertide"],
     "Weathered": ["Gaoler"],
-    "Whiskers": ["Aether", "Dusthide", "Everlux", "Gaoler"],
+    "Whiskers": ["Aether", "Dusthide", "Everlux", "Gaoler", "Sandsurge"],
     "Willow": ["Auraboa"],
     "Wintercoat": ["Gaoler"],
     "Wish": ["Aether", "Modern", "Everlux"],
@@ -5323,7 +5323,7 @@ var dragonsMap = {
         species: "Pearlcatcher",
         silhouette: "Male",
         element: "Shadow",
-        sceneID: 50695,
+        sceneID: 64161,
         familiarID: 24511,
         colors: [
             "Stone",
