@@ -462,7 +462,7 @@ var frGenesMap = {
     "Varnish": {
         self: "Varnish",
         pair: "Lacquer",
-        species: ["Auraboa", "Undertide", "Dusthide", "Aether", "Everlux", "Gaoler", "Sandsurge"],
+        species: ["Auraboa", "Undertide", "Dusthide", "Aether", "Everlux", "Gaoler", "Sandsurge", "Modern", "Aberration", "Banescale", "Veilspun"],
     },
     "Vipera": {
         self: "Vipera", 
