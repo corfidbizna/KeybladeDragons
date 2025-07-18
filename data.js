@@ -3496,7 +3496,7 @@ var dragonsMap = {
     8978770: {
         name: "DiamondDust",
         dragonID: 8978770,
-        species: "Snapper",
+        species: "Bogsneak",
         silhouette: "Female",
         element: "Ice",
         sceneID: 37882,
@@ -3507,8 +3507,8 @@ var dragonsMap = {
             "Ice"
         ],
         genes: [
-            "Iridescent",
-            "Shimmer",
+            "Tide",
+            "Lacquer",
             "Smoke"
         ]
     },
