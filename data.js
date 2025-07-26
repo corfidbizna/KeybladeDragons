@@ -63,6 +63,7 @@ var fRBreeds = [
     'Auraboa',
     'Dusthide',
     'Everlux',
+    'Cirrus',
 ];
 var frBreedsMap = {
     /* Modern Breeds */
@@ -92,6 +93,8 @@ var frBreedsMap = {
     Sandsurge: ["Insects", "Meat"],
     Auraboa: ["Seafood", "Meat"],
     Dusthide: ["Insects"],
+    Everlux: ["Plants"],
+    Cirrus: ["Plants"],
 };
 var frGenesMap = {
     "Arapaima": {
